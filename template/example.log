@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.14)  14 SEP 2017 13:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.17)  8 JAN 2018 17:04
 entering extended mode
 **./example.tex
 (example.tex
@@ -426,7 +426,7 @@ Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count138
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fmtcount.sty"
-Package: fmtcount 2017/07/21 v3.03
+Package: fmtcount 2017/09/16 v3.04
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
@@ -482,7 +482,7 @@ File: fc-ngerman.def 2012/06/18
 
 
 Package fmtcount Warning: \ordinal already defined use \FCordinal instead. on i
-nput line 517.
+nput line 481.
 
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\datetime\datetime-defaults.sty"
 Package: datetime-defaults 2013/09/10
@@ -1539,7 +1539,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip295
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\base\glossaries.sty"
-Package: glossaries 2017/08/24 v4.32 (NLCT)
+Package: glossaries 2017/09/20 v4.33 (NLCT)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mfirstuc\mfirstuc.sty"
 Package: mfirstuc 2016/07/31 v2.04 (NLCT)
@@ -1624,7 +1624,7 @@ Package: fp-eval 1995/04/03
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\base\glossaries-compatible-3
 07.sty"
-Package: glossaries-compatible-307 2017/08/24 v4.32 (NLCT)
+Package: glossaries-compatible-307 2017/09/20 v4.33 (NLCT)
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\tracklang\tracklang.sty"
 Package: tracklang 2017/03/25 v1.3.4 (NLCT) Track Languages
 
@@ -1647,11 +1647,11 @@ File: glossaries-english.ldf 2014/11/23 v1.0
 \gls@tmplen=\skip297
 
 
-Package glossaries Warning: Overriding \printglossary on input line 5566.
+Package glossaries Warning: Overriding \printglossary on input line 5635.
 
 
 Package glossaries Warning: Overriding `theglossary' environment on input line 
-6221.
+6294.
 
 \glskeylisttok=\toks54
 \glslabeltok=\toks55
@@ -1659,12 +1659,12 @@ Package glossaries Warning: Overriding `theglossary' environment on input line
 \glslongtok=\toks57
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-hypernav.sty
 "
-Package: glossary-hypernav 2017/08/24 v4.32 (NLCT)
+Package: glossary-hypernav 2017/09/20 v4.33 (NLCT)
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-list.sty"
-Package: glossary-list 2017/08/24 v4.32 (NLCT)
+Package: glossary-list 2017/09/20 v4.33 (NLCT)
 \glslistdottedwidth=\skip298
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-long.sty"
-Package: glossary-long 2017/08/24 v4.32 (NLCT)
+Package: glossary-long 2017/09/20 v4.33 (NLCT)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
@@ -1688,7 +1688,7 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \glspagelistwidth=\skip304
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-super.sty"
-Package: glossary-super 2017/08/24 v4.32 (NLCT)
+Package: glossary-super 2017/09/20 v4.33 (NLCT)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\supertabular\supertabular.sty"
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
@@ -1710,7 +1710,7 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \ST@pbox=\box55
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-tree.sty"
-Package: glossary-tree 2017/08/24 v4.32 (NLCT)
+Package: glossary-tree 2017/09/20 v4.33 (NLCT)
 \glstreeindent=\skip308
 ))
 \example@idxfile=\write5
@@ -2267,13 +2267,13 @@ Package rerunfilecheck Info: File `example.out' has not changed.
 (rerunfilecheck)             Checksum: C2035722D4DDD53007A2D3DFC5A80F60;1198.
  ) 
 Here is how much of TeX's memory you used:
- 33633 strings out of 493323
- 600707 string characters out of 3139063
- 811245 words of memory out of 3000000
- 36284 multiletter control sequences out of 15000+200000
+ 33652 strings out of 493323
+ 601164 string characters out of 3139065
+ 811649 words of memory out of 3000000
+ 36303 multiletter control sequences out of 15000+200000
  143038 words of font info for 150 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,18n,94p,1923b,957s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,18n,94p,1975b,957s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/Mi
 KTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/en
 c/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.

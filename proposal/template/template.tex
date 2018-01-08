@@ -1,0 +1,205 @@
+%***************************************************************************
+% Note: The proposal should have between 3 and 6 pages, excluding title-page
+% and table of content, i.e., 5-8 'real' pages.%
+%***************************************************************************
+
+\documentclass[12pt,a4paper,titlepage,oneside]{article}
+\usepackage{graphicx}            % fuer Bilder
+\usepackage{listings}            % fuer Programmlistings
+%\usepackage{german}             % fuer deutsche Umbrueche
+\usepackage[utf8]{inputenc} 	 % allow Umlaute
+
+\usepackage{times}               % PDF files look good on screen
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage{url}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{makeidx}
+\usepackage{hyperref}  % Enables cross linking in the electronic document version. This package has to be included second to last.
+\usepackage[acronym,toc]{glossaries} % Enables the generation of glossaries and lists fo acronyms. This package has to be included last.
+
+\makeindex
+% Use an optional glossary
+\makeglossaries
+
+
+%***************************************************************************
+% note: the template is in English, but you can use German for your
+% protocol as well; in that case, remove the comment from the
+% \usepackage{german} line above
+%***************************************************************************
+
+
+%***************************************************************************
+% enter your data into the following fields
+%***************************************************************************
+\newcommand{\Vorname}{Romana}
+\newcommand{\Nachname}{Jakob}
+\newcommand{\MatrNr}{1227095}
+\newcommand{\Email}{e1227095@student.tuwien.ac.at}
+\newcommand{\Part}{I}
+%***************************************************************************
+
+
+%***************************************************************************
+% generating the document from Protocol.tex:
+%       "pdflatex Protocol"        generates a .pdf file
+%       "pdflatex Protocol"        repeat to get correct table of contents
+%       "evince Protocol.pdf &"    shows the .pdf file on viewer
+%
+%***************************************************************************
+
+%---------------------------------------------------------------------------
+% include all the stuff that is the same for all protocols and students
+\input ProtocolHeader.tex
+%---------------------------------------------------------------------------
+
+\begin{document}
+	
+
+%---------------------------------------------------------------------------
+% create titlepage and table of contents
+\MakeTitleAndTOC
+%---------------------------------------------------------------------------
+
+
+%***************************************************************************
+% This is where your proposal starts
+%***************************************************************************
+
+
+%***************************************************************************
+%---------------------------------------------------------------------------
+\section{Motivation}
+%---------------------------------------------------------------------------
+In the age of social media, where information is tailored to users' interests, preferences and state of education, the question arises how to integrate this phenomenon into common mobile applications. Take, for example, an application that informs you about your electricity consumption. What can be assumed, is that the user wants an easy-to-use application which shows the power consumption in an understandable way. The problem that we observed is that the majority of users lack the feeling for the size of one kilowatt hour. The same can be witnessed when it comes to CO2 emission. The unit of kilograms of CO2 is an information that mostly only experts can grasp and can relate to.
+
+In the field of software development the interaction with the user is important, including the consideration of a user's knowledge. Numerous applications aim at motivating the user to save energy or CO2 but neglect the incomprehensibility of units of measurements one does not deal with on a daily basis. The sense of trying to motivate the user to save energy by displaying the electricity consumption in kilowatt hours, might have less impact than setting it at least in relation to an average consumption of electricity or even visualizing it with a gamification approach. On the other hand, for someone who is easy on these types of measurement a visualization with colours or graphs might be too much.
+
+So the problem we, this thesis is written in cooperation with Siemens AG Austria, are facing is to develop a mobile application that is beneficial for all types of users, starting from users who do not have a feeling for kilowatt hours or kilograms of CO2 up to users having a great affinity for electricity and carbon-dioxide emission.
+
+
+%---------------------------------------------------------------------------
+\section{Problem Statement}
+%---------------------------------------------------------------------------
+
+To address this bandwidth of user knowledge and visualization possibilities, this thesis investigates the usefulness of tailoring a mobile application to a user's knowledge. Furthermore design principles and criteria that shall help front-end developer, usability engineers as well as software architects to develop applications customized to a users level of knowledge shall be investigated.
+
+We evaluate different types of users and their preferred way of gathering information. Ranging from the ones who show only interest in their overall behaviour, meaning if they are better or worse than the average, over others, who want to know their power consumption more detailed but still can't grasp the measurement of one kilowatt hour, up to users, who are deep into the topic and are keen on extensive figures.
+
+%---------------------------------------------------------------------------
+\section{Expected Results}
+%---------------------------------------------------------------------------
+
+The overall goal of this thesis is to identify the benefits or even drawbacks of providing a user interface in a mobile application with various possibilities of presenting information to switch between. We want to investigate if a user makes use of different visualizations or the presented way is excepted and therefore an adaptation of the user to the application takes place.\\
+This thesis contributes 
+(1) a prototype of a mobile application aiming at increasing CO2 awareness with the help of customized visualizations and
+(2) a catalogue of criteria of design principles for tailoring visualizations containing information of consumption data.
+This thesis aims at finding an answer to the following central research questions:
+
+\textbf{What are the effects on knowledge acquisition in mobile applications when providing visualizations tailored to users' knowledge?}
+\\\\
+The central research question can be answered after having found a solution to the sub-questions:\\\\
+\textbf{(a) What are the characteristics of a user group with the same state of knowledge?}
+In order to answer this research question we first conduct a literature review in the area, followed by a user survey detecting the state of knowledge in the field of electricity units of measurements, i.e. the size of one kilowatt hour, one kilogram of CO2. These findings will help in identifying groups and their characteristics.\\\\
+\textbf{(b) Which criteria do questions have to meet, that shall identify the type of a user?}
+The findings of the sub-research question (a) will have an influence on the questionnaire needed for defining which group a user can be assigned to. This questionnaire will be the first contact point in the mobile application.
+\\\\
+\textbf{(c) What are the design possibilities when it comes to tailoring interfaces to a users' state of knowledge in the scope of electricity consumption data?}
+This question can be answered by conducting a literature review and considering the characteristics of a user group.
+\\\\
+\textbf{(d) Do the characteristics of user groups correlate with the users' preferred type of visualization?}
+The results elicited for research question a) are the foundation for defining the correlation between groups of users and their preferred type of visualization. Assuming the favourite type of visualization is the most used one, allows to identify the preferred type of visualization by analysing the log files.
+\\\\
+\textbf{(e) Does a user switch between various screens showing the same information represented in different ways?}
+We answer this by looking at the log files and also by observing the interaction with the mobile application in the usability tests.
+
+%---------------------------------------------------------------------------
+\section{Methodological Approach}
+%---------------------------------------------------------------------------
+
+In order to fulfill the research questions the methodological approach comprises the following steps:
+\begin{enumerate}
+	\item \textbf{Literature Review} \\
+	The first step is to dive into the topic of usability engineering, especially different forms of visualizations and graphical user interfaces in the scope of mobile applications. That implies a research about paper prototyping, usability testing in the mobile context as well as user classification and carbon dioxide awareness. The goal is to get an insight of all relevant aspects which will serve as foundation for the following steps.
+	
+	\item \textbf{Comparative analysis of alternatives and comparison of existing approaches} \\
+	In this step, the market and competition analysis which was done when the problem arose will be done in more depth. The questions that shall be answered in this steps are the following.
+	\begin{itemize}
+		\item Which applications are there within the topics of energy saving and CO2 awareness?
+		\item Which approaches and visualizations do these applications make use of to increase awareness?
+		\item How do these applications handle the users' level of education concerning energy units of measurements, such as kWh?
+	\end{itemize}
+		
+	\item \textbf{Elicitation of requirements with Paper Prototyping} \\
+		The second step is to do "Paper Prototyping" in order to elicit the requirements for the graphical user interfaces and overall for the CO2 awareness app. According to \cite{lancaster2004paper} the numerous benefits of early usability studies are vastly superior. It may seem low-tech, but conducting usability tests at this step show what users really expect on a quite detailed level which gives maximum feedback for minimum effort \cite{weiss2003handheld}.
+		
+		At first a group of people containing at least one user for each user type will be put together.  Next, hand-sketched drafts will be drawn, showing the app with menus, dialog boxes, notifications and buttons. Then, different tasks that can be done with the app shall be defined. These tasks are then conducted by the users. The feedback from the users show what they expect from the app which is of great value for the implementation later on \cite{snyder2003paper}.
+		
+	\item \textbf{Architectural Design of the CO2 awareness mobile application} \\
+	The insights from the previous steps will influence the architecture and the designs of the CO2 awareness mobile application. With focus on design and usability an architectural design will be developed including a development plan. At this step, the different data resources for the computation of the personal CO2 emission, such as power consumption, water consumption, nutrition lifestyle, transportation habits, size of the living space, place of living, family situation etc. must be considered.
+	
+	The app shall be usable for all users but will be particularly useful for inhabitants of the Aspern Seestadt in Vienna, as we have a database for the dwellers of the student dorm, the schoolhouse and one residential building. This data comes from the Aspern Smart City Research\footnote{http://www.ascr.at/. Accessed 9.11.2017} (ASCR) project where Siemens plays an essential role in collaboration research. 
+	
+	\item \textbf{Technical Implementation of the CO2 awareness mobile application} \\
+	According to the architecture description from step 4 the mobile application will be implemented using an agile software development process and a fully native approach targeting Android Devices.
+	
+	\item \textbf{Usability Tests} \\
+	In order to avoid distortion of the research results the graphical user interface will be tested empirically with 4-5 usability tests, that means the usability is accessed by testing the interface with real users \cite{nielsen1994usability}.
+	
+	\item \textbf{User study} \\
+	The design of the user study will follow the seminal guidelines for conducting case study research in software engineering as proposed by Runeson et al. \cite{runeson2012case}. The target group will consist of at least one user for each type of energy user. The study protocol will follow the check-lists for reading and reviewing case studies from H\"ost and Runeson \cite{host2007checklists}.
+	
+	\item \textbf{Evaluation} \\
+	In this step the developed mobile app will be empirically evaluated against a valuation model in a user study to identify the success of the research. The evaluation model comprises of numerous Key Performance Indicators (KPIs). An extraction of these KPIs is listed in the following:
+\begin{enumerate}
+	\item More than 50 \% of all the users using the app state that the possibility of switching between different ways to display the information is useful
+	\item More than 50 \% state, that they are more aware of what to do to avoid CO2 than before using the app
+	\item More than 50 \% of the users state that they understand and get a feeling of how much CO2 they are producing
+\end{enumerate}
+
+	
+\end{enumerate}
+
+%---------------------------------------------------------------------------
+\section{State of the Art}
+%---------------------------------------------------------------------------
+The focus on usability and interaction between human and hand-held electronic devices has its origin within the emergence of mobile devices. Weiss \cite{weiss2003handheld} discussed the balance of ease of use compared with the ease of learning. A huge emphasis is laid on the first, and according to Weiss, the most important step in the design and development process, the understanding of the audience. The purpose of the audience definition is to describe the target group, its' traits and ranges.
+
+Nielsen \cite{nielsen1994usability} identified different attributes of usability and factors having an impact on how the user interacts with a system. This approach was expanded with the scope of mobile applications by Zhang and Adipat \cite{zhang2005challenges} who highlighted a number of issues by the advent of mobile devices. Harisson et al. \cite{harrison2013usability} introduced a PACMAD (People At the Centre of Mobile Application Development) model which extends the two theories of usability with more aspects of mobile devices, such as user task and context of use. 
+
+Beka \cite{deka2016data} discusses how data-driven approaches are tools for mobile app design. A relevant field mentioned is interaction mining, that captures the static part, such as layouts and visual details, as well as the dynamic part, like user flows and motion details, of app design.
+
+Tailoring and personalizing the content to the potential needs, interests, usage context or other factors is outlined by \cite{oinas2009persuasive} in the context of a Persuasive System. They studied how a persuasive system must be designed with tailored and personalized content to maximize the change in the user's behaviour. Although the outcome on the behaviour change is not relevant, the findings on the tailor aspects are highly interesting for the proposed thesis.
+
+%which was designed to address the limitations of existing usability models when applied to mobile devices
+
+%---------------------------------------------------------------------------
+\section{Relation to Business Informatics}
+%---------------------------------------------------------------------------
+
+The relation to Business Informatics can be drawn to the module "SIT/IRV Advanced Information Retrieval and Visualization" \cite{studienplan2013Online}. This module was added to the Business Informatics curriculum as an alternative module in the catalogue of the Specialization Track Information Technology in 2013, which shows the increasing importance of dealing with visualization topics.
+
+The curriculum of Business Informatics \cite{studienplan2013Online} states that the aim of the module "Advanced Information Retrieval and Visualization" is to teach methods, concepts and techniques of Information Visualization and Visual Analytics. It says that Information Visualization helps to make sense of data which is, as stated above, a crucial part of the thesis. The following courses are part of the module \cite{studienplan2013Online}:
+\begin{itemize}
+	\item The description of the course "Information Visualization" states that interactivity, that is the possibility to get into an active discourse with data representation, is one core element of Information Visualization which addresses research question 1 of the thesis \cite{studienplan2013Online}.
+	\item The course "Advanced Information Retrieval" is the successor of the course "Grundlagen des Information Retrieval" and so it revisits some of its basic models, such as evaluating different types of visualization as done in this thesis \cite{studienplan2013Online}.
+	\item The description of the course "Visualization" mentions that it is not about pretty pictures but about interactive visual and automatic visualizations that should facilitate the extraction of knowledge and findings, similar to the approach of this thesis to make it easier for the user to extract knowledge \cite{studienplan2013Online}.
+\end{itemize}
+
+For the implementation part ot the mobile application, the skills acquired in "Software Engineering and Project Management" and its follow-up course "Advanced Software Engineering" are of great value. The knowledge for the requirements engineering process conducted beforehand is taught in "Requirements Engineering and Empirical Evaluation". Concerning the testing part, especially usability testing, the learnings of the courses "Software Testing" and "Software Quality Management" are relevant.
+
+%***************************************************************************
+
+% Add a bibliography
+\bibliographystyle{myplain}
+\bibliography{proposalbib}
+
+
+% Add a glossary
+\printglossaries
+\printindex
+
+
+\end{document}
+
