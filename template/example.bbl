@@ -1,9 +1,46 @@
-\begin{thebibliography}{Tur36}
+\begin{thebibliography}{RHRR12}
 
-\bibitem[Tur36]{Turing1936}
-Alan~Mathison Turing.
-\newblock On computable numbers, with an application to the
-  entscheidungsproblem.
-\newblock {\em J. of Math}, 58:345--363, 1936.
+\bibitem[HR07]{host2007checklists}
+Martin Host and Per Runeson.
+\newblock Checklists for software engineering case study research.
+\newblock In {\em Empirical Software Engineering and Measurement, 2007. ESEM
+  2007. First International Symposium on}, pages 479--481. IEEE, 2007.
+
+\bibitem[Lan04]{lancaster2004paper}
+A~Lancaster.
+\newblock Paper prototyping: the fast and easy way to design and refine user
+  interfaces.
+\newblock {\em IEEE Transactions on Professional Communication},
+  47(4):335--336, 2004.
+
+\bibitem[Nie94]{nielsen1994usability}
+Jakob Nielsen.
+\newblock Usability inspection methods.
+\newblock In {\em Conference companion on Human factors in computing systems},
+  pages 413--414. ACM, 1994.
+
+\bibitem[PDE15]{parreira2015role}
+Josiane~Xavier Parreira, Deepak Dhungana, and Gerhard Engelbrecht.
+\newblock The role of rdf stream processing in an smart city ict
+  infrastructure-the aspern smart city use case.
+\newblock In {\em International Semantic Web Conference}, pages 343--352.
+  Springer, 2015.
+
+\bibitem[RHRR12]{runeson2012case}
+Per Runeson, Martin Host, Austen Rainer, and Bjorn Regnell.
+\newblock {\em Case study research in software engineering: Guidelines and
+  examples}.
+\newblock John Wiley \& Sons, 2012.
+
+\bibitem[Sny03]{snyder2003paper}
+Carolyn Snyder.
+\newblock {\em Paper prototyping: The fast and easy way to design and refine
+  user interfaces}.
+\newblock Morgan Kaufmann, 2003.
+
+\bibitem[Wei03]{weiss2003handheld}
+Scott Weiss.
+\newblock {\em Handheld usability}.
+\newblock John Wiley \& Sons, 2003.
 
 \end{thebibliography}

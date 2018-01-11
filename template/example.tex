@@ -25,7 +25,8 @@
 
 % Define convenience functions to use the author name and the thesis title in the PDF document properties.
 \newcommand{\authorname}{Romana Jakob} % The author name without titles.
-\newcommand{\thesistitle}{Title of the Thesis} % The title of the thesis. The English version should be used, if it exists.
+\newcommand{\thesistitle}{An Usability Design Approach of Tailored
+	Visualizations for Mobile Applications} % The title of the thesis. The English version should be used, if it exists.
 
 % Set PDF document properties
 \hypersetup{
@@ -67,9 +68,10 @@
 % Required data.
 \setaddress{Nabegg 53/2, 3323 Neustadtl}
 \setregnumber{1227095}
-\setdate{01}{10}{2017} % Set date with 3 arguments: {day}{month}{year}.
-\settitle{\thesistitle}{Titel der Arbeit} % Sets English and German version of the title (both can be English or German).
-\setsubtitle{Optional Subtitle of the Thesis}{Optionaler Untertitel der Arbeit} % Sets English and German version of the subtitle (both can be English or German).
+\setdate{01}{05}{2018} % Set date with 3 arguments: {day}{month}{year}.
+\settitle{\thesistitle}{An Usability Design Approach of Tailored
+	Visualizations for Mobile Applications} % Sets English and German version of the title (both can be English or German).
+\setsubtitle{}{} % Sets English and German version of the subtitle (both can be English or German).
 
 % Select the thesis type: bachelor / master / doctor / phd-school.
 % Bachelor:
@@ -104,12 +106,22 @@
 \addtitlepage{english} % English title page.
 \addstatementpage
 
-\begin{danksagung*}
-\todo{Ihr Text hier.}
-\end{danksagung*}
+%\begin{danksagung*}
+%Ich möchte jedem danken, der mir in irgendeiner Weise beim Verfassen dieser Arbeit geholfen hat. Besonders möchte ich meiner Betreuerin Margit Pohl für Ihre Unterstützung danken und dass Sie mich trotz längerer Pausen nicht aufgegeben hat.
+%
+%Vielen Dank an Gerhard Engelbrecht, der mit seinen Anregungen viel zur Entstehung dieser Arbeit beigetragen hat und es möglich gemacht hat, diese Arbeit in Zusammenarbeit mit Siemens zu schreiben. Danke auch an meinen Chef bei Siemens, Herwig Schreiner, der mir die Freiheit gegeben hat, diese Arbeit zu schreiben.
+%
+%Danke an alle, die sich die Zeit genommen haben, um die in dieser Arbeit entstandene mobile Applikation zu testen. Euer Feedback war sehr wertvoll und hat viel zur weiteren Entstehung beigetragen.
+%
+%Schließlich danke ich meinen Freunden während der Studienzeit für die gegenseitige Unterstützung.
+%\end{danksagung*}
 
 \begin{acknowledgements*}
-\todo{Enter your text here.}
+I want to thank everyone who has contributed in any way to my study and the making of this thesis. First, I want to thank Margit Pohl, my thesis advisor for her support and not giving up on me, despite longer breaks. \\
+I am grateful to Gerhard Engelbrecht not only for his feedback but also for the opportunity to write the thesis in cooperation with Siemens. Thanks to my boss at Siemens, Herwig Schreiner, for giving me the freedom to pursue this thesis.\\
+Thanks to everyone who spared time to test the mobile application which was developed within this thesis. Your feedback was very helpful and contributed a lot to its further development. Finally, thanks to my friends during my study time for the mutual support.
+
+
 \end{acknowledgements*}
 
 \begin{kurzfassung}
@@ -129,14 +141,32 @@
 % Switch to arabic numbering and start the enumeration of chapters in the table of content.
 \mainmatter
 
-\chapter{Introduction}
-\todo{Enter your text here.}
-
-\chapter{Additional Chapter}
-\todo{Enter your text here.}
-
 % Remove following line for the final thesis.
-\input{intro.tex} % A short introduction to LaTeX.
+%\input{intro.tex} % A short introduction to LaTeX.
+
+% CHAPTER Introduction
+\input{introduction.tex}
+
+% CHAPTER State of the art
+\input{state_of_the_art.tex} 
+
+% CHAPTER Methodology
+\input{methodology.tex}
+
+% CHAPTER Implementation
+\input{implementation.tex}
+
+% CHAPTER Evaluation
+\input{evaluation.tex}
+
+% CHAPTER Critical reflection
+\input{critical_reflection.tex}
+
+% CHAPTER Summary
+\input{summary.tex}
+
+% CHAPTER Literature
+% \input{literature_summary.tex}
 
 \backmatter
 
