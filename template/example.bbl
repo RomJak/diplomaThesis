@@ -1,4 +1,24 @@
-\begin{thebibliography}{RHRR12}
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{MGM{\etalchar{+}}17}
+
+\bibitem[BLWM17]{Bjorn1165339}
+Hedin Bj{\"o}rn, Anton Lundstr{\"o}m, Magnus Westlund, and Erik Markstr{\"o}m.
+\newblock The energy piggy bank - a serious game for energy conservation.
+\newblock In {\em The Fifth IFIP Conference on Sustainable Internet and ICT for
+  Sustainability, Funchal, Portugal,  December  6-7, 2017 :}, 2017.
+\newblock QC 20171218.
+
+\bibitem[Dek16]{deka2016data}
+Biplab Deka.
+\newblock Data-driven mobile app design.
+\newblock In {\em Proceedings of the 29th Annual Symposium on User Interface
+  Software and Technology}, pages 21--24. ACM, 2016.
+
+\bibitem[HFD13]{harrison2013usability}
+Rachel Harrison, Derek Flood, and David Duce.
+\newblock Usability of mobile applications: literature review and rationale for
+  a new usability model.
+\newblock {\em Journal of Interaction Science}, 1(1):1, 2013.
 
 \bibitem[HR07]{host2007checklists}
 Martin Host and Per Runeson.
@@ -13,11 +33,25 @@ A~Lancaster.
 \newblock {\em IEEE Transactions on Professional Communication},
   47(4):335--336, 2004.
 
+\bibitem[MGM{\etalchar{+}}17]{mohammadmoradieffectiveness}
+Hessam Mohammadmoradi, Omprakash Gnawali, David Moss, Rainer Boelzle, and Gene
+  Wang.
+\newblock Effectiveness of a task-based residential energy efficiency program
+  in oahu.
+\newblock 2017.
+
 \bibitem[Nie94]{nielsen1994usability}
 Jakob Nielsen.
 \newblock Usability inspection methods.
 \newblock In {\em Conference companion on Human factors in computing systems},
   pages 413--414. ACM, 1994.
+
+\bibitem[OKH09]{oinas2009persuasive}
+Harri Oinas-Kukkonen and Marja Harjumaa.
+\newblock Persuasive systems design: Key issues, process model, and system
+  features.
+\newblock {\em Communications of the Association for Information Systems},
+  24(1):28, 2009.
 
 \bibitem[PDE15]{parreira2015role}
 Josiane~Xavier Parreira, Deepak Dhungana, and Gerhard Engelbrecht.
@@ -42,5 +76,12 @@ Carolyn Snyder.
 Scott Weiss.
 \newblock {\em Handheld usability}.
 \newblock John Wiley \& Sons, 2003.
+
+\bibitem[ZA05]{zhang2005challenges}
+Dongsong Zhang and Boonlit Adipat.
+\newblock Challenges, methodologies, and issues in the usability testing of
+  mobile applications.
+\newblock {\em International journal of human-computer interaction},
+  18(3):293--308, 2005.
 
 \end{thebibliography}
