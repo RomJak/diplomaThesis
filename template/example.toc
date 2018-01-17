@@ -20,18 +20,18 @@
 \contentsline {section}{\numberline {1.5}Structure of the work}{5}{section.1.5}
 \contentsline {chapter}{\chapternumberline {2}State of the Art}{7}{chapter.2}
 \contentsline {section}{\numberline {2.1}Usability engineering}{7}{section.2.1}
-\contentsline {section}{\numberline {2.2}Elicitation of requirements with Paper Prototyping}{8}{section.2.2}
-\contentsline {section}{\numberline {2.3}user classification}{8}{section.2.3}
-\contentsline {section}{\numberline {2.4}Usability Tests}{8}{section.2.4}
-\contentsline {section}{\numberline {2.5}User study}{8}{section.2.5}
-\contentsline {section}{\numberline {2.6}Evaluation}{9}{section.2.6}
-\contentsline {section}{\numberline {2.7}Existing approaches}{9}{section.2.7}
-\contentsline {section}{\numberline {2.8}Comparative analysis of alternatives and comparison of existing approaches}{9}{section.2.8}
-\contentsline {section}{\numberline {2.9}Serious games}{9}{section.2.9}
-\contentsline {chapter}{List of Figures}{11}{section*.8}
-\contentsline {chapter}{List of Tables}{13}{section*.9}
-\contentsline {chapter}{List of Algorithms}{15}{chapter*.10}
-\contentsline {chapter}{Index}{17}{section*.11}
-\contentsline {chapter}{Glossary}{19}{section*.12}
-\contentsline {chapter}{Acronyms}{21}{section*.14}
-\contentsline {chapter}{Bibliography}{23}{section*.17}
+\contentsline {section}{\numberline {2.2}Elicitation of requirements with Paper Prototyping}{9}{section.2.2}
+\contentsline {section}{\numberline {2.3}user classification}{9}{section.2.3}
+\contentsline {section}{\numberline {2.4}Usability Tests}{9}{section.2.4}
+\contentsline {section}{\numberline {2.5}User study}{9}{section.2.5}
+\contentsline {section}{\numberline {2.6}Evaluation}{10}{section.2.6}
+\contentsline {section}{\numberline {2.7}Existing approaches}{10}{section.2.7}
+\contentsline {section}{\numberline {2.8}Comparative analysis of alternatives and comparison of existing approaches}{10}{section.2.8}
+\contentsline {section}{\numberline {2.9}Serious games}{10}{section.2.9}
+\contentsline {chapter}{List of Figures}{13}{section*.8}
+\contentsline {chapter}{List of Tables}{15}{section*.9}
+\contentsline {chapter}{List of Algorithms}{17}{chapter*.10}
+\contentsline {chapter}{Index}{19}{section*.11}
+\contentsline {chapter}{Glossary}{21}{section*.12}
+\contentsline {chapter}{Acronyms}{23}{section*.14}
+\contentsline {chapter}{Bibliography}{25}{section*.17}

@@ -1,6 +1,12 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
 \begin{thebibliography}{MGM{\etalchar{+}}17}
 
+\bibitem[Bev98]{bevan1998iso}
+N~Bevan.
+\newblock Iso 9241: Ergonomic requirements for office work with visual display
+  terminals (vdts)-part 11: Guidance on usability.
+\newblock {\em TC}, 159, 1998.
+
 \bibitem[BLWM17]{Bjorn1165339}
 Hedin Bj{\"o}rn, Anton Lundstr{\"o}m, Magnus Westlund, and Erik Markstr{\"o}m.
 \newblock The energy piggy bank - a serious game for energy conservation.
@@ -40,7 +46,12 @@ Hessam Mohammadmoradi, Omprakash Gnawali, David Moss, Rainer Boelzle, and Gene
   in oahu.
 \newblock 2017.
 
-\bibitem[Nie94]{nielsen1994usability}
+\bibitem[Nie94a]{nielsen1994}
+Jakob Nielsen.
+\newblock {\em Usability engineering}.
+\newblock Elsevier, 1994.
+
+\bibitem[Nie94b]{nielsen1994usability}
 Jakob Nielsen.
 \newblock Usability inspection methods.
 \newblock In {\em Conference companion on Human factors in computing systems},
