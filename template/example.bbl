@@ -20,6 +20,11 @@ Biplab Deka.
 \newblock In {\em Proceedings of the 29th Annual Symposium on User Interface
   Software and Technology}, pages 21--24. ACM, 2016.
 
+\bibitem[GWW08]{gajos2008decision}
+Krzysztof~Z Gajos, Daniel~S Weld, and Jacob~O Wobbrock.
+\newblock Decision-theoretic user interface generation.
+\newblock In {\em AAAI}, volume~8, pages 1532--1536, 2008.
+
 \bibitem[HFD13]{harrison2013usability}
 Rachel Harrison, Derek Flood, and David Duce.
 \newblock Usability of mobile applications: literature review and rationale for
