@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.9)  21 MAR 2018 10:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.9)  10 APR 2018 11:26
 entering extended mode
 **./example.tex
 (example.tex
@@ -2161,38 +2161,34 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
  [4]) (state_of_the_art.tex
 [5] [6
 
-] [7] [8]
-Underfull \vbox (badness 7415) has occurred while \output is active []
+] [7] [8] [9] [10] [11] [12] [13]) (methodology.tex) (implementation.tex) (eval
+uation.tex) (critical_reflection.tex) (summary.tex) [14] (example.lof)
+[15
 
- [9]
-[10] [11] [12] [13] [14] [15] [16]) (methodology.tex) (implementation.tex)
-(evaluation.tex) (critical_reflection.tex) (summary.tex) (example.lof) [17
+] [16
 
-]
-[18
+] (example.lot) [17] [18
 
-] (example.lot) [19] [20
+] (example.loa) (example.ind [19] [20
 
-] (example.loa) (example.ind [21] [22
-
-] [23
+] [21
 
 
 ])
-(example.gls [24
+(example.gls [22
 
 
-]) (example.acr [25
+]) (example.acr [23
+
+] [24
+
+]) (example.bbl [25
 
 ] [26
 
-]) (example.bbl [27
-
-] [28
-
 ]
 bibitemlist
-[29]) [30]
+[27]) [28]
 No complaints by nag.
 \tf@toc=\write10
 \openout10 = `example.toc'.
@@ -2215,11 +2211,11 @@ Package rerunfilecheck Info: File `example.out' has not changed.
 (rerunfilecheck)             Checksum: F2C3C05FB7C2950A37667F664C5F8EE3;1649.
  ) 
 Here is how much of TeX's memory you used:
- 33656 strings out of 493307
- 597484 string characters out of 3142298
- 800521 words of memory out of 3000000
- 36262 multiletter control sequences out of 15000+200000
- 123831 words of font info for 154 fonts, out of 3000000 for 9000
+ 33658 strings out of 493307
+ 597535 string characters out of 3142298
+ 800563 words of memory out of 3000000
+ 36263 multiletter control sequences out of 15000+200000
+ 123961 words of font info for 155 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,18n,94p,1975b,953s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Programme/MikTeX/fonts/enc/dvips/lm/lm-rm.enc}{D:/Programme/MikTeX/fonts/
@@ -2234,9 +2230,9 @@ type1/public/lm/lmr8.pfb><D:/Programme/MikTeX/fonts/type1/public/lm/lmr9.pfb><D
 type1/public/lm/lmss12.pfb><D:/Programme/MikTeX/fonts/type1/public/lm/lmsy10.pf
 b><D:/Programme/MikTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><D:/Programme/MikTeX
 /fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on example.pdf (44 pages, 380067 bytes).
+Output written on example.pdf (42 pages, 379362 bytes).
 PDF statistics:
- 514 PDF objects out of 1000 (max. 8388607)
- 120 named destinations out of 1000 (max. 500000)
+ 507 PDF objects out of 1000 (max. 8388607)
+ 119 named destinations out of 1000 (max. 500000)
  31471 words of extra memory for PDF output out of 35830 (max. 10000000)
 
