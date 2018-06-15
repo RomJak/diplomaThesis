@@ -16,24 +16,24 @@
 \contentsline {section}{\numberline {1.1}Motivating Scenario}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Problem Statement}{2}{section.1.2}
 \contentsline {section}{\numberline {1.3}Aim of the work}{2}{section.1.3}
-\contentsline {section}{\numberline {1.4}Methodological Approach}{3}{section.1.4}
-\contentsline {section}{\numberline {1.5}Structure of the work}{5}{section.1.5}
+\contentsline {section}{\numberline {1.4}Methodological Approach}{4}{section.1.4}
+\contentsline {section}{\numberline {1.5}Structure of the work}{6}{section.1.5}
 \contentsline {chapter}{\chapternumberline {2}State of the Art}{7}{chapter.2}
 \contentsline {section}{\numberline {2.1}Usability engineering}{7}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Usability engineering in the context of mobile applications}{8}{subsection.2.1.1}
 \contentsline {section}{\numberline {2.2}Elicitation of requirements with Paper Prototyping}{9}{section.2.2}
 \contentsline {section}{\numberline {2.3}User Classification}{10}{section.2.3}
-\contentsline {section}{\numberline {2.4}Usability Tests}{10}{section.2.4}
-\contentsline {section}{\numberline {2.5}User study}{10}{section.2.5}
-\contentsline {section}{\numberline {2.6}Evaluation}{10}{section.2.6}
+\contentsline {section}{\numberline {2.4}Usability Tests}{11}{section.2.4}
+\contentsline {section}{\numberline {2.5}User study}{11}{section.2.5}
+\contentsline {section}{\numberline {2.6}Evaluation}{11}{section.2.6}
 \contentsline {section}{\numberline {2.7}Existing approaches}{11}{section.2.7}
 \contentsline {section}{\numberline {2.8}Comparative analysis of alternatives and comparison of existing approaches}{11}{section.2.8}
-\contentsline {section}{\numberline {2.9}Serious games}{11}{section.2.9}
+\contentsline {section}{\numberline {2.9}Serious games}{12}{section.2.9}
 \contentsline {section}{\numberline {2.10}Persuasive System}{12}{section.2.10}
-\contentsline {chapter}{List of Figures}{15}{section*.8}
-\contentsline {chapter}{List of Tables}{17}{section*.9}
-\contentsline {chapter}{List of Algorithms}{19}{chapter*.10}
-\contentsline {chapter}{Index}{21}{section*.11}
-\contentsline {chapter}{Glossary}{23}{section*.12}
-\contentsline {chapter}{Acronyms}{25}{section*.14}
-\contentsline {chapter}{Bibliography}{27}{section*.17}
+\contentsline {chapter}{List of Figures}{17}{section*.8}
+\contentsline {chapter}{List of Tables}{19}{section*.9}
+\contentsline {chapter}{List of Algorithms}{21}{chapter*.10}
+\contentsline {chapter}{Index}{23}{section*.11}
+\contentsline {chapter}{Glossary}{25}{section*.12}
+\contentsline {chapter}{Acronyms}{27}{section*.14}
+\contentsline {chapter}{Bibliography}{29}{section*.17}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.9)  23 MAY 2018 10:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.9)  13 JUN 2018 14:26
 entering extended mode
 **./example.tex
 (example.tex
@@ -2151,44 +2151,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--48
 
  []
 
-[3]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 61.
- (D:\Programme\MikTeX\tex\latex\lm\omslmr.fd
+
+(D:\Programme\MikTeX\tex\latex\lm\omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 61.
  [4]) (state_of_the_art.tex
-[5] [6
+[5] [6] [7
 
-] [7] [8] [9] [10] [11] [12] [13]) (methodology.tex) (implementation.tex) (eval
-uation.tex) (critical_reflection.tex) (summary.tex) [14] (example.lof)
-[15
+] [8] [9] [10] [11] [12] [13] [14]) (methodology.tex)
+(implementation.tex) (evaluation.tex) (critical_reflection.tex) (summary.tex)
+[15] [16
 
-] [16
+] (example.lof) [17] [18
 
-] (example.lot) [17] [18
+] (example.lot) [19] [20
 
-] (example.loa) (example.ind [19] [20
+] (example.loa)
+(example.ind [21] [22
 
-] [21
-
-
-])
-(example.gls [22
+] [23
 
 
-]) (example.acr [23
+]) (example.gls [24
 
-] [24
 
-]) (example.bbl [25
+]) (example.acr [25
 
 ] [26
 
+])
+(example.bbl [27
+
+] [28
+
 ]
 bibitemlist
-[27]) [28]
+[29]) [30]
 No complaints by nag.
 \tf@toc=\write10
 \openout10 = `example.toc'.
@@ -2211,8 +2216,8 @@ Package rerunfilecheck Info: File `example.out' has not changed.
 (rerunfilecheck)             Checksum: F2C3C05FB7C2950A37667F664C5F8EE3;1649.
  ) 
 Here is how much of TeX's memory you used:
- 33658 strings out of 493307
- 597535 string characters out of 3142298
+ 33660 strings out of 493307
+ 597549 string characters out of 3142298
  800563 words of memory out of 3000000
  36263 multiletter control sequences out of 15000+200000
  123961 words of font info for 155 fonts, out of 3000000 for 9000
@@ -2230,9 +2235,9 @@ type1/public/lm/lmr8.pfb><D:/Programme/MikTeX/fonts/type1/public/lm/lmr9.pfb><D
 type1/public/lm/lmss12.pfb><D:/Programme/MikTeX/fonts/type1/public/lm/lmsy10.pf
 b><D:/Programme/MikTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><D:/Programme/MikTeX
 /fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on example.pdf (42 pages, 379347 bytes).
+Output written on example.pdf (44 pages, 382573 bytes).
 PDF statistics:
- 507 PDF objects out of 1000 (max. 8388607)
- 119 named destinations out of 1000 (max. 500000)
+ 517 PDF objects out of 1000 (max. 8388607)
+ 121 named destinations out of 1000 (max. 500000)
  31471 words of extra memory for PDF output out of 35830 (max. 10000000)
 
