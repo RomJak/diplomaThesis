@@ -83,6 +83,12 @@ Josiane~Xavier Parreira, Deepak Dhungana, and Gerhard Engelbrecht.
 \newblock In {\em International Semantic Web Conference}, pages 343--352.
   Springer, 2015.
 
+\bibitem[PS83]{punj1983cluster}
+Girish Punj and David~W Stewart.
+\newblock Cluster analysis in marketing research: Review and suggestions for
+  application.
+\newblock {\em Journal of marketing research}, pages 134--148, 1983.
+
 \bibitem[RHRR12]{runeson2012case}
 Per Runeson, Martin Host, Austen Rainer, and Bjorn Regnell.
 \newblock {\em Case study research in software engineering: Guidelines and
@@ -95,10 +101,20 @@ Carolyn Snyder.
   user interfaces}.
 \newblock Morgan Kaufmann, 2003.
 
+\bibitem[Tuf11]{tuffery2011data}
+St{\'e}phane Tuff{\'e}ry.
+\newblock {\em Data mining and statistics for decision making}, volume~2.
+\newblock Wiley Chichester, 2011.
+
 \bibitem[Wei03]{weiss2003handheld}
 Scott Weiss.
 \newblock {\em Handheld usability}.
 \newblock John Wiley \& Sons, 2003.
+
+\bibitem[WOB10]{williams2010exploratory}
+Brett Williams, Andrys Onsman, and Ted Brown.
+\newblock Exploratory factor analysis: A five-step guide for novices.
+\newblock {\em Australasian Journal of Paramedicine}, 8(3), 2010.
 
 \bibitem[ZA05]{zhang2005challenges}
 Dongsong Zhang and Boonlit Adipat.
