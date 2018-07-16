@@ -1,16 +1,16 @@
-\select@language {naustrian}
-\select@language {naustrian}
-\select@language {english}
-\select@language {naustrian}
-\select@language {english}
-\select@language {naustrian}
-\select@language {naustrian}
+\babel@toc {naustrian}{}
+\babel@toc {naustrian}{}
+\babel@toc {english}{}
+\babel@toc {naustrian}{}
+\babel@toc {english}{}
+\babel@toc {naustrian}{}
+\babel@toc {naustrian}{}
 \contentsline {chapter}{Kurzfassung}{ix}{chapter*.3}
-\select@language {naustrian}
-\select@language {english}
+\babel@toc {naustrian}{}
+\babel@toc {english}{}
 \contentsline {chapter}{Abstract}{xi}{chapter*.5}
-\select@language {naustrian}
-\select@language {english}
+\babel@toc {naustrian}{}
+\babel@toc {english}{}
 \contentsline {chapter}{Contents}{xiii}{section*.7}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivating Scenario}{1}{section.1.1}
