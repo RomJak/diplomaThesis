@@ -24,17 +24,26 @@
 \contentsline {section}{\numberline {2.2}User Classification}{9}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}User Segmentation according to Smart Cities Demo Aspern}{9}{subsection.2.2.1}
 \contentsline {section}{\numberline {2.3}Elicitation of requirements with Paper Prototyping}{15}{section.2.3}
-\contentsline {section}{\numberline {2.4}Usability Tests}{16}{section.2.4}
-\contentsline {section}{\numberline {2.5}User study}{17}{section.2.5}
-\contentsline {section}{\numberline {2.6}Evaluation}{17}{section.2.6}
-\contentsline {section}{\numberline {2.7}Existing approaches}{17}{section.2.7}
-\contentsline {section}{\numberline {2.8}Comparison of existing approaches}{17}{section.2.8}
-\contentsline {section}{\numberline {2.9}Serious games}{18}{section.2.9}
-\contentsline {section}{\numberline {2.10}Persuasive System}{18}{section.2.10}
-\contentsline {chapter}{List of Figures}{19}{section*.9}
-\contentsline {chapter}{List of Tables}{21}{section*.10}
-\contentsline {chapter}{List of Algorithms}{23}{chapter*.11}
-\contentsline {chapter}{Index}{25}{section*.12}
-\contentsline {chapter}{Glossary}{27}{section*.13}
-\contentsline {chapter}{Acronyms}{29}{section*.15}
-\contentsline {chapter}{Bibliography}{31}{section*.18}
+\contentsline {section}{\numberline {2.4}Usability Tests}{15}{section.2.4}
+\contentsline {section}{\numberline {2.5}User study}{15}{section.2.5}
+\contentsline {section}{\numberline {2.6}Evaluation}{15}{section.2.6}
+\contentsline {section}{\numberline {2.7}Existing approaches}{16}{section.2.7}
+\contentsline {section}{\numberline {2.8}Comparison of existing approaches}{16}{section.2.8}
+\contentsline {section}{\numberline {2.9}Serious games}{16}{section.2.9}
+\contentsline {section}{\numberline {2.10}Persuasive System}{17}{section.2.10}
+\contentsline {chapter}{\chapternumberline {3}Methodology}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}User segmentation}{19}{section.3.1}
+\contentsline {section}{\numberline {3.2}Elicitation of Requirements with Paper Prototyping}{19}{section.3.2}
+\contentsline {section}{\numberline {3.3}Conceptual Design}{21}{section.3.3}
+\contentsline {chapter}{\chapternumberline {4}Implementation}{23}{chapter.4}
+\contentsline {section}{\numberline {4.1}Questionnaire for user segmentation}{23}{section.4.1}
+\contentsline {section}{\numberline {4.2}Paper Prototyping}{24}{section.4.2}
+\contentsline {chapter}{\chapternumberline {5}evaluation}{27}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}Critical reflection}{29}{chapter.6}
+\contentsline {chapter}{List of Figures}{31}{section*.9}
+\contentsline {chapter}{List of Tables}{33}{section*.10}
+\contentsline {chapter}{List of Algorithms}{35}{chapter*.11}
+\contentsline {chapter}{Index}{37}{section*.12}
+\contentsline {chapter}{Glossary}{39}{section*.13}
+\contentsline {chapter}{Acronyms}{41}{section*.15}
+\contentsline {chapter}{Bibliography}{43}{section*.18}

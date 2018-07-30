@@ -55,6 +55,14 @@ Martin Host and Per Runeson.
 \newblock In {\em Empirical Software Engineering and Measurement, 2007. ESEM
   2007. First International Symposium on}, pages 479--481. IEEE, 2007.
 
+\bibitem[JNAH08]{jeon2008user}
+Myoung~Hoon Jeon, Dae~Yol Na, Jung~Hee Ahn, and Ji~Young Hong.
+\newblock User segmentation \& ui optimization through mobile phone log
+  analysis.
+\newblock In {\em Proceedings of the 10th international conference on Human
+  computer interaction with mobile devices and services}, pages 495--496. ACM,
+  2008.
+
 \bibitem[Lan04]{lancaster2004paper}
 A~Lancaster.
 \newblock Paper prototyping: the fast and easy way to design and refine user
