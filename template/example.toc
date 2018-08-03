@@ -1,16 +1,16 @@
-\babel@toc {naustrian}{}
-\babel@toc {naustrian}{}
-\babel@toc {english}{}
-\babel@toc {naustrian}{}
-\babel@toc {english}{}
-\babel@toc {naustrian}{}
-\babel@toc {naustrian}{}
+\select@language {naustrian}
+\select@language {naustrian}
+\select@language {english}
+\select@language {naustrian}
+\select@language {english}
+\select@language {naustrian}
+\select@language {naustrian}
 \contentsline {chapter}{Kurzfassung}{ix}{chapter*.3}
-\babel@toc {naustrian}{}
-\babel@toc {english}{}
+\select@language {naustrian}
+\select@language {english}
 \contentsline {chapter}{Abstract}{xi}{chapter*.5}
-\babel@toc {naustrian}{}
-\babel@toc {english}{}
+\select@language {naustrian}
+\select@language {english}
 \contentsline {chapter}{Contents}{xiii}{section*.7}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivating Scenario}{1}{section.1.1}
@@ -38,12 +38,12 @@
 \contentsline {chapter}{\chapternumberline {4}Implementation}{23}{chapter.4}
 \contentsline {section}{\numberline {4.1}Questionnaire for user segmentation}{23}{section.4.1}
 \contentsline {section}{\numberline {4.2}Paper Prototyping}{24}{section.4.2}
-\contentsline {chapter}{\chapternumberline {5}evaluation}{27}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}Critical reflection}{29}{chapter.6}
-\contentsline {chapter}{List of Figures}{31}{section*.9}
-\contentsline {chapter}{List of Tables}{33}{section*.10}
-\contentsline {chapter}{List of Algorithms}{35}{chapter*.11}
-\contentsline {chapter}{Index}{37}{section*.12}
-\contentsline {chapter}{Glossary}{39}{section*.13}
-\contentsline {chapter}{Acronyms}{41}{section*.15}
-\contentsline {chapter}{Bibliography}{43}{section*.18}
+\contentsline {chapter}{\chapternumberline {5}evaluation}{29}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}Critical reflection}{31}{chapter.6}
+\contentsline {chapter}{List of Figures}{33}{section*.9}
+\contentsline {chapter}{List of Tables}{35}{section*.10}
+\contentsline {chapter}{List of Algorithms}{37}{chapter*.11}
+\contentsline {chapter}{Index}{39}{section*.12}
+\contentsline {chapter}{Glossary}{41}{section*.13}
+\contentsline {chapter}{Acronyms}{43}{section*.15}
+\contentsline {chapter}{Bibliography}{45}{section*.18}
