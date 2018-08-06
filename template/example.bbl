@@ -6,6 +6,14 @@ Jonathan Arnowitz, Michael Arent, and Nevin Berger.
 \newblock {\em Effective prototyping for software makers}.
 \newblock Elsevier, 2010.
 
+\bibitem[AY15]{alharbi2015collect}
+Khalid Alharbi and Tom Yeh.
+\newblock Collect, decompile, extract, stats, and diff: Mining design pattern
+  changes in android apps.
+\newblock In {\em Proceedings of the 17th International Conference on
+  Human-Computer Interaction with Mobile Devices and Services}, pages 515--524.
+  ACM, 2015.
+
 \bibitem[Bev98]{bevan1998iso}
 N~Bevan.
 \newblock Iso 9241: Ergonomic requirements for office work with visual display
@@ -31,12 +39,23 @@ Biplab Deka.
 \newblock In {\em Proceedings of the 29th Annual Symposium on User Interface
   Software and Technology}, pages 21--24. ACM, 2016.
 
+\bibitem[Din98]{din19989241}
+E~Din.
+\newblock 9241-11. ergonomic requirements for office work with visual display
+  terminals (vdts)--part 11: Guidance on usability.
+\newblock {\em International Organization for Standardization}, 1998.
+
 \bibitem[FH03]{fogarty2003gadget}
 James Fogarty and Scott~E Hudson.
 \newblock Gadget: A toolkit for optimization-based approaches to interface and
   display generation.
 \newblock In {\em Proceedings of the 16th annual ACM symposium on User
   interface software and technology}, pages 125--134. ACM, 2003.
+
+\bibitem[Gaf09]{gafni2009usability}
+Ruti Gafni.
+\newblock Usability issues in mobile-wireless information systems.
+\newblock {\em Issues in Informing Science \& Information Technology}, 6, 2009.
 
 \bibitem[GWW08]{gajos2008decision}
 Krzysztof~Z Gajos, Daniel~S Weld, and Jacob~O Wobbrock.
@@ -62,6 +81,13 @@ Myoung~Hoon Jeon, Dae~Yol Na, Jung~Hee Ahn, and Ji~Young Hong.
 \newblock In {\em Proceedings of the 10th international conference on Human
   computer interaction with mobile devices and services}, pages 495--496. ACM,
   2008.
+
+\bibitem[KST{\etalchar{+}}13]{kumar2013webzeitgeist}
+Ranjitha Kumar, Arvind Satyanarayan, Cesar Torres, Maxine Lim, Salman Ahmad,
+  Scott~R Klemmer, and Jerry~O Talton.
+\newblock Webzeitgeist: design mining the web.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pages 3083--3092. ACM, 2013.
 
 \bibitem[Lan04]{lancaster2004paper}
 A~Lancaster.
@@ -113,6 +139,12 @@ Per Runeson, Martin Host, Austen Rainer, and Bjorn Regnell.
 \newblock {\em Case study research in software engineering: Guidelines and
   examples}.
 \newblock John Wiley \& Sons, 2012.
+
+\bibitem[Ryu05]{ryu2005development}
+Young~Sam Ryu.
+\newblock {\em Development of usability questionnaires for electronic mobile
+  products and decision making methods}.
+\newblock PhD thesis, Virginia Tech, 2005.
 
 \bibitem[Sny03]{snyder2003paper}
 Carolyn Snyder.
