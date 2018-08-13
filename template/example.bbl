@@ -6,6 +6,13 @@ Jonathan Arnowitz, Michael Arent, and Nevin Berger.
 \newblock {\em Effective prototyping for software makers}.
 \newblock Elsevier, 2010.
 
+\bibitem[AH93]{asur1993taxonomy}
+Sujai Asur and Steve Hufnagel.
+\newblock Taxonomy of rapid-prototyping methods and tools.
+\newblock In {\em Rapid System Prototyping, 1993. Shortening the Path from
+  Specification to Prototype. Proceedings., Fourth International Workshop on},
+  pages 42--56. IEEE, 1993.
+
 \bibitem[AY15]{alharbi2015collect}
 Khalid Alharbi and Tom Yeh.
 \newblock Collect, decompile, extract, stats, and diff: Mining design pattern
@@ -33,6 +40,11 @@ Chris Bernard and Sara Summers.
   Your Ideas... And Bring Them to Life!, Portable Documents}.
 \newblock Pearson Education, 2010.
 
+\bibitem[DDR99]{dumas1999practical}
+Joseph~S Dumas, Joseph~S Dumas, and Janice Redish.
+\newblock {\em A practical guide to usability testing}.
+\newblock Intellect books, 1999.
+
 \bibitem[Dek16]{deka2016data}
 Biplab Deka.
 \newblock Data-driven mobile app design.
@@ -45,6 +57,18 @@ E~Din.
   terminals (vdts)--part 11: Guidance on usability.
 \newblock {\em International Organization for Standardization}, 1998.
 
+\bibitem[EO12]{eladhari2012design}
+Mirjam~P Eladhari and Elina~MI Ollila.
+\newblock Design for research results: experimental prototyping and play
+  testing.
+\newblock {\em Simulation \& Gaming}, 43(3):391--412, 2012.
+
+\bibitem[FFL10]{froehlich2010design}
+Jon Froehlich, Leah Findlater, and James Landay.
+\newblock The design of eco-feedback technology.
+\newblock In {\em Proceedings of the SIGCHI conference on human factors in
+  computing systems}, pages 1999--2008. ACM, 2010.
+
 \bibitem[FH03]{fogarty2003gadget}
 James Fogarty and Scott~E Hudson.
 \newblock Gadget: A toolkit for optimization-based approaches to interface and
@@ -52,21 +76,50 @@ James Fogarty and Scott~E Hudson.
 \newblock In {\em Proceedings of the 16th annual ACM symposium on User
   interface software and technology}, pages 125--134. ACM, 2003.
 
+\bibitem[Fog02]{fogg2002persuasive}
+Brian~J Fogg.
+\newblock Persuasive technology: using computers to change what we think and
+  do.
+\newblock {\em Ubiquity}, 2002(December):5, 2002.
+
 \bibitem[Gaf09]{gafni2009usability}
 Ruti Gafni.
 \newblock Usability issues in mobile-wireless information systems.
 \newblock {\em Issues in Informing Science \& Information Technology}, 6, 2009.
+
+\bibitem[Gra00]{grady2000web}
+Helen~M Grady.
+\newblock Web site design: a case study in usability testing using paper
+  prototypes.
+\newblock In {\em Proceedings of IEEE professional communication society
+  international professional communication conference and Proceedings of the
+  18th annual ACM international conference on Computer documentation:
+  technology \& teamwork}, pages 39--45. IEEE Educational Activities
+  Department, 2000.
 
 \bibitem[GWW08]{gajos2008decision}
 Krzysztof~Z Gajos, Daniel~S Weld, and Jacob~O Wobbrock.
 \newblock Decision-theoretic user interface generation.
 \newblock In {\em AAAI}, volume~8, pages 1532--1536, 2008.
 
+\bibitem[HD98]{hickey1998prototyping}
+Ann Hickey and Douglas Dean.
+\newblock Prototyping for requirements elicitation and validation: A
+  participative prototype evaluation methodology.
+\newblock {\em AMCIS 1998 Proceedings}, page 268, 1998.
+
 \bibitem[HFD13]{harrison2013usability}
 Rachel Harrison, Derek Flood, and David Duce.
 \newblock Usability of mobile applications: literature review and rationale for
   a new usability model.
 \newblock {\em Journal of Interaction Science}, 1(1):1, 2013.
+
+\bibitem[HKH{\etalchar{+}}04]{holstius2004infotropism}
+David Holstius, John Kembel, Amy Hurst, Peng-Hui Wan, and Jodi Forlizzi.
+\newblock Infotropism: living and robotic plants as interactive displays.
+\newblock In {\em Proceedings of the 5th conference on Designing interactive
+  systems: processes, practices, methods, and techniques}, pages 215--221. ACM,
+  2004.
 
 \bibitem[HR07]{host2007checklists}
 Martin Host and Per Runeson.
@@ -82,6 +135,29 @@ Myoung~Hoon Jeon, Dae~Yol Na, Jung~Hee Ahn, and Ji~Young Hong.
   computer interaction with mobile devices and services}, pages 495--496. ACM,
   2008.
 
+\bibitem[Jon98]{jones1998estimating}
+T~Capers Jones.
+\newblock {\em Estimating software costs}.
+\newblock McGraw-Hill, Inc., 1998.
+
+\bibitem[KA02]{kollmuss2002mind}
+Anja Kollmuss and Julian Agyeman.
+\newblock Mind the gap: why do people act environmentally and what are the
+  barriers to pro-environmental behavior?
+\newblock {\em Environmental education research}, 8(3):239--260, 2002.
+
+\bibitem[KCJK02]{kinzie2002user}
+Mable~B Kinzie, Wendy~F Cohn, Marti~F Julian, and William~A Knaus.
+\newblock A user-centered model for web site design: needs assessment, user
+  interface design, and rapid prototyping.
+\newblock {\em Journal of the American medical informatics association},
+  9(4):320--330, 2002.
+
+\bibitem[KS98]{kotonya1998requirements}
+Gerald Kotonya and Ian Sommerville.
+\newblock {\em Requirements engineering: processes and techniques}.
+\newblock Wiley Publishing, 1998.
+
 \bibitem[KST{\etalchar{+}}13]{kumar2013webzeitgeist}
 Ranjitha Kumar, Arvind Satyanarayan, Cesar Torres, Maxine Lim, Salman Ahmad,
   Scott~R Klemmer, and Jerry~O Talton.
@@ -96,12 +172,50 @@ A~Lancaster.
 \newblock {\em IEEE Transactions on Professional Communication},
   47(4):335--336, 2004.
 
-\bibitem[MGM{\etalchar{+}}17]{mohammadmoradieffectiveness}
+\bibitem[LPPA06]{lim2006comparative}
+Youn-kyung Lim, Apurva Pangam, Subashini Periyasami, and Shweta Aneja.
+\newblock Comparative analysis of high-and low-fidelity prototypes for more
+  valid usability evaluations of mobile devices.
+\newblock In {\em Proceedings of the 4th Nordic conference on Human-computer
+  interaction: changing roles}, pages 291--300. ACM, 2006.
+
+\bibitem[LW]{leffingwellmanaging}
+Dean Leffingwell and Don Widrig.
+\newblock Managing software requirements: a unified approach. 2000.
+
+\bibitem[MB02]{maguire2002user}
+Martin Maguire and Nigel Bevan.
+\newblock User requirements analysis.
+\newblock In {\em Usability}, pages 133--148. Springer, 2002.
+
+\bibitem[MGM{\etalchar{+}}17]{mohammadmoradi2017effectiveness}
 Hessam Mohammadmoradi, Omprakash Gnawali, David Moss, Rainer Boelzle, and Gene
   Wang.
 \newblock Effectiveness of a task-based residential energy efficiency program
   in oahu.
-\newblock 2017.
+\newblock In {\em 2017 Sustainable Internet and ICT for Sustainability
+  (SustainIT)}, pages 1--8. IEEE, 2017.
+
+\bibitem[MIA16]{moumane2016usability}
+Karima Moumane, Ali Idri, and Alain Abran.
+\newblock Usability evaluation of mobile applications using iso 9241 and iso
+  25062 standards.
+\newblock {\em SpringerPlus}, 5(1):548, 2016.
+
+\bibitem[MM98]{mccalley1998computer}
+LT~McCalley and GJH Midden.
+\newblock Computer based systems in household appliances: the study of
+  eco-feedback as a tool for increasing conservation behavior.
+\newblock In {\em Computer Human Interaction, 1998. Proceedings. 3rd Asia
+  Pacific}, pages 344--349. IEEE, 1998.
+
+\bibitem[Nie90]{nielsen1990paper}
+Jakob Nielsen.
+\newblock Paper versus computer implementations as mockup scenarios for
+  heuristic evaluation.
+\newblock In {\em Proceedings of the IFIP Tc13 Third interational Conference on
+  Human-Computer interaction}, pages 315--320. North-Holland Publishing Co.,
+  1990.
 
 \bibitem[Nie94a]{nielsen1994}
 Jakob Nielsen.
@@ -140,11 +254,28 @@ Per Runeson, Martin Host, Austen Rainer, and Bjorn Regnell.
   examples}.
 \newblock John Wiley \& Sons, 2012.
 
+\bibitem[RSI96]{rudd1996low}
+Jim Rudd, Ken Stern, and Scott Isensee.
+\newblock Low vs. high-fidelity prototyping debate.
+\newblock {\em interactions}, 3(1):76--85, 1996.
+
 \bibitem[Ryu05]{ryu2005development}
 Young~Sam Ryu.
 \newblock {\em Development of usability questionnaires for electronic mobile
   products and decision making methods}.
 \newblock PhD thesis, Virginia Tech, 2005.
+
+\bibitem[SM10]{still2010blank}
+Brian Still and John Morris.
+\newblock The blank-page technique: Reinvigorating paper prototyping in
+  usability testing.
+\newblock {\em IEEE Transactions on Professional Communication},
+  53(2):144--157, 2010.
+
+\bibitem[Sny96]{snyder1996using}
+Carolyn Snyder.
+\newblock Using paper prototypes to manage risk.
+\newblock {\em Software Design and Publisher Magazine}, 1996.
 
 \bibitem[Sny03]{snyder2003paper}
 Carolyn Snyder.
@@ -152,10 +283,45 @@ Carolyn Snyder.
   user interfaces}.
 \newblock Morgan Kaufmann, 2003.
 
+\bibitem[SP13]{sharma2013revisiting}
+Shreta Sharma and SK~Pandey.
+\newblock Revisiting requirements elicitation techniques.
+\newblock {\em International Journal of Computer Applications}, 75(12), 2013.
+
+\bibitem[STG03]{sefelin2003paper}
+Reinhard Sefelin, Manfred Tscheligi, and Verena Giller.
+\newblock Paper prototyping-what is it good for?: a comparison of paper-and
+  computer-based low-fidelity prototyping.
+\newblock In {\em CHI'03 extended abstracts on Human factors in computing
+  systems}, pages 778--779. ACM, 2003.
+
+\bibitem[Taj10]{tajfel2010social}
+Henri Tajfel.
+\newblock {\em Social identity and intergroup relations}.
+\newblock Cambridge University Press, 2010.
+
 \bibitem[Tuf11]{tuffery2011data}
 St{\'e}phane Tuff{\'e}ry.
 \newblock {\em Data mining and statistics for decision making}, volume~2.
 \newblock Wiley Chichester, 2011.
+
+\bibitem[VR11]{vijayan2011new}
+Jaya Vijayan and G~Raju.
+\newblock A new approach to requirements elicitation using paper prototype.
+\newblock {\em International Journal of Advanced Science and Technology},
+  28:9--16, 2011.
+
+\bibitem[VSK96]{virzi1996usability}
+Robert~A Virzi, Jeffrey~L Sokolov, and Demetrios Karis.
+\newblock Usability problem identification using both low-and high-fidelity
+  prototypes.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pages 236--243. ACM, 1996.
+
+\bibitem[WB13]{wiegers2013software}
+Karl Wiegers and Joy Beatty.
+\newblock {\em Software requirements}.
+\newblock Pearson Education, 2013.
 
 \bibitem[Wei03]{weiss2003handheld}
 Scott Weiss.
@@ -166,6 +332,12 @@ Scott Weiss.
 Brett Williams, Andrys Onsman, and Ted Brown.
 \newblock Exploratory factor analysis: A five-step guide for novices.
 \newblock {\em Australasian Journal of Paramedicine}, 8(3), 2010.
+
+\bibitem[You02]{young2002recommended}
+Ralph~R Young.
+\newblock Recommended requirements gathering practices.
+\newblock {\em CROSSTALK The Journal of Defense Software Engineering},
+  15(4):9--12, 2002.
 
 \bibitem[ZA05]{zhang2005challenges}
 Dongsong Zhang and Boonlit Adipat.

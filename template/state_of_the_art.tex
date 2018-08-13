@@ -4,7 +4,7 @@
 
 In the following sections the theoretical background for the topics that this thesis deals with will be presented. In particular, it starts with usability engineering containing the main parts on which this thesis will focus on in the evaluation part. Especially the context of mobile applications will be looked at. That implies a research about paper prototyping, usability testing in the mobile context as well as user segmentation for the definition of user groups. Finally, we will have a look on existing approaches, such as serious games and a comparative analysis of alternatives.
 
-\section{General definition of Usability}
+\section{General definition of usability}
 
 The International Organization for Standardization (ISO) defines usability as the "Extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use" \cite{bevan1998iso}. This definition comprises three measurable attributes which are the following \cite{din19989241}:
 
@@ -28,7 +28,7 @@ In addition to the above ones Nielsen \cite{nielsen1994} identified five attribu
 \end{itemize}
 
 
-\subsection{Usability engineering in the context of mobile applications}
+\subsection{Mobile definition of usability}
 
 The focus on usability and interaction between human and hand-held electronic devices has its origin within the emergence of mobile devices. With the emergence and rapid deployment of mobile technologies a number of additional studies like \cite{ryu2005development} and \cite{gafni2009usability} have focused on the usability of mobile devices. The approach of Nielsen, mentioned above, was expanded with the scope of mobile applications by Zhang and Adipat \cite{zhang2005challenges} who highlighted a number of issues by the advent of mobile devices. The issues mentioned are:
 \begin{itemize}
@@ -206,41 +206,221 @@ Typical segment behavior regarding home equipment:
 
 The youngest segment has good preconditions to make a good use of mobile application with feedback of their energy use. Nevertheless, the motivation to deal with energy topic is rather low. The hedonistic lifestyle with its strong convenience and comfort orientation is in the foreground. Despite the high usage of apps it may be difficult to win them around for energy feedback. The comfort gain is of great relevance.
 
-\section{Elicitation of requirements with Paper Prototyping}
+\section{Paper Prototyping}
+With the knowledge of the characteristics of the different user groups, the next step, the Paper Prototyping can be done more easily. It may seem low-tech, but conducting usability tests at such an early stage show what users really expect on a quite detailed level which gives maximum feedback for minimum effort \cite{weiss2003handheld}.
+
+According to \cite{lancaster2004paper} the numerous benefits of early usability studies are vastly superior. Besides saving time and money by solving problems before the implementation even begins, Paper Prototyping stimulates creativity as it allows to experience with different ideas before committing to one \cite{snyder2003paper}.
+
+Different types of prototypes for different purposes in software engineering exist. Leffingwell and Widrig \cite{leffingwellmanaging} proposed a classification tree for prototype selection that categorises prototypes according their use case. Prototypes are categorised as throwaway versus evolutionary, horizontal versus vertical, and architectural versus requirements prototypes. Prototypes can also be categorized according to their representation into textual and visual prototypes, whereby Asur and Hufnagel \cite{asur1993taxonomy} define rapid prototyping as the use of tools for quick prototype construction. A division into executable and non-executable prototypes can also be made as mentioned from Kotonya and Sommerville \cite{kotonya1998requirements} and Wiegers \cite{wiegers2013software}.
+
+\subsection{Computer-based versus paper-based Prototypes}
+Nielsen has compared the effectiveness of using interactive prototypes with static paper prototypes. The result of this study showed that evaluators discovered significantly
+more problems with the high-fidelity prototype than with the low-fidelity prototype \cite{nielsen1990paper}.
+
+Sefelin et al. \cite{sefelin2003paper} builds up on the same approach as Nielsen and also investigated the differences between computer-based and paper-based low-fidelity prototypes. In contrast to Nielsen, they discovered that both types lead to almost the same quantity and quality of critical user statements although users prefer the comfort of computer prototypes. Similarly, Virzi et al. \cite{virzi1996usability} claimed that the
+sensitivity to find usability problems does not differ between low- and high-fidelity prototyping.
+
+However, there are still a lot of reasons, as discussed by Rudd et al. \cite{rudd1996low}, to implement a paper prototype for example when the available prototyping tools do not support the components and ideas, which shall be implemented. Another benefit of a paper prototype is the low fidelity, as no software skills are needed for paper prototyping. Besides that paper prototyping leads to a lot of drawings which can contain more ideas than predefined computer-based prototypes . For requirements engineering Vijayan and Raju \cite{vijayan2011new} recommend a throwaway paper prototype rather than expensive Prototypes. One reason for that is also the absence of the technology barrier.
+
+Lim et al.\cite{lim2006comparative} concretized the comparison of high- and low-fidelity prototypes to mobile applications. They figured out that major usability issues were identified by all the three types of prototypes, namely, the fully-functional prototype, the computer-based low-fidelity prototype and the paper-based.  The major issues especially in the mobile context are unclear meanings of labels, icon/symbol/graphical representation issues, locating appropriate interface elements, mental model mismatch and appearance/look of
+the product. 
+
+A highly recommended introduction into effective prototyping is provided by Arnowitz et al. \cite{arnowitz2010effective} as well as by Bernard and Summers \cite{bernard2010dynamic} who inducted into dynamic prototyping. Dynamic prototyping is some kind of mixture between sketches, drawing of ideas and real prototypes, which builds the bridge from low-fidelity to high-fidelity prototyping
+
+\subsection{Elicitation of requirements with Paper Prototyping}
 \label{section:paperprototyping}
-With the knowledge of the characteristics of the different user groups, the next step, the Paper Prototyping can be done more easily. In order to elicit the requirements for the graphical user interfaces and overall for the CO2 awareness app we make use of Paper Prototyping. According to \cite{lancaster2004paper} the numerous benefits of early usability studies are vastly superior. Besides saving time and money by solving problems before the implementation even begins, Paper Prototyping stimulates creativity as it allows to experience with different ideas before committing to one \cite{snyder2003paper}. It may seem low-tech, but conducting usability tests at this step show what users really expect on a quite detailed level which gives maximum feedback for minimum effort \cite{weiss2003handheld}. 
+ 
+ Research has shown that paper prototypes are beneficial for many users for articulating their requirements as they already see some possible interface elements \cite{vijayan2011new}. Clients have a hard time, even sometimes with the help of a software developer, specifying completely, exactly and correctly the exact requirements of a software before seeing some versions of a product \cite{hickey1998prototyping}.
 
-A highly recommended introduction into effective prototyping is provided by Arnowitz et al. \cite{arnowitz2010effective} as well as by Bernard and Summers \cite{bernard2010dynamic} which inducted into dynamic prototyping. 
-
-
-\section{Usability Tests} mobile context
-In order to avoid distorting of the research results the graphical user interface will be tested empirically with 4-5 usability tests, that means the usability is accessed by testing the interface with real users \cite{nielsen1994usability}.
-
-\section{User study}
-The design of the user study will follow the seminal guidelines for conducting case study research in software engineering as proposed by Runeson et al. \cite{runeson2012case}. The target group will consist of at least one user for each type of energy user. The study protocol will follow the check-lists for reading and reviewing case studies from H\"ost and Runeson \cite{host2007checklists}.
-
-\section{Evaluation}
-In this step the developed mobile app will be empirically evaluated against a valuation model in a user study to identify the success of the research. The evaluation model comprises of numerous Key Performance Indicators (KPIs). An extraction of these KPIs is listed in the following:
-\begin{enumerate}
-	\item More than 50 \% of all the users using the app state that the possibility of switching between different ways to display the information is useful
-	\item More than 50 \% state, that they are more aware of what to do to avoid CO2 than before using the app
-	\item More than 50 \% of the users state that they understand and get a feeling of how much CO2 they are producing
-\end{enumerate}
-
-
-\cite{mohammadmoradieffectiveness}
-
-\section{Existing approaches}
-
-\section{Comparison of existing approaches}
-In this step, the market and competition analysis which was done when the problem arose will be done in more depth. The questions that shall be answered in this steps are the following.
+Vijayan and Raju propose a new approach to requirements elicitation using paper prototype \cite{vijayan2011new}. Their case study indicated that the paper prototype method is a suitable method for requirements elicitation for small and medium sized projects. They describe a paper prototype as a visual representation of what a system will look like which can be drawn or created with graphics programs. Their approach is divided into the following steps:
 \begin{itemize}
-	\item Which applications are there within the topics of energy saving and CO2 awareness?
-	\item Which approaches and visualizations do these applications make use of to increase awareness?
-	\item How do these applications handle the users' level of education concerning energy units of measurements, such as kWh?
+	\item Domain knowledge acquisition
+	\item System understanding
+	\item Requirements elicitation
+	\item Prototype validation
+	\item Requirements stabilization
 \end{itemize}
 
-\cite{jeon2008user}
+In contrast to many systems development methodologies who address the problem of identifying user requirements but generally focus on the analysis of user requirements Vijayan and Raju argue that paper prototyping focuses more on the elicitation of requirements from the users \cite{vijayan2011new}. Sharma and Pandey \cite{sharma2013revisiting} revisited requirements elicitation techniques and listed throwaway paper prototyping as an innovative technique under the numerous other elicitation tools. They conclude that despite the common use case of usability testing, with paper prototyping satisfactory results in requirements elicitation can be obtained.
+
+The parallel activity of Prototyping and requirements gathering is described by Caspers \cite{jones1998estimating}. He even says that especially in agile development methods, the prototypes may even substitute other forms of requirements gathering. Young \cite{young2002recommended} also recommended numerous requirements gathering practices. Among the preferred ones are storyboards. As they are multiple drawings depicting a set of user activities that occur in an existing or envisioned system or capability they are very close to or even a kind of paper prototyping. Users and developers draw what they think the interfaces should look like and continued until real requirements and details can be discussed and agreed upon. Being so close to paper prototypes storyboards are also inexpensive and eliminate risks and higher costs of prototyping.
+
+\subsection{Paper Prototyping as a Usability Testing Technique}
+
+Still and Morris \cite{still2010blank} re-emphasize the importance of usability testing in the user-centered design process and argue that at this early stage usability testing is most effective. They married low fidelity paper prototyping with medium fidelity wireframe prototyping and called this blank-page technique. Meaning that the user navigate to dead-ends and has the task to describe and create what they would expect there. This technique allows insights into users’ mental models regarding site content and design which provides developers with useful data concerning how users conceptualized the information encountered. This more substantial early influence of users almost always translates to better usability. The blank-page technique is describe from Maguire and Began \cite{maguire2002user} as brainstorming. Nevertheless, they additionally list Paper Prototyping as a quick and easy way to detect usability issues in response to user feedback.
+
+Focusing on the quickness and risk management of paper prototyping Cynder \cite{snyder1996using} showed how only six days of doing paper prototyping lowers risk. They spent two days usability testing the paper prototype. For each test session two people were used who matched the profile of a typical user. Their approach in the session was to somehow let the user alone with the prototype without giving a demo or explaining how to use the interface. The only thing they did, was to observe the user at interacting with the prototype. Cynder describes that the team was surprised by many of the issues they saw. In some cases, aspects about which the developers strongly argued the users didn't even notice. At the same time, huge problems that no one had anticipated were uncovered. Summarizing Cynder writes that usability testing with the help of paper prototyping gave everyone on the team a sense of what the real issues that would affect the success of the next release were.
+
+Grady \cite{grady2000web} describes usability testing with paper prototypes as a
+win-win situation for both the designer and the end user. The study revealed how beneficial paper prototyping is for usability issues, as a lot of problems were released even in the first usability test session. The second usability test run allowed a more in-depth evaluation of the fundamental structure of the site and additionally uncovered issues that were missed during the first usability test. The third usability
+test on the full-blown site revealed even fewer problems than the previous tests.
+
+\section{Focus groups}
+
+Dumas et al \cite{dumas1999practical} describe a typical focus group as a discussion among multiple real users which is led by a moderator. They argue that focus groups provide information about users' opinions, attitudes, interests, preferences and a self report about their performance. What focus groups usually don't do is giving you an insight into how they behave with the product. The people are carefully chosen, as in usability tests, to represent the potential users of the product.
+
+An experimental prototyping method for play testing was evaluated by Eladhari and Ollila \cite{eladhari2012design}. They used focus tests as a type of play test. In a focus test questions are asked in an interactive group setting which comprises of potential users who talk about their perception, belief, opinion and attitude toward the prototype.
+
+A user-centered model for this type of Web site design was developed by Kinzie et al. \cite{kinzie2002user}. The model includes techniques for needs assessment, goal and task analysis, user interface design and rapid prototyping. The model includes document
+review, interviews, focus groups, surveys and observation and is proven as effective across diverse content arenas and is appropriate for applications in varied media.
+
+%
+%\section{User study}
+%The design of the user study will follow the seminal guidelines for conducting case study research in software engineering as proposed by Runeson et al. \cite{runeson2012case}. The target group will consist of at least one user for each type of energy user. The study protocol will follow the check-lists for reading and reviewing case studies from H\"ost and Runeson \cite{host2007checklists}.
+%
+%\section{Evaluation}
+%In this step the developed mobile app will be empirically evaluated against a valuation model in a user study to identify the success of the research. The evaluation model comprises of numerous Key Performance Indicators (KPIs). An extraction of these KPIs is listed in the following:
+%\begin{enumerate}
+%	\item More than 50 \% of all the users using the app state that the possibility of switching between different ways to display the information is useful
+%	\item More than 50 \% state, that they are more aware of what to do to avoid CO2 than before using the app
+%	\item More than 50 \% of the users state that they understand and get a feeling of how much CO2 they are producing
+%\end{enumerate}
+
+\section{Existing approaches of energy-saving programs}
+
+Understanding why people engage in environmentally responsible behavior is a complex topic over many disciplines beginning from education to economics over sociology, psychology and philosophy \cite{froehlich2010design}. Feedback on individual or group behaviour with the goal of reducing environmental impact is called eco-feedback technology \cite{mccalley1998computer, holstius2004infotropism, froehlich2010design}. Eco-feedback often may seem as an extension of research in persuasive technology, as explained in  \ref{chap:persuasivesystem}, it dates back much further to over 50 years of research in environmental psychology.
+
+\subsection{Persuasive Systems}
+\label{chap:persuasivesystem}
+
+Of particular relevance in the field of persuasive systems is the work from Fogg \cite{fogg2002persuasive} who introduced computers to be persuasive social actors. In order to let the computer be persuasive psychological cues are proposed, such as preferences, motivations and/or personality, in short the computer should seem to have personality. This can be achieved by text messages that convey empathy ("I'm sorry that...") or icons that portray emotions. In the area of psychological cues, one of the most powerful persuasion principles is similarity \cite{tajfel2010social}. The greater the similarity, the greater the potential to persuade, so the more people feel similar to the computer technology products the more they are readily persuaded \cite{fogg2002persuasive}.
+
+Influencing can also happen through language. Whether asking questions
+(“Do you want to continue the installation?”), offering congratulations for
+completing a task ("Congratulations! You won!") or reminding the user to update software written or spoken language can lead people to infer that the computing product is animate in some way. Especially, persuading through praise, with the help of language, photos, symbols or sound effects can lead users to be more open to persuasion \cite{fogg2002persuasive}.
+
+Fogg’s \cite{fogg2002persuasive} functional triad and the design principles presented in it constitute the first and so far most utilized conceptualization of persuasive technology. Nevertheless, there is a weakness of this model as it does not explain how the suggested design principles can be transformed into software requirements and implemented as system features.
+
+Tailoring and personalizing the content to the potential needs, interests, usage context or other factors is outlined by \cite{oinas2009persuasive} in the context of a Persuasive System. They studied how a persuasive system must be designed with tailored and personalized content to maximize the change in the user's behaviour. Oinas-Kukkonen and Harjumaa proposed design principles for the primary task support which are the following \cite{oinas2009persuasive}:
+
+\begin{itemize}
+	\item \textbf{Reduction:}
+	System should reduce the time and effort that a user needs to spend on performing the target behavior.
+	\item \textbf{Tunneling:}
+	System should guide users through an attitude change process by providing means for action that brings them closer to the target behavior.
+	\item \textbf{Tailoring:}
+	System should provide information tailored to potential needs, interests, personality, usage context or other relevant factors for the user group.
+	\item \textbf{Personalization:}	
+	System should offer	personalized content and
+	services for its users to habe a greater capability for persuasion.
+	\item \textbf{Self-monitoring:}
+	System should provide means for users to track their own
+	performance or status to support the user in achieving goals.
+	\item \textbf{Simulation:}
+	System should provide means for observing the link
+	between the cause and effect with regard to users’ behavior.
+	\item \textbf{Rehearsal:}
+	System should provide means for rehearsing a target behavior that enables people to change their attitudes or behavior in the real world.
+\end{itemize}
+
+Interactive system should of course provide system feedback to a user. Oinas-Kukkonen and Harjumaa also proposed several design principles related to implementing computer-human dialogue support in a manner that helps users keep moving towards their goal or target behavior: 
+
+\begin{itemize}
+	\item \textbf{Praise}
+	By offering praise, a system can make users more open to
+	persuasion.
+	System should use praise with the help of language, photos, symbols or sound effects can lead users to be more open to persuasion
+	
+	Mobile application that aims
+	at motivating teenagers to
+	exercise praises user by
+	sending automated textmessages
+	for reaching
+	individual goals. [Toscos et al. 2006]
+	\item \textbf{Rewards}
+	Systems that reward target
+	behaviors may have great
+	persuasive powers.
+	System should provide virtual
+	rewards for users in order to
+	give credit for performing the
+	target behavior.
+	Heart rate monitor gives
+	users a virtual trophy if they
+	follow their fitness program.
+	Game rewards users by
+	altering media items, such as
+	sounds, background skin, or
+	a user’s avatar according to
+	user’s performance. [Sohn
+	and Lee 2007]
+	\item \textbf{Reminders}
+	If a system reminds users of
+	their target behavior, the
+	users will more likely achieve
+	their goals.
+	System should remind users
+	of their target behavior during
+	the use of the system.
+	Caloric balance monitoring
+	application sends textmessages
+	to its users as
+	daily reminders. [Lee et al.
+	2006]
+	\item \textbf{Suggestion}
+	Systems offering fitting
+	suggestions will have greater
+	persuasive powers.
+	System should suggest that
+	users carry out behaviors
+	during the system use
+	process.
+	Application for healthier
+	eating habits suggests that
+	children eat fruits instead of
+	candy at snack time.
+	\item \textbf{Similarity}
+	People are more readily
+	persuaded through systems
+	that remind them of
+	themselves in some
+	meaningful way.
+	System should imitate its
+	users in some specific way.
+	Slang names are used in an
+	application which aims at
+	motivating teenagers to
+	exercise. [Toscos et al. 2006]
+	\item \textbf{Liking}
+	A system that is visually
+	attractive for its users is likely
+	to be more persuasive.
+	System should have a look
+	and feel that appeals to its
+	users.
+	Web site that aims at
+	encouraging children to take
+	care of their pets properly has
+	pictures of cute animals.
+	\item \textbf{Social role}
+	If a system adopts a social
+	role, users will more likely use
+	it for persuasive purposes.
+	System should adopt a social
+	role.
+	E-health application has a
+	virtual specialist to support
+	communication between
+	users and health specialists.
+	[Silva et al. 2006]
+\end{itemize}
+
+
+
+ Although numerous theoretical models of proenvironmental behaviors have been developed and discussed, no definitive explanation has yet been found \cite{kollmuss2002mind}. The previous mentioned studys of \cite{froehlich2010design}, \cite{kollmuss2002mind} focus primarily on the why of behaviour aspects and therefore the more theoretical approach of behavioural changes and should serve as base for the design of eco-feedback technology.
+
+
+
+While models of proenvironmental behavior provide a philosophical approach on which to base designs, they lack specific strategies for changing behavior whereby Froehlich et al. \cite{froehlich2010design} bridge the gap between findings from environmental psychology and the design and evaluation of eco-feedback systems.
+
+Providing households with better feedback on their energy consumption behaviour has been identified as an important tool for achieving sustainable behaviour change (Froehlich et al. 2010) and represents a popular
+target for interaction design (Schwartz et al. 2013)
+
+A lot of people lack awareness of energy wasting in their homes. Making people aware about inefficiencies in their energy consumption behaviours could contribute to large energy savings at city level. In course of this assumption Mohammadmoradi \cite{mohammadmoradi2017effectiveness} designed several intentionally simple energy-saving activities with the goal of a high user engagement. They argue that often users do not understand what to do exactly to save energy, so they tried to help citizens to understand how they use energy and even to find more ways to do so.
+
+wasted energy in their homes and 
+
+Apps die beim Energie sparen helfen
 
 \section{Serious games}
 
@@ -264,9 +444,18 @@ Bartle Player Types
 Serious games have attracted much attention recently and are used to in an engaging way support for example education and behavior change. In this paper, we present a serious game designed for helping people learn about their own energy consumption and to support behavior change towards more sustainable energy habits. We have designed the game for all the four Bartle Player Types, a taxonomy used to identify different motivations for playing games. Engagement of the participants has been evaluated using the Intrinsic Motivation Inventory, and we have measured self-assessed future behavior change. We found a statistically significant positive correlation between self-assessed future behavior change and perceived value/usefulness of the application independent of player type. Our study indicates the player type “Achievers” might perform better using this type of application and find it more enjoyable, but that it can be useful for learning energy conserving behavior independent of player type
 
 
-\section{Persuasive System}
-Tailoring and personalizing the content to the potential needs, interests, usage context or other factors is outlined by \cite{oinas2009persuasive} in the context of a Persuasive System. They studied how a persuasive system must be designed with tailored and personalized content to maximize the change in the user's behaviour. Although the outcome on the behaviour change is not relevant, the findings on the tailor aspects are highly interesting for the proposed thesis.
 
+
+
+\section{Comparison of existing approaches}
+In this step, the market and competition analysis which was done when the problem arose will be done in more depth. The questions that shall be answered in this steps are the following.
+\begin{itemize}
+	\item Which applications are there within the topics of energy saving and CO2 awareness?
+	\item Which approaches and visualizations do these applications make use of to increase awareness?
+	\item How do these applications handle the users' level of education concerning energy units of measurements, such as kWh?
+\end{itemize}
+
+\cite{jeon2008user}
 
 %The process of reconnecting is simply to stop. Stopping meditation 6 times a day for 10 seconds. Experiencing as a felt reality: Divinity
 %Whatever you want to experience in your life: Be the source of experience for that for one another

@@ -19,32 +19,34 @@
 \contentsline {section}{\numberline {1.4}Methodological Approach}{4}{section.1.4}
 \contentsline {section}{\numberline {1.5}Structure of the work}{5}{section.1.5}
 \contentsline {chapter}{\chapternumberline {2}State of the Art}{7}{chapter.2}
-\contentsline {section}{\numberline {2.1}General definition of Usability}{7}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Usability engineering in the context of mobile applications}{8}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.1}General definition of usability}{7}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Mobile definition of usability}{8}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Adaptive interfaces in mobile applications}{9}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}User Classification}{10}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}User Segmentation according to Smart Cities Demo Aspern}{10}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}Elicitation of requirements with Paper Prototyping}{15}{section.2.3}
-\contentsline {section}{\numberline {2.4}Usability Tests}{15}{section.2.4}
-\contentsline {section}{\numberline {2.5}User study}{16}{section.2.5}
-\contentsline {section}{\numberline {2.6}Evaluation}{16}{section.2.6}
-\contentsline {section}{\numberline {2.7}Existing approaches}{16}{section.2.7}
-\contentsline {section}{\numberline {2.8}Comparison of existing approaches}{16}{section.2.8}
-\contentsline {section}{\numberline {2.9}Serious games}{17}{section.2.9}
-\contentsline {section}{\numberline {2.10}Persuasive System}{17}{section.2.10}
-\contentsline {chapter}{\chapternumberline {3}Methodology}{19}{chapter.3}
-\contentsline {section}{\numberline {3.1}User segmentation}{19}{section.3.1}
-\contentsline {section}{\numberline {3.2}Elicitation of Requirements with Paper Prototyping}{19}{section.3.2}
-\contentsline {section}{\numberline {3.3}Conceptual Design}{21}{section.3.3}
-\contentsline {chapter}{\chapternumberline {4}Implementation}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}Questionnaire for user segmentation}{23}{section.4.1}
-\contentsline {section}{\numberline {4.2}Paper Prototyping}{24}{section.4.2}
-\contentsline {chapter}{\chapternumberline {5}evaluation}{29}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}Critical reflection}{31}{chapter.6}
-\contentsline {chapter}{List of Figures}{33}{section*.9}
-\contentsline {chapter}{List of Tables}{35}{section*.10}
-\contentsline {chapter}{List of Algorithms}{37}{chapter*.11}
-\contentsline {chapter}{Index}{39}{section*.12}
-\contentsline {chapter}{Glossary}{41}{section*.13}
-\contentsline {chapter}{Acronyms}{43}{section*.15}
-\contentsline {chapter}{Bibliography}{45}{section*.18}
+\contentsline {section}{\numberline {2.3}Paper Prototyping}{15}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Computer-based versus paper-based Prototypes}{16}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Elicitation of requirements with Paper Prototyping}{16}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Paper Prototyping as a Usability Testing Technique}{17}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Focus groups}{18}{section.2.4}
+\contentsline {section}{\numberline {2.5}Existing approaches of energy-saving programs}{19}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Persuasive Systems}{19}{subsection.2.5.1}
+\contentsline {section}{\numberline {2.6}Serious games}{20}{section.2.6}
+\contentsline {section}{\numberline {2.7}Comparison of existing approaches}{21}{section.2.7}
+\contentsline {chapter}{\chapternumberline {3}Methodology}{23}{chapter.3}
+\contentsline {section}{\numberline {3.1}User segmentation}{23}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Questionnaire}{23}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Elicitation of Requirements with Paper Prototyping}{23}{section.3.2}
+\contentsline {section}{\numberline {3.3}Creating Guidelines}{25}{section.3.3}
+\contentsline {chapter}{\chapternumberline {4}Implementation}{27}{chapter.4}
+\contentsline {section}{\numberline {4.1}Questionnaire for user segmentation}{27}{section.4.1}
+\contentsline {section}{\numberline {4.2}Paper Prototyping}{28}{section.4.2}
+\contentsline {chapter}{\chapternumberline {5}evaluation}{33}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}Critical reflection}{35}{chapter.6}
+\contentsline {chapter}{List of Figures}{37}{section*.9}
+\contentsline {chapter}{List of Tables}{39}{section*.10}
+\contentsline {chapter}{List of Algorithms}{41}{chapter*.11}
+\contentsline {chapter}{Index}{43}{section*.12}
+\contentsline {chapter}{Glossary}{45}{section*.13}
+\contentsline {chapter}{Acronyms}{47}{section*.15}
+\contentsline {chapter}{Bibliography}{49}{section*.18}
