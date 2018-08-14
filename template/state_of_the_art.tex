@@ -291,113 +291,102 @@ completing a task ("Congratulations! You won!") or reminding the user to update 
 
 Fogg’s \cite{fogg2002persuasive} functional triad and the design principles presented in it constitute the first and so far most utilized conceptualization of persuasive technology. Nevertheless, there is a weakness of this model as it does not explain how the suggested design principles can be transformed into software requirements and implemented as system features.
 
-Tailoring and personalizing the content to the potential needs, interests, usage context or other factors is outlined by \cite{oinas2009persuasive} in the context of a Persuasive System. They studied how a persuasive system must be designed with tailored and personalized content to maximize the change in the user's behaviour. Oinas-Kukkonen and Harjumaa proposed design principles for the primary task support which are the following \cite{oinas2009persuasive}:
+
+\subsection{Design principles of existing approaches}
+
+Tailoring and personalizing the content to the potential needs, interests, usage context or other factors is outlined by \cite{oinas2009persuasive} in the context of a Persuasive System. They studied how a persuasive system must be designed with tailored and personalized content to maximize the change in the user's behavior. 
+
+\subsubsection{Design principles for primary tasks}
+
+Oinas-Kukkonen and Harjumaa proposed design principles for the primary task support which are the following \cite{oinas2009persuasive}:
 
 \begin{itemize}
 	\item \textbf{Reduction:}
-	System should reduce the time and effort that a user needs to spend on performing the target behavior.
+	The system should reduce the time and effort that a user needs to spend on performing the target behavior.
+	
+	An example for reduction is Matkahupi, which is a mobile application that automatically tracks the transportation modes and CO2 emissions of the trips of the user and utilizes this information to present a set of actionable mobility challenges to the user \cite{jylha2013matkahupi}.
+	
+	Another mobile application that helps to reduce the time for performing a special behavior is PmEB. It supports healthier eating habits by listing proper food choices at fast food restaurants \cite{lee2006pmeb} and therefore also helps at behaving as wanted by providing support.
+		
 	\item \textbf{Tunneling:}
-	System should guide users through an attitude change process by providing means for action that brings them closer to the target behavior.
+	Guiding users through an attitude change process by providing means for action brings them closer to the target behavior.
+	
+	Spagnolli et al. \cite{spagnolli2011eco} proposed EnergyLife, a mobile application with a gamification approach that provides different levels which are adapted to the current state of knowledge.
+	
 	\item \textbf{Tailoring:}
-	System should provide information tailored to potential needs, interests, personality, usage context or other relevant factors for the user group.
+	The System should provide information tailored to potential needs, interests, personality, usage context or other relevant factors for the user group.
+	
+	Gamberini et al. \cite{gamberini2012tailoring} focuses on feedback tailored to users' consumption behavior and giving according recommendations for behavior change.
+	
 	\item \textbf{Personalization:}	
-	System should offer	personalized content and
-	services for its users to habe a greater capability for persuasion.
+	If a system offers personalized content and services for its users it has a greater capability for persuasion.
+	
+	PEIR, The Personal Environmental Impact Report \cite{mun2009peir} offers personalized estimates of environmental impact and exposure.
 	\item \textbf{Self-monitoring:}
-	System should provide means for users to track their own
-	performance or status to support the user in achieving goals.
+	System should provide means for users to track their own performance or status to support the user in achieving goals.
+	
+	Power Advisor, a mobile application developed by Kjeldskov et al. \cite{kjeldskov2012using}	provides self-monitoring through personalized information about the user’s power consumption.
+	
 	\item \textbf{Simulation:}
-	System should provide means for observing the link
-	between the cause and effect with regard to users’ behavior.
+	System should provide means for observing the link between the cause and effect with regard to users’ behavior.
+	
+	
 	\item \textbf{Rehearsal:}
-	System should provide means for rehearsing a target behavior that enables people to change their attitudes or behavior in the real world.
+	A system that provide means for rehearsing a target behavior enables people to change their attitudes or behavior in the real world.
+	
+	PowerAgent is a mobile application that let the users first play a simulation game to learn wanted behaviors and then let them enact and rehearse these behaviors at home in the family context \cite{bang2007promoting}.
 \end{itemize}
 
-Interactive system should of course provide system feedback to a user. Oinas-Kukkonen and Harjumaa also proposed several design principles related to implementing computer-human dialogue support in a manner that helps users keep moving towards their goal or target behavior: 
+
+\subsubsection{Design principles for dialogue support}
+
+Interactive system should of course provide system feedback to a user. Oinas-Kukkonen and Harjumaa also proposed several design principles related to implementing computer-human dialogue support in a manner that helps users keep moving towards their goal or target behavior \cite{oinas2009persuasive}:
 
 \begin{itemize}
-	\item \textbf{Praise}
-	By offering praise, a system can make users more open to
-	persuasion.
-	System should use praise with the help of language, photos, symbols or sound effects can lead users to be more open to persuasion
-	
+	\item \textbf{Praise:}
+	Praising users can make them more open to change their behavior.
+		
 	Mobile application that aims
 	at motivating teenagers to
 	exercise praises user by
 	sending automated textmessages
 	for reaching
 	individual goals. [Toscos et al. 2006]
-	\item \textbf{Rewards}
-	Systems that reward target
-	behaviors may have great
-	persuasive powers.
-	System should provide virtual
-	rewards for users in order to
-	give credit for performing the
-	target behavior.
-	Heart rate monitor gives
-	users a virtual trophy if they
-	follow their fitness program.
-	Game rewards users by
-	altering media items, such as
-	sounds, background skin, or
-	a user’s avatar according to
-	user’s performance. [Sohn
-	and Lee 2007]
-	\item \textbf{Reminders}
-	If a system reminds users of
-	their target behavior, the
-	users will more likely achieve
-	their goals.
-	System should remind users
-	of their target behavior during
-	the use of the system.
+	\item \textbf{Rewards:}
+	When the target behavior is rewarded a user is given credit for performing the target behavior.
+	
+	The Energy Piggy Bank gives users virtual badges and points when performing the target activities \cite{Bjorn1165339}. 
+	\item \textbf{Reminders:}
+	By reminding the user of the wished target behavior it becomes more likely that the user achieves his goals.
+	
 	Caloric balance monitoring
 	application sends textmessages
 	to its users as
 	daily reminders. [Lee et al.
 	2006]
-	\item \textbf{Suggestion}
-	Systems offering fitting
-	suggestions will have greater
-	persuasive powers.
-	System should suggest that
-	users carry out behaviors
-	during the system use
-	process.
-	Application for healthier
-	eating habits suggests that
-	children eat fruits instead of
-	candy at snack time.
-	\item \textbf{Similarity}
-	People are more readily
-	persuaded through systems
-	that remind them of
-	themselves in some
-	meaningful way.
-	System should imitate its
-	users in some specific way.
+	\item \textbf{Suggestion:}
+	Offering fitting suggestions about how to behave provides the system with greater persuasive powers.
+	
+	One of the main techniques of the Energy Piggy Bank, is the habit formation that encourage to do a specific activity during a time period \cite{Bjorn1165339}.
+	\item \textbf{Similarity:}
+	People are more ready to change their behavior when a system somehow reminds them of themselves in some meaningful way.
+	
+	
 	Slang names are used in an
 	application which aims at
 	motivating teenagers to
 	exercise. [Toscos et al. 2006]
-	\item \textbf{Liking}
-	A system that is visually
-	attractive for its users is likely
-	to be more persuasive.
-	System should have a look
-	and feel that appeals to its
-	users.
+	\item \textbf{Liking:}
+	A visually appealing system is more likely to change a user's behavior.
+	
 	Web site that aims at
 	encouraging children to take
 	care of their pets properly has
 	pictures of cute animals.
-	\item \textbf{Social role}
-	If a system adopts a social
-	role, users will more likely use
-	it for persuasive purposes.
-	System should adopt a social
-	role.
+	\item \textbf{Social role:}
+	If a system adopts a social	role, the system is more likely to persuade.
+
+
 	E-health application has a
 	virtual specialist to support
 	communication between
@@ -406,6 +395,49 @@ Interactive system should of course provide system feedback to a user. Oinas-Kuk
 \end{itemize}
 
 
+
+\subsubsection{Design principles for system social support}
+
+In the social support category the design principles make use of leveraging social influence that shall help at persuading the user's behavior.
+
+\begin{itemize}
+	\item \textbf{Social learning:}
+	If a person can observe the outcomes of others who perform the target behavior (s)he will be more motivated to do the same.
+	
+	
+	
+	A shared fitness journal in a
+	mobile application for
+	encouraging physical activity
+	[Consolvo et al. 2006].
+	\item \textbf{Social comparison:}
+	By providing means for comparing one's own performance with others the system users have a greater motivation to also perform the target behavior.
+	
+	EnergyWiz, a mobile application that enables users to compare with their past performance, neighbors, social media contacts and other EnergyWiz users \cite{petkov2011motivating}.
+	\item \textbf{Normative influence:}
+	If a system leverages normative influence or peer pressure the likelihood that a person will adopt the behavior of it's peers increases.
+
+	Normative messages put in hotel rooms saying, “The majority of guests in this room reuse their towels.” increased the likelihood of towel reuse by hotel guests by 33\% \cite{goldstein2008room}
+	\item \textbf{Social facilitation:}
+	A system that provides means for discerning other users who are performing the target behavior, system users are more likely to be persuaded.
+		
+	Users of the Energy Piggy Bank Game \cite{Bjorn1165339} can	recognize how many users are trying to save energy at the same time as them.
+		
+	\item \textbf{Cooperation:}
+	A system can make use of the natural drive to co-operate by providing means for co-operation, which increases the motivation of a system user to adopt a target attitude or behavior.
+		
+	The mobile application EnergyWiz \cite{petkov2011motivating} provided a group in Facebook which shows the users that they are not alone in energy saving and allowed them to discuss about energy saving topics.
+	\item \textbf{Competition:}
+	A system can make use of the natural drive to compete by providing means for competing, which increases the motivation of a system user to adopt a target attitude or behavior.
+	
+	The Energy Piggy Bank Game \cite{Bjorn1165339} offers a leaderboard with all the names of the competing users and their points.
+	\item \textbf{Recognition:}
+	By offering public recognition for users who perform the target behavior to increase the likelihood that users will adopt a target behavior.
+	
+	In the Energy Piggy Bank Game each team member’s contribution to the group’s score is visualized and the number of activities done by each group member is clearly visible in the group area \cite{Bjorn1165339}.
+	
+	
+\end{itemize}
 
  Although numerous theoretical models of proenvironmental behaviors have been developed and discussed, no definitive explanation has yet been found \cite{kollmuss2002mind}. The previous mentioned studys of \cite{froehlich2010design}, \cite{kollmuss2002mind} focus primarily on the why of behaviour aspects and therefore the more theoretical approach of behavioural changes and should serve as base for the design of eco-feedback technology.
 

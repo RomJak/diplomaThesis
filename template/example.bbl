@@ -27,6 +27,13 @@ N~Bevan.
   terminals (vdts)-part 11: Guidance on usability.
 \newblock {\em TC}, 159, 1998.
 
+\bibitem[BGK07]{bang2007promoting}
+Magnus Bang, Anton Gustafsson, and Cecilia Katzeff.
+\newblock Promoting new patterns in household energy consumption with pervasive
+  learning games.
+\newblock In {\em International Conference on Persuasive Technology}, pages
+  55--63. Springer, 2007.
+
 \bibitem[BLWM17]{Bjorn1165339}
 Hedin Bj{\"o}rn, Anton Lundstr{\"o}m, Magnus Westlund, and Erik Markstr{\"o}m.
 \newblock The energy piggy bank - a serious game for energy conservation.
@@ -87,6 +94,12 @@ Ruti Gafni.
 \newblock Usability issues in mobile-wireless information systems.
 \newblock {\em Issues in Informing Science \& Information Technology}, 6, 2009.
 
+\bibitem[GCG08]{goldstein2008room}
+Noah~J Goldstein, Robert~B Cialdini, and Vladas Griskevicius.
+\newblock A room with a viewpoint: Using social norms to motivate environmental
+  conservation in hotels.
+\newblock {\em Journal of consumer Research}, 35(3):472--482, 2008.
+
 \bibitem[Gra00]{grady2000web}
 Helen~M Grady.
 \newblock Web site design: a case study in usability testing using paper
@@ -96,6 +109,14 @@ Helen~M Grady.
   18th annual ACM international conference on Computer documentation:
   technology \& teamwork}, pages 39--45. IEEE Educational Activities
   Department, 2000.
+
+\bibitem[GSC{\etalchar{+}}12]{gamberini2012tailoring}
+Luciano Gamberini, Anna Spagnolli, Nicola Corradi, Giulio Jacucci, Giovanni
+  Tusa, Topi Mikkola, Luca Zamboni, and Eve Hoggan.
+\newblock Tailoring feedback to users’ actions in a persuasive game for
+  household electricity conservation.
+\newblock In {\em International Conference on Persuasive Technology}, pages
+  100--111. Springer, 2012.
 
 \bibitem[GWW08]{gajos2008decision}
 Krzysztof~Z Gajos, Daniel~S Weld, and Jacob~O Wobbrock.
@@ -135,6 +156,13 @@ Myoung~Hoon Jeon, Dae~Yol Na, Jung~Hee Ahn, and Ji~Young Hong.
   computer interaction with mobile devices and services}, pages 495--496. ACM,
   2008.
 
+\bibitem[JNS{\etalchar{+}}13]{jylha2013matkahupi}
+Antti Jylh{\"a}, Petteri Nurmi, Miika Sir{\'e}n, Samuli Hemminki, and Giulio
+  Jacucci.
+\newblock Matkahupi: a persuasive mobile application for sustainable mobility.
+\newblock In {\em Proceedings of the 2013 ACM conference on Pervasive and
+  ubiquitous computing adjunct publication}, pages 227--230. ACM, 2013.
+
 \bibitem[Jon98]{jones1998estimating}
 T~Capers Jones.
 \newblock {\em Estimating software costs}.
@@ -158,6 +186,13 @@ Gerald Kotonya and Ian Sommerville.
 \newblock {\em Requirements engineering: processes and techniques}.
 \newblock Wiley Publishing, 1998.
 
+\bibitem[KSPP12]{kjeldskov2012using}
+Jesper Kjeldskov, Mikael~B Skov, Jeni Paay, and Rahuvaran Pathmanathan.
+\newblock Using mobile phones to support sustainability: a field study of
+  residential electricity consumption.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pages 2347--2356. ACM, 2012.
+
 \bibitem[KST{\etalchar{+}}13]{kumar2013webzeitgeist}
 Ranjitha Kumar, Arvind Satyanarayan, Cesar Torres, Maxine Lim, Salman Ahmad,
   Scott~R Klemmer, and Jerry~O Talton.
@@ -178,6 +213,12 @@ Youn-kyung Lim, Apurva Pangam, Subashini Periyasami, and Shweta Aneja.
   valid usability evaluations of mobile devices.
 \newblock In {\em Proceedings of the 4th Nordic conference on Human-computer
   interaction: changing roles}, pages 291--300. ACM, 2006.
+
+\bibitem[LTG{\etalchar{+}}06]{lee2006pmeb}
+Gunny Lee, Chris Tsai, William~G Griswold, Fred Raab, and Kevin Patrick.
+\newblock Pmeb: a mobile phone application for monitoring caloric balance.
+\newblock In {\em CHI'06 extended abstracts on Human factors in computing
+  systems}, pages 1013--1018. ACM, 2006.
 
 \bibitem[LW]{leffingwellmanaging}
 Dean Leffingwell and Don Widrig.
@@ -208,6 +249,14 @@ LT~McCalley and GJH Midden.
   eco-feedback as a tool for increasing conservation behavior.
 \newblock In {\em Computer Human Interaction, 1998. Proceedings. 3rd Asia
   Pacific}, pages 344--349. IEEE, 1998.
+
+\bibitem[MRS{\etalchar{+}}09]{mun2009peir}
+Min Mun, Sasank Reddy, Katie Shilton, Nathan Yau, Jeff Burke, Deborah Estrin,
+  Mark Hansen, Eric Howard, Ruth West, and P{\'e}ter Boda.
+\newblock Peir, the personal environmental impact report, as a platform for
+  participatory sensing systems research.
+\newblock In {\em Proceedings of the 7th international conference on Mobile
+  systems, applications, and services}, pages 55--68. ACM, 2009.
 
 \bibitem[Nie90]{nielsen1990paper}
 Jakob Nielsen.
@@ -242,6 +291,13 @@ Josiane~Xavier Parreira, Deepak Dhungana, and Gerhard Engelbrecht.
 \newblock In {\em International Semantic Web Conference}, pages 343--352.
   Springer, 2015.
 
+\bibitem[PKFK11]{petkov2011motivating}
+Petromil Petkov, Felix K{\"o}bler, Marcus Foth, and Helmut Krcmar.
+\newblock Motivating domestic energy conservation through comparative,
+  community-based feedback in mobile and social media.
+\newblock In {\em Proceedings of the 5th International Conference on
+  Communities and Technologies}, pages 21--30. ACM, 2011.
+
 \bibitem[PS83]{punj1983cluster}
 Girish Punj and David~W Stewart.
 \newblock Cluster analysis in marketing research: Review and suggestions for
@@ -264,6 +320,12 @@ Young~Sam Ryu.
 \newblock {\em Development of usability questionnaires for electronic mobile
   products and decision making methods}.
 \newblock PhD thesis, Virginia Tech, 2005.
+
+\bibitem[SCG{\etalchar{+}}11]{spagnolli2011eco}
+Anna Spagnolli, Nicola Corradi, Luciano Gamberini, Eve Hoggan, Giulio Jacucci,
+  Cecilia Katzeff, Loove Broms, and Li~Jonsson.
+\newblock Eco-feedback on the go: Motivating energy awareness.
+\newblock {\em Computer}, 44(5):38--45, 2011.
 
 \bibitem[SM10]{still2010blank}
 Brian Still and John Morris.
