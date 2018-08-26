@@ -2,7 +2,11 @@
 \chapter{State of the Art}
 %---------------------------------------------------------------------------
 
-In the following sections the theoretical background for the topics that this thesis deals with will be presented. In particular, it starts with a general introduction to usability engineering followed by a definition of usability in the mobile context. Then the field of mobile application is continued with a dive into adaptive interfaces. Of particular relevance to this thesis is the work on user segmentation of Smart Cities Demo Aspern where our user classification is based upon. This chapter goes on with an introduction to paper prototyping containing a comparison of computer-based to paper-based prototypes and outlines paper prototyping as a tool for elicitation of requirements and for usability testing. The use of focus groups is discussed before we compare existing approaches of energy-saving programs including a look at persuasive systems followed by a comparative analysis of used design guidelines in existing approaches.
+In the following sections the theoretical background for the topics that this thesis deals with will be presented. In particular, it starts with a general introduction to usability engineering followed by a definition of usability in the mobile context. Then the field of mobile application is continued with a dive into adaptive interfaces. Of particular relevance to this thesis is the work on user segmentation of Smart Cities Demo Aspern on which our user classification is based upon and which is the answer to the following research question:
+
+\textbf{RQ 1: What are the characteristics of a user segment with the same energy consumption interests?}
+
+This chapter goes on with an introduction to paper prototyping containing a comparison of computer-based to paper-based prototypes and outlines paper prototyping as a tool for elicitation of requirements and for usability testing. The use of focus groups is discussed before we compare existing approaches of energy-saving programs including a look at persuasive systems followed by a comparative analysis of used design guidelines in existing approaches.
 
 \section{General Definition of Usability}
 
@@ -46,21 +50,21 @@ They mention that these restrictions are especially a problem when it comes to u
 
 Almost concurrently, mobile device manufacturers have been developing their own usability constraints, such as Google and Apple. The Apple iOS Human Interface Guidelines\footnote{https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/. Accessed 06.08.2018} states the iOS design principles that should be considered during the application development process, such as: aesthetic integrity, consistency, direct manipulation, feedback, metaphors and user control. 
 
-Also Google has developed Android user interface guidelines\footnote{https://developer.android.com/guide/practices/ui\_guidelines . Accessed 06.08.2018}, which guide developers to take into account the following guidelines: the Icon Design Guidelines including the size and location of Icons and Buttons, Contextual Menus and their responsiveness, simplicity, size, and format of text and the Widget Design Guidelines that describe how to design widgets that fit with others on the Home screen. These guidelines also explain how these characteristics should be considered during the development and testing of Android applications. 
+Also Google has developed Android user interface guidelines\footnote{https://developer.android.com/guide/practices/ui\_guidelines . Accessed 06.08.2018}, which guide developers to take into account the following guidelines: the icon design guidelines including the size and location of icons and buttons, contextual Menus and their responsiveness, simplicity, size, and format of text and the widget design guidelines that describe how to design widgets that fit with others on the home screen. These guidelines also explain how these characteristics should be considered during the development and testing of Android applications. 
 
 Harisson et al. \cite{harrison2013usability} build up on the terms mentioned before and introduced a PACMAD (People At the Centre of Mobile Application Development) model which was designed to address the limitations of existing usability models when applied to mobile devices. PACMAD extends the theories of usability with more aspects such as \textit{user task} and \textit{context of use}. The existing usability models such as those proposed by Nielsen \cite{nielsen1994usability} and ISO \cite{bevan1998iso} also recognize these factors as crucial parts on which the successfulness of the usability of an application depends. The difference is that PACMAD includes all the factors into one model to ensure a complete usability evaluation.
 
 \subsection{Adaptive interfaces in mobile applications}
 
-Deka \cite{deka2016data} discusses how data-driven approaches are tools for mobile app design. They state that designing mobile apps is a complex layered process that affects researchers, designers, and developers who work together to identify user needs, create user flows, determine layout of UI elements, define visual and interactive properties with the help of design prototypes, and evaluate effectiveness of designs both heuristically and with extensive user testing. His approach is to simplify the app design with a more data-driven process by leveraging design data from the vast array of already existing apps. Deka advocates interaction mining that captures the static part, such as layouts and visual details, as well as the dynamic part, like user flows and motion details, of app design. His approach is in contrast to design mining approaches that mainly have focused on mining static UI layouts and visual details \cite{kumar2013webzeitgeist}, \cite{alharbi2015collect}.
+Deka \cite{deka2016data} discusses how data-driven approaches are tools for mobile app design. They state that designing mobile apps is a complex layered process that affects researchers, designers, and developers who work together to identify user needs, create user flows, determine layout of UI elements, define visual and interactive properties with the help of design prototypes, and evaluate effectiveness of designs both heuristically and with extensive user testing. His approach is to simplify the app design with a more data-driven process by leveraging design data from the vast array of already existing apps. Deka advocates interaction mining that captures the static part, such as layouts and visual details, as well as the dynamic part, like user flows and motion details, of app design. His approach is in contrast to design mining approaches that mainly have focused on mining static UI layouts and visual details \cite{kumar2013webzeitgeist, alharbi2015collect}.
 
 Fogarty and Hudson \cite{fogarty2003gadget} presented a programmaticaly approach for the optimization problem of usability interfaces. Their approach is numerical optimization and they provide an experimental toolkit to support optimization for interface and display generation.
 
-The decades of research in adaptive user interfaces were summarized by Gajos et al. \cite{gajos2008decision}. They conclude that personalized user interfaces have the ability to improve user satisfaction and performance, when the interface is adapted to the device, task, preferences and abilities of a person. To automatically generate user interfaces they use decision-theoretic optimization which includes functional specifications of the interface, constraints of the devices e.g. screen size and a list of available interactors, a typical usage trace and a cost function. The cost function holds user preferences and the expected speed of operation. Gajos et al. especially focus on the preferred UI elements of a user. As this thesis aims at finding interfaces for users that fit different types we first need to classify users into different user segments.
+The decades of research in adaptive user interfaces were summarized by Gajos et al. \cite{gajos2008decision}. They conclude that personalized user interfaces have the ability to improve user satisfaction and performance, when the interface is adapted to the device, task, preferences and abilities of a person. To automatically generate user interfaces they use decision-theoretic optimization which includes functional specifications of the interface, constraints of the devices e.g. screen size and a list of available inter-actors, a typical usage trace and a cost function. The cost function holds user preferences and the expected speed of operation. Gajos et al. especially focus on the preferred UI elements of a user. As this thesis aims at finding interfaces for users that fit different types we first need to classify users into different user segments.
 
 \section{User Classification}
 
-Weiss \cite{weiss2003handheld} discussed the balance of ease of use compared to the ease of learning. A huge emphasis is laid on the first, and according to Weiss, the most important step in the design and development process, the understanding of the audience. The purpose of the audience definition is to describe the target group, its' traits and ranges.
+Weiss \cite{weiss2003handheld} laid a huge emphasis on the first, and according to him, the most important step in the design and development process, the understanding of the audience. The purpose of the audience definition is to describe the target group, its' traits and ranges.
 
 \subsection{User Segmentation according to Smart Cities Demo Aspern}
 \label{chap:usersegmentation}
@@ -76,7 +80,7 @@ Nevertheless, not all smart users are the same and not all share the same state 
 	\item air quality.
 \end{itemize}
 
-Over half of the households in the apartment block D12 agreed on making their data available for research purposes and to participate in surveys and workshops. In total, 85 households took part in the study in 2015. In the starting phase two studies were done. At first a qualitative study with personal interviews with selected tenants of the building D12 was done followed by a quantitative study with written questionnaires. One outcome of these studies was the segmentation of users into groups. Different types of users were clustered into four segments according to their state of knowledge and their interest in technology and energy. The user groups also serve as target groups for the development of new technology solutions such as home automation, mobile application and for the development of range of services. The segmentation into groups also makes communication easier as the used methods of communicaiton can be tailored to the needs of a group.
+Over half of the households in the apartment block D12 agreed on making their data available for research purposes and to participate in surveys and workshops. In total, 85 households took part in the study in 2015. In the starting phase two studies were done. At first a qualitative study with personal interviews with selected tenants of the building D12 was done followed by a quantitative study with written questionnaires. One outcome of these studies was the segmentation of users into groups. Different types of users were clustered into four segments according to their state of knowledge and their interest in technology and energy. The user groups also serve as target groups for the development of new technology solutions such as home automation, mobile application and for the development of a range of services. The segmentation into groups also makes communication easier as the used methods of communication can be tailored to the needs of a group.
 
 The qualitative study with its interviews was done before the tenants moved into the apartments in Seestadt. Surprisingly the majority stated that it has basic knowledge for the interpretation of the energy consumption and energy data in general. Often they stated that they do not know how much one kilowatt hour is. In most cases the main source of information for energy topics is the energy consumption calculation. Unfortunately the calculation does not state the behaviour or the devices which use up the most energy. Exactly these two aspects are the most wished information for the users when it comes to saving energy.
 
@@ -87,13 +91,13 @@ The factor analysis reduces dimensions \cite{williams2010exploratory}. In the qu
 In the socio economic study of ASCR an explorative non-rotating factor analysis was calculated. Afterwards the scree test showed the amount of factors, which was in this case four. In terms of content the analysis of the factor showed the following dimensions:
 
 \begin{itemize}
-	\item \textbf{Comfort-centered}: This factor covers aspects like home automation, energy relevant user behavior such as lighting and circulation behavior and hot water usage. 
-	\item \textbf{Technology-centered}: Also covers aspects like home automation but more with the sense of interest in the technology rather than the comfort aspect.
+	\item \textbf{Comfort-centred}: This factor covers aspects like home automation, energy relevant user behaviour such as lighting and circulation behaviour and hot water usage. 
+	\item \textbf{Technology-centred}: Also covers aspects like home automation but more with the sense of interest in the technology rather than the comfort aspect.
 	\item \textbf{Data sensibility}: Concerns regarding the further use of the collected data.
 	\item \textbf{Living in Seestadt}: The aspect of living in the Seestadt as an extra dimension shows that it is some kind of prestige to live there.
 \end{itemize}
 
-Finally a cluster analysis was done to identify the user segments. Cluster analysis is an exploratory process with the aim of finding groups of similar objects \cite{tuffery2011data}. Different hierarchical analysis were calculated to find an appropriate amount of clusters. Appropriate means in this case having an big enough group of cases/persons and groups having distinct features. The data set comprised 121 handed back questionnaires and the cluster analysis could identify four clusters. The four clusters correspond to the four user groups. The result of the cluster analysis is shown in ~\ref{fig:cluster} and explained in the following.
+Finally a cluster analysis was done to identify the user segments. Cluster analysis is an exploratory process with the aim of finding groups of similar objects \cite{tuffery2011data}. Different hierarchical analysis were calculated to find an appropriate amount of clusters. Appropriate means in this case having a big enough group of cases/persons and groups with distinct features. The data set comprised 121 handed back questionnaires and the cluster analysis could identify four clusters. The four clusters correspond to the four user groups. The result of the cluster analysis is shown in ~\ref{fig:cluster} and explained in the following.
 
 \begin{figure}[h]
 	\centering
@@ -115,12 +119,12 @@ The main characteristics are:
 	\item Highest proportion of people in managerial positions, a quarter works (also) at home
 	\item All household sizes (also households with children)
 	\item Knowledge about energy
-	\item High technical competence and interest in Technology. (Experience with home automation, a quarter has programming skills)
+	\item High technical competence and interest in technology. Technical competence in this sense means experience with home automation or programming skills.
 	\item Interested in sustainability
 	\item Use of media or Internet is primarily for professional purposes
 \end{itemize}
 
-Typical segment behavior regarding home equipment:
+Typical segment behaviour regarding home equipment:
  \begin{itemize}
  	\item "Reasonable" use of hot water ("I do not shower longer than necessary")
  	\item "Reasonable" use of lighting ("I turn down the light when I leave a room")
@@ -141,20 +145,20 @@ The main characteristics are:
 	\item All household sizes (also households with children)
 	\item Interested in sustainability	
 	\item Little to no knowledge about home automation
-	\item no technophiles
+	\item No technophiles
 	\item Use of media or Internet is not very noticeable
 \end{itemize}
 
-Typical segment behavior regarding home equipment:
+Typical segment behaviour regarding home equipment:
 \begin{itemize}
 	\item Prefer to air manually rather than to make use of the automatic ventilation system
 	\item A quarter never uses the "ECO-Button"
 \end{itemize}
 
-The use of the home furnishings indicates a poor understanding of their usability or less time of interaction with them. Due to their much lower competence in energy and technology compared to the professionals, the planned solutions and measures should focus very strongly on the following points:
+The use of the home furnishings indicates a poor understanding of their usability or less time of interaction with them. Due to their much lower competence in energy and technology compared to the professionals, the planned solutions and measures should focus on the following points:
 
 \begin{itemize}
-	\item Clear and concrete instructions for behavior, for example in the form of energy-saving tips or concrete, close to reality explanations and concrete benefits.
+	\item Clear and concrete instructions for behaviour, for example in the form of energy-saving tips or concrete, close to reality explanations and benefits.
 	\item Avoid technical language in communication and use personalized examples.
 	\item Reduce energy feedback to essential information. Optimizer do not need detailed explanations. 
 	\item Enable trouble shooting: Optimizer want a quick solution to an energy problem, as they do not want to spend lot of time on energy topics.
@@ -167,13 +171,13 @@ The "Indifferents" have low competence in energy and technology and no interest 
 The main characteristics are:
 \begin{itemize}
 	\item Young segment
-	\item High proportion of Non-workers
+	\item High proportion of non-workers
 	\item No interest in sustainability
 	\item Low technical competence (no experience with home automation)
 	\item Information research and streaming is above average
 \end{itemize}
 
-Typical segment behavior regarding home equipment:
+Typical segment behaviour regarding home equipment:
 \begin{itemize}
 	\item Hedonistic use of hot water: They enjoy taking long showers and baths
 	\item Smallest number on different device types
@@ -191,11 +195,11 @@ The main characteristics are:
 	\item Young segment
 	\item More mens, more single households
 	\item Technical competent and partly with programming skills
-	\item Intensive use of mobile Apps and Internet
+	\item Intensive use of mobile Applications and the Internet
 	\item Hedonistic use of gaming and social media
 \end{itemize}
 
-Typical segment behavior regarding home equipment:
+Typical segment behaviour regarding home equipment:
 \begin{itemize}
 	\item Highest number on different device types
 	\item Carefree use of lighting and hedonistic use of hot water
@@ -204,28 +208,25 @@ Typical segment behavior regarding home equipment:
 	\item Weak identification with Seestadt
 \end{itemize}
 
-The youngest segment has good preconditions to make a good use of mobile application with feedback of their energy use. Nevertheless, the motivation to deal with energy topic is rather low. The hedonistic lifestyle with its strong convenience and comfort orientation is in the foreground. Despite the high usage of apps it may be difficult to win them around for energy feedback. The comfort gain is of great relevance.
+The youngest segment has good preconditions to make a good use of mobile application with feedback of their energy use. Nevertheless, the motivation to deal with energy topic is rather low. The hedonistic lifestyle with its strong convenience and comfort orientation is in the foreground. Despite the high usage of Apps it may be difficult to win them around for energy feedback. The comfort gain is of great relevance.
 
 \section{Paper Prototyping}
 With the knowledge of the characteristics of the different user groups, the next step, the Paper Prototyping can be done more easily. It may seem low-tech, but conducting usability tests at such an early stage show what users really expect on a quite detailed level which gives maximum feedback for minimum effort \cite{weiss2003handheld}.
 
 According to \cite{lancaster2004paper} the numerous benefits of early usability studies are vastly superior. Besides saving time and money by solving problems before the implementation even begins, Paper Prototyping stimulates creativity as it allows to experience with different ideas before committing to one \cite{snyder2003paper}.
 
-Different types of prototypes for different purposes in software engineering exist. Leffingwell and Widrig \cite{leffingwellmanaging} proposed a classification tree for prototype selection that categorises prototypes according their use case. Prototypes are categorised as throwaway versus evolutionary, horizontal versus vertical, and architectural versus requirements prototypes. Prototypes can also be categorized according to their representation into textual and visual prototypes, whereby Asur and Hufnagel \cite{asur1993taxonomy} define rapid prototyping as the use of tools for quick prototype construction. A division into executable and non-executable prototypes can also be made as mentioned from Kotonya and Sommerville \cite{kotonya1998requirements} and Wiegers \cite{wiegers2013software}.
+Different types of prototypes for different purposes in software engineering exist. Leffingwell and Widrig \cite{leffingwellmanaging} proposed a classification tree for prototype selection that categorises prototypes according their use case. Prototypes are categorised as throwaway versus evolutionary, horizontal versus vertical and architectural versus requirements prototypes. Prototypes can also be categorized according to their representation into textual and visual prototypes, whereby Asur and Hufnagel \cite{asur1993taxonomy} define rapid prototyping as the use of tools for quick prototype construction. A division into executable and non-executable prototypes can also be made as mentioned from Kotonya and Sommerville \cite{kotonya1998requirements} and Wiegers \cite{wiegers2013software}.
 
 \subsection{Computer-based versus paper-based Prototypes}
-Nielsen has compared the effectiveness of using interactive prototypes with static paper prototypes. The result of this study showed that evaluators discovered significantly
-more problems with the high-fidelity prototype than with the low-fidelity prototype \cite{nielsen1990paper}.
+Nielsen \cite{nielsen1990paper} has compared the effectiveness of using interactive prototypes with static paper prototypes. The result of this study showed that evaluators discovered significantly more problms with the high-fidelity prototype than with the low-fidelity prototype .
 
-Sefelin et al. \cite{sefelin2003paper} builds up on the same approach as Nielsen and also investigated the differences between computer-based and paper-based low-fidelity prototypes. In contrast to Nielsen, they discovered that both types lead to almost the same quantity and quality of critical user statements although users prefer the comfort of computer prototypes. Similarly, Virzi et al. \cite{virzi1996usability} claimed that the
-sensitivity to find usability problems does not differ between low- and high-fidelity prototyping.
+Sefelin et al. \cite{sefelin2003paper} builds up on the same approach as Nielsen and also investigated the differences between computer-based and paper-based low-fidelity prototypes. In contrast to Nielsen, they discovered that both types lead to almost the same quantity and quality of critical user statements although users prefer the comfort of computer prototypes. Similarly, Virzi et al. \cite{virzi1996usability} claimed that the sensitivity to find usability problems does not differ between low- and high-fidelity prototyping.
 
-However, there are still a lot of reasons, as discussed by Rudd et al. \cite{rudd1996low}, to implement a paper prototype for example when the available prototyping tools do not support the components and ideas, which shall be implemented. Another benefit of a paper prototype is the low fidelity, as no software skills are needed for paper prototyping. Besides that paper prototyping leads to a lot of drawings which can contain more ideas than predefined computer-based prototypes . For requirements engineering Vijayan and Raju \cite{vijayan2011new} recommend a throwaway paper prototype rather than expensive Prototypes. One reason for that is also the absence of the technology barrier.
+However, there are still a lot of reasons, as discussed by Rudd et al. \cite{rudd1996low}, to implement a paper prototype for example when the available prototyping tools do not support the components and ideas, which shall be implemented. Another benefit of a paper prototype is the low fidelity, as no software skills are needed for paper prototyping. Besides that, paper prototyping leads to a lot of drawings which can contain more ideas than predefined computer-based prototypes. For requirements engineering Vijayan and Raju \cite{vijayan2011new} recommend a throwaway paper prototype rather than expensive Prototypes. One reason for that is also the absence of the technology barrier.
 
-Lim et al.\cite{lim2006comparative} concretized the comparison of high- and low-fidelity prototypes to mobile applications. They figured out that major usability issues were identified by all the three types of prototypes, namely, the fully-functional prototype, the computer-based low-fidelity prototype and the paper-based.  The major issues especially in the mobile context are unclear meanings of labels, icon/symbol/graphical representation issues, locating appropriate interface elements, mental model mismatch and appearance/look of
-the product. 
+Lim et al. \cite{lim2006comparative} concretized the comparison of high- and low-fidelity prototypes to mobile applications. They figured out that major usability issues were identified by all the three types of prototypes, namely, the fully-functional prototype, the computer-based low-fidelity prototype and the paper-based. The major issues especially in the mobile context are unclear meanings of labels, icon/symbol/graphical representation issues, locating appropriate interface elements, mental model mismatch and appearance/look of the product. 
 
-A highly recommended introduction into effective prototyping is provided by Arnowitz et al. \cite{arnowitz2010effective} as well as by Bernard and Summers \cite{bernard2010dynamic} who inducted into dynamic prototyping. Dynamic prototyping is some kind of mixture between sketches, drawing of ideas and real prototypes, which builds the bridge from low-fidelity to high-fidelity prototyping
+A highly recommended introduction into effective prototyping is provided by Arnowitz et al. \cite{arnowitz2010effective} as well as by Bernard and Summers \cite{bernard2010dynamic} who inducted into dynamic prototyping. Dynamic prototyping is some kind of mixture between sketches, drawing of ideas and real prototypes, which builds the bridge from low-fidelity to high-fidelity prototyping.
 
 \subsection{Elicitation of Requirements with Paper Prototyping}
 \label{section:paperprototyping}
@@ -247,7 +248,7 @@ The parallel activity of Prototyping and requirements gathering is described by 
 
 \subsection{Paper Prototyping as a Usability Testing Technique}
 
-Still and Morris \cite{still2010blank} re-emphasize the importance of usability testing in the user-centered design process and argue that at this early stage usability testing is most effective. They married low fidelity paper prototyping with medium fidelity wireframe prototyping and called this blank-page technique. Meaning that the user navigate to dead-ends and has the task to describe and create what they would expect there. This technique allows insights into users’ mental models regarding site content and design which provides developers with useful data concerning how users conceptualized the information encountered. This more substantial early influence of users almost always translates to better usability. The blank-page technique is describe from Maguire and Began \cite{maguire2002user} as brainstorming. Nevertheless, they additionally list Paper Prototyping as a quick and easy way to detect usability issues in response to user feedback.
+Still and Morris \cite{still2010blank} re-emphasize the importance of usability testing in the user-centred design process and argue that at this early stage usability testing is most effective. They married low fidelity paper prototyping with medium fidelity wire-frame prototyping and called this blank-page technique. Meaning that the user navigate to dead-ends and has the task to describe and create what they would expect there. This technique allows insights into users’ mental models regarding site content and design which provides developers with useful data concerning how users conceptualized the information encountered. This more substantial early influence of users almost always translates to better usability. The blank-page technique is describe from Maguire and Began \cite{maguire2002user} as brainstorming. Nevertheless, they additionally list Paper Prototyping as a quick and easy way to detect usability issues in response to user feedback.
 
 Focusing on the quickness and risk management of paper prototyping Cynder \cite{snyder1996using} showed how only six days of doing paper prototyping lowers risk. They spent two days usability testing the paper prototype. For each test session two people were used who matched the profile of a typical user. Their approach in the session was to somehow let the user alone with the prototype without giving a demo or explaining how to use the interface. The only thing they did, was to observe the user at interacting with the prototype. Cynder describes that the team was surprised by many of the issues they saw. In some cases, aspects about which the developers strongly argued the users didn't even notice. At the same time, huge problems that no one had anticipated were uncovered. Summarizing Cynder writes that usability testing with the help of paper prototyping gave everyone on the team a sense of what the real issues that would affect the success of the next release were.
 
@@ -266,28 +267,27 @@ review, interviews, focus groups, surveys and observation and is proven as effec
 
 \section{Existing Approaches of energy-saving Applications}
 
-Providing households with better feedback on their energy consumption behavior has been identified as an important tool for achieving sustainable behavior change. But understanding why people engage in environmentally responsible behavior is a complex topic over many disciplines beginning from education to economics over sociology, psychology and philosophy \cite{froehlich2010design}. Feedback on individual or group behavior with the goal of reducing environmental impact is called eco-feedback technology \cite{mccalley1998computer, holstius2004infotropism, froehlich2010design}. Eco-feedback builds up on a variety of domains such as energy consumption \cite{holmes2007eco}, water usage \cite{arroyo2005waterbot}, transportation \cite{froehlich2009ubigreen, tulusan2012providing} and waste disposal practices \cite{holstius2004infotropism}.
+Providing households with better feedback on their energy consumption behaviour has been identified as an important tool for achieving sustainable behaviour change. But understanding why people engage in environmentally responsible behaviour is a complex topic over many disciplines beginning from education to economics over sociology, psychology and philosophy \cite{froehlich2010design}. Feedback on individual or group behaviour with the goal of reducing environmental impact is called eco-feedback technology \cite{mccalley1998computer, holstius2004infotropism, froehlich2010design}. Eco-feedback builds up on a variety of domains such as energy consumption \cite{holmes2007eco}, water usage \cite{arroyo2005waterbot}, transportation \cite{froehlich2009ubigreen, tulusan2012providing} and waste disposal practices \cite{holstius2004infotropism}.
 
+A lot of people lack awareness of energy wasting in their homes. Making people aware about inefficiencies in their energy consumption behaviours could contribute to large energy savings at city level. In course of this assumption Mohammadmoradi \cite{mohammadmoradi2017effectiveness} designed several intentionally simple energy-saving activities with the goal of a high user engagement. They argue that often users do not understand what to do exactly to save energy, so they tried to help citizens to understand how they use energy and even to find more ways to do so. One activity per week was given to the users. The activities ranged from counting all lights, appliances and electronics in the home over finding the appliances that consume the most energy to turning all lights off and enjoy the evening with the family. An interesting point of their evaluation was, that to increase the amount of saving activities should focus on evening hours. To summarize the approach of Mohammadmoradi we can say their main principle for the design of eco-feedback is simplicity.
 
-A lot of people lack awareness of energy wasting in their homes. Making people aware about inefficiencies in their energy consumption behaviors could contribute to large energy savings at city level. In course of this assumption Mohammadmoradi \cite{mohammadmoradi2017effectiveness} designed several intentionally simple energy-saving activities with the goal of a high user engagement. They argue that often users do not understand what to do exactly to save energy, so they tried to help citizens to understand how they use energy and even to find more ways to do so. One activity per week was given to the users. The activities ranged from counting all lights, appliances and electronics in the home over finding the appliances that consume the most energy to turning all lights of and enjoy the evening with the family. An interesting point of their evaluation was, that to increase the amount of saving activities should focus on evening hours. To summarize the approach of Mohammadmoradi we can say their main principle for the design of eco-feedback is simplicity.
-
-Eco-feedback has similar roots as persuasive systems and it may seem as an extension of the research in persuasive technology but actually it dates back much further to the research in environmental psychology. Models of proenvironmental behavior provide a philosophical approach on which to base the designs of eco-feedback technology, as they explain the why of the behavior but often they lack specific strategies for changing behavior. Froehlich et al. \cite{froehlich2010design} bridges the gap between findings from environmental psychology and the design and evaluation of eco-feedback systems.
+Eco-feedback has similar roots as persuasive systems and it may seem as an extension of the research in persuasive technology but actually it dates back much further to the research in environmental psychology. Models of proenvironmental behaviour provide a philosophical approach on which to base the designs of eco-feedback technology, as they explain the why of the behaviour but often they lack specific strategies for changing behaviour. Froehlich et al. \cite{froehlich2010design} bridges the gap between findings from environmental psychology and the design and evaluation of eco-feedback systems.
 
 
 \subsection{Persuasive Systems}
 \label{chap:persuasivesystem}
 
-Of particular relevance in the field of persuasive systems is the work from Fogg \cite{fogg2002persuasive} who introduced computers to be persuasive social actors. In order to let the computer be persuasive psychological cues are proposed, such as preferences, motivations and/or personality, in short the computer should seem to have personality. This can be achieved by text messages that convey empathy ("I'm sorry that...") or icons that portray emotions. In the area of psychological cues, one of the most powerful persuasion principles is similarity \cite{tajfel2010social}. The greater the similarity, the greater the potential to persuade, so the more people feel similar to the computer technology products the more they are readily persuaded \cite{fogg2002persuasive}.
+Of particular relevance in the field of persuasive systems is the work from Fogg \cite{fogg2002persuasive} who introduced computers to be persuasive social actors. In order to let the computer be persuasive, psychological cues are proposed, such as preferences, motivations and/or personality, in short the computer should seem to have personality. This can be achieved by text messages that convey empathy, e.g. "I'm sorry that...", or icons that portray emotions. In the area of psychological cues, one of the most powerful persuasion principles is similarity \cite{tajfel2010social}. The greater the similarity, the greater the potential to persuade, so the more people feel similar to the computer technology products the more they are readily persuaded \cite{fogg2002persuasive}.
 
 Influencing can also happen through language. Whether asking questions
 (“Do you want to continue the installation?”), offering congratulations for
-completing a task ("Congratulations! You won!") or reminding the user to update software written or spoken language can lead people to infer that the computing product is animate in some way. Especially, persuading through praise, with the help of language, photos, symbols or sound effects can lead users to be more open to persuasion \cite{fogg2002persuasive}.
+completing a task ("Congratulations! You won!") or reminding the user to update software written or spoken language can lead people to infer that the computing product is animated in some way. Especially, persuading through praise, with the help of language, photos, symbols or sound effects can lead users to be more open to persuasion \cite{fogg2002persuasive}.
 
 Fogg’s \cite{fogg2002persuasive} functional triad and the design principles presented in it constitute the first and so far most utilized conceptualization of persuasive technology. Nevertheless, there is a weakness of this model as it does not explain how the suggested design principles can be transformed into software requirements and implemented as system features.
 
 \subsection{Comparison of persuasive system design principles in existing approaches}
 
-Tailoring and personalizing the content to the potential needs, interests, usage context or other factors is outlined by \cite{oinas2009persuasive} in the context of a persuasive system. They studied how a persuasive system must be designed with tailored and personalized content to maximize the change in the user's behavior. 
+Tailoring and personalizing the content to the potential needs, interests, usage context or other factors is outlined by \cite{oinas2009persuasive} in the context of a persuasive system. They studied how a persuasive system must be designed with tailored and personalized content to maximize the change in the user's behaviour. 
 
 \subsubsection{Design principles for primary tasks}
 
@@ -295,58 +295,59 @@ The weakness of Fogg's model, the absence of concrete realization of the propose
 
 \begin{itemize}
 	\item \textbf{Reduction:}
-	The system should reduce the time and effort that a user needs to spend on performing the target behavior.
+	The system should reduce the time and effort that a user needs to spend on performing the target behaviour.
 	
-	An example for a mobile application that made use of this design principle is Matkahupi, which automatically tracks the transportation modes and CO2 emissions of the trips of the user and utilizes this information to present a set of actionable mobility challenges to the user \cite{jylha2013matkahupi}.
+	An example for a mobile application that makes use of this design principle is Matkahupi, which automatically tracks the transportation modes and CO2 emissions of the trips of the user and utilizes this information to present a set of actionable mobility challenges to the user \cite{jylha2013matkahupi}.
 	
-	Another mobile application that helps to reduce the time for performing a special behavior is PmEB. It supports healthier eating habits by listing proper food choices at fast food restaurants \cite{lee2006pmeb} and therefore also helps at behaving as wanted by providing support.
+	Another mobile application that helps to reduce the time for performing a special behaviour is PmEB. It supports healthier eating habits by listing proper food choices at fast food restaurants \cite{lee2006pmeb} and therefore also helps at behaving as wanted by providing support.
 		
-	\item \textbf{Tunneling:}
-	Guiding users through an attitude change process by providing means for action brings them closer to the target behavior.
+	\item \textbf{Tunnelling:}
+	Guiding users through an attitude change process by providing means for action brings them closer to the target behaviour.
 	
 	Spagnolli et al. \cite{spagnolli2011eco} proposed EnergyLife, a mobile application with a gamification approach that provides different levels which are adapted to the current state of knowledge.
 	
 	\item \textbf{Tailoring:}
 	The System should provide information tailored to potential needs, interests, personality, usage context or other relevant factors for the user group.
 	
-	Gamberini et al. \cite{gamberini2012tailoring} focuses on feedback tailored to users' consumption behavior and giving according recommendations for behavior change.
+	Gamberini et al. \cite{gamberini2012tailoring} focuses on feedback tailored to users' consumption behaviour and giving according recommendations for behaviour change.
 	
 	\item \textbf{Personalization:}	
 	If a system offers personalized content and services for its users it has a greater capability for persuasion.
 	
-	PEIR, The Personal Environmental Impact Report \cite{mun2009peir} offers personalized estimates of environmental impact and exposure.
+	PEIR, the Personal Environmental Impact Report \cite{mun2009peir} offers personalized estimates of environmental impact and exposure.
+	
 	\item \textbf{Self-monitoring:}
 	System should provide means for users to track their own performance or status to support the user in achieving goals.
 	
-	Power Advisor, a mobile application developed by Kjeldskov et al. \cite{kjeldskov2012using}	provides self-monitoring through personalized information about the user’s power consumption.
+	Power Advisor, a mobile application developed by Kjeldskov et al. \cite{kjeldskov2012using} provides self-monitoring through personalized information about the user’s power consumption.
 	
 	\item \textbf{Simulation:}
-	System should provide means for observing the link between the cause and effect with regard to users’ behavior.
+	System should provide means for observing the link between the cause and effect with regard to users’ behaviour.
 	
-	McCalley and Midden \cite{mccalley2002energy} proposed a computerized	machine washing	simulation. Feedback on consumption was given after	each wash and in combination with self-chosen or	assigned goals 21\% less energy than the control group was used.
+	McCalley and Midden \cite{mccalley2002energy} proposed a computerized	machine washing	simulation. Feedback on consumption was given after	each wash and in combination with self-chosen or assigned goals 21\% less energy than the control group was used.
 		
 	\item \textbf{Rehearsal:}
-	A system that provide means for rehearsing a target behavior enables people to change their attitudes or behavior in the real world.
+	A system that provide means for rehearsing a target behaviour enables people to change their attitudes or behaviour in the real world.
 	
-	PowerAgent is a mobile application that let the users first play a simulation game to learn wanted behaviors and then let them enact and rehearse these behaviors at home in the family context \cite{bang2007promoting}.
+	PowerAgent is a mobile application that let the users first play a simulation game to learn wanted behaviours and then let them enact and rehearse these behaviours at home in the family context \cite{bang2007promoting}.
 \end{itemize}
 
 
 \subsubsection{Design principles for dialogue support}
 
-An interactive system should of course provide system feedback to a user. Oinas-Kukkonen and Harjumaa also proposed several design principles related to implementing computer-human dialogue support in a manner that helps users keep moving towards their goal or target behavior \cite{oinas2009persuasive}:
+An interactive system should of course provide system feedback to a user. Oinas-Kukkonen and Harjumaa also proposed several design principles related to implementing computer-human dialogue support in a manner that helps users keep moving towards their goal or target behaviour \cite{oinas2009persuasive}:
 
 \begin{itemize}
 	\item \textbf{Praise:}
-	Praising users can make them more open to change their behavior.
+	Praising users can make them more open to change their behaviour.
 	
 	Petkov et al. \cite{petkov2012personalised} found out that people prefer positive rather than negative reinforcements	in persuasive applications.
 	\item \textbf{Rewards:}
-	When the target behavior is rewarded a user is given credit for performing the target behavior.
+	When the target behaviour is rewarded a user is given credit for performing the target behaviour.
 	
 	The Energy Piggy Bank gives users virtual badges and points when performing the target activities \cite{Bjorn1165339}. 
 	\item \textbf{Reminders:}
-	By reminding the user of the wished target behavior it becomes more likely that the user achieves his goals.
+	By reminding the user of the wished target behaviour it becomes more likely that the user achieves his goals.
 	
 	The participants in the study of Kjeldskov et al. \cite{kjeldskov2012using} mentioned that it was very important to keep reminding them about their own goals.
 	
@@ -357,12 +358,12 @@ An interactive system should of course provide system feedback to a user. Oinas-
 	
 	One of the main techniques of the Energy Piggy Bank, is the habit formation that encourage to do a specific activity during a time period \cite{Bjorn1165339}.
 	\item \textbf{Similarity:}
-	People are more ready to change their behavior when a system somehow reminds them of themselves in some meaningful way.
+	People are more ready to change their behaviour when a system somehow reminds them of themselves in some meaningful way.
 		
 	In the pervasive game PowerAgent the person playing has the role of a secret agent and the phone has the role of the boss, the mysterious Mr. Q who gives the player special missions to save the planet from the energy crisis. As the user and Mr. Q, the person in the phone have the same mission, the user share similar goals and therefore similarity is here implemented in one of the best ways \cite{bang2007promoting}.
 
 	\item \textbf{Liking:}
-	A visually appealing system is more likely to change a user's behavior.
+	A visually appealing system is more likely to change a user's behaviour.
 	
 	The 7000 Oaks and Counting project \cite{holmes2007eco} uses an animation of a series of tree images to show the estimated number of trees needed to offset the emitted CO2.
 	
@@ -382,41 +383,41 @@ An interactive system should of course provide system feedback to a user. Oinas-
 
 \subsubsection{Design principles for system social support}
 
-In the social support category the design principles make use of leveraging social influence that shall help at persuading the user's behavior.
+In the social support category the design principles make use of leveraging social influence that shall help at persuading the user's behaviour.
 
 \begin{itemize}
 	\item \textbf{Social learning:}
-	If a person can observe the outcomes of others who perform the target behavior (s)he will be more motivated to do the same.
+	If a person can observe the outcomes of others who perform the target behaviour (s)he will be more motivated to do the same.
 	
 	The feedback of the data monitoring system developed by Petersen et al. \cite{petersen2007dormitory} implemented social learning strategies as each dormitory could see how other dormitories were doing during the competition.
 	
 	\item \textbf{Social comparison:}
-	By providing means for comparing one's own performance with others the system users have a greater motivation to also perform the target behavior.
+	By providing means for comparing one's own performance with others the system users have a greater motivation to also perform the target behaviour.
 	
-	EnergyWiz, a mobile application that enables users to compare with their past performance, neighbors, social media contacts and other EnergyWiz users \cite{petkov2011motivating}.
+	EnergyWiz, a mobile application that enables users to compare with their past performance, neighbours, social media contacts and other EnergyWiz users \cite{petkov2011motivating}.
 	
 	\item \textbf{Normative influence:}
-	If a system leverages normative influence or peer pressure the likelihood that a person will adopt the behavior of it's peers increases.
+	If a system leverages normative influence or peer pressure the likelihood that a person will adopt the behaviour of it's peers increases.
 
 	Normative messages put in hotel rooms saying, “The majority of guests in this room reuse their towels.” increased the likelihood of towel reuse by hotel guests by 33\% \cite{goldstein2008room}.
 	
 	\item \textbf{Social facilitation:}
-	A system that provides means for discerning other users who are performing the target behavior, system users are more likely to be persuaded.
+	A system that provides means for discerning other users who are performing the target behaviour, system users are more likely to be persuaded.
 		
 	Users of the Energy Piggy Bank Game \cite{Bjorn1165339} can	recognize how many users are trying to save energy at the same time as them.
 		
 	\item \textbf{Cooperation:}
-	A system can make use of the natural drive to co-operate by providing means for co-operation, which increases the motivation of a system user to adopt a target attitude or behavior.
+	A system can make use of the natural drive to co-operate by providing means for co-operation, which increases the motivation of a system user to adopt a target attitude or behaviour.
 		
 	The mobile application EnergyWiz \cite{petkov2011motivating} provided a group in Facebook which shows the users that they are not alone in energy saving and allowed them to discuss about energy saving topics.
 	
 	\item \textbf{Competition:}
-	A system can make use of the natural drive to compete by providing means for competing, which increases the motivation of a system user to adopt a target attitude or behavior.
+	A system can make use of the natural drive to compete by providing means for competing, which increases the motivation of a system user to adopt a target attitude or behaviour.
 	
-	The Energy Piggy Bank Game \cite{Bjorn1165339} offers a leaderboard with all the names of the competing users and their points.
+	The Energy Piggy Bank Game \cite{Bjorn1165339} offers a leader-board with all the names of the competing users and their points.
 	
 	\item \textbf{Recognition:}
-	By offering public recognition for users who perform the target behavior to increase the likelihood that users will adopt a target behavior.
+	By offering public recognition for users who perform the target behaviour to increase the likelihood that users will adopt a target behaviour.
 	
 	In the Energy Piggy Bank Game each team member’s contribution to the group’s score is visualized and the number of activities done by each group member is clearly visible in the group area \cite{Bjorn1165339}.
 	
@@ -424,7 +425,7 @@ In the social support category the design principles make use of leveraging soci
 
 \subsection{Comparison of further design guidelines in existing approaches}
 
-The "one-size-fits-all" approach that the majority of energy feedback technologies makes use of is criticized by Helen et al. \cite{he2010one}. Providing the same feedback to differently motivated individuals at different stages of knowledge, readiness and willingness to change is not beneficial. In their paper, they develop a motivational framework based on the Transtheoretical model. So, the design guideline they used for eco-feedback are stages of behavior change. The different stages are precontemplation, contemplation, preparation, action and the last stage is maintenance, relapse and recycling. Criticism to this model is that rather than being in one stage, users can be at a different stages for each action \cite{mcconnaughy1983stages}.
+The "one-size-fits-all" approach that the majority of energy feedback technologies makes use of is criticized by Helen et al. \cite{he2010one}. Providing the same feedback to differently motivated individuals at different stages of knowledge, readiness and willingness to change is not beneficial. In their paper, they develop a motivational framework based on the transtheoretical model. So, the design guideline they used for eco-feedback are stages of behaviour change. The different stages are precontemplation, contemplation, preparation, action and the last stage is maintenance, relapse and recycling. Criticism to this model is that rather than being in one stage, users can be at a different stages for each action \cite{mcconnaughy1983stages}.
 
 Fischer \cite{fischer2008feedback} specialized on feedback on household electricity consumption and examined which kind of feedback is most successful. Her research concluded the following recommendations for feedback.
 
@@ -435,15 +436,14 @@ In order to be successful, meaning, effective in persuading and satisfying for t
 	\item have the possibility to interact and choose
 	\item involve appliance-specific breakdown
 	\item involve historical or normative comparisons
-	\item be presented in an understandable and appealing
-	way
+	\item be presented in an understandable and appealing way
 \end{itemize}
 
 Nevertheless, attention should be paid, as not all recommendations may hold for all target groups.
 
-A critical survey of interaction design for eco-visualization was done by Pierce et al. \cite{pierce2008energy}. Their paper described feedback types and use-contexts for classifying eco-visualizations and also strategies for designing effective eco-feedback visualizations. They offer two strategies to support conservations goals. The first strategy is to offer behavioral cues and indicators and the second is to provide tools for analysis. Both should provide clear and useful information or feedback. Two strategies are proposed for creating incentives to conserve, especially for the contexts where financial incentives are not present. As monetary incentives are not possible they suggest to creating social incentives and to connect behavior to material impacts of consumption. They also offer strategies that focus on more experimental aspects visualizing consumption. The first strategy should encourage playful engagement and exploration with
+A critical survey of interaction design for eco-visualization was done by Pierce et al. \cite{pierce2008energy}. Their paper described feedback types and use-contexts for classifying eco-visualizations and also strategies for designing effective eco-feedback visualizations. They offer two strategies to support conservations goals. The first strategy is to offer behavioural cues and indicators and the second is to provide tools for analysis. Both should provide clear and useful information or feedback. Two strategies are proposed for creating incentives to conserve, especially for the contexts where financial incentives are not present. As monetary incentives are not possible they suggest to creating social incentives and to connect behaviour to material impacts of consumption. They also offer strategies that focus on more experimental aspects for visualizing consumption. The first strategy should encourage playful engagement and exploration with
 energy. The second should project and cultivate sustainable lifestyles and
-values. Thirdly, public awareness and should be raised and discussion should be facilitated. The final strategy should stimulate critical reflection.
+values. Thirdly, public awareness should be raised and discussion should be facilitated. The final strategy should stimulate critical reflection.
 
 %The process of reconnecting is simply to stop. Stopping meditation 6 times a day for 10 seconds. Experiencing as a felt reality: Divinity
 %Whatever you want to experience in your life: Be the source of experience for that for one another

@@ -15,8 +15,8 @@
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivating Scenario}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Problem Statement}{2}{section.1.2}
-\contentsline {section}{\numberline {1.3}Aim of the work}{3}{section.1.3}
-\contentsline {section}{\numberline {1.4}Methodological Approach}{4}{section.1.4}
+\contentsline {section}{\numberline {1.3}Aim of the work}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}Methodological Approach}{3}{section.1.4}
 \contentsline {section}{\numberline {1.5}Structure of the work}{5}{section.1.5}
 \contentsline {chapter}{\chapternumberline {2}State of the Art}{7}{chapter.2}
 \contentsline {section}{\numberline {2.1}General Definition of Usability}{7}{section.2.1}
@@ -26,30 +26,30 @@
 \contentsline {subsection}{\numberline {2.2.1}User Segmentation according to Smart Cities Demo Aspern}{10}{subsection.2.2.1}
 \contentsline {section}{\numberline {2.3}Paper Prototyping}{15}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Computer-based versus paper-based Prototypes}{16}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Elicitation of Requirements with Paper Prototyping}{16}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Paper Prototyping as a Usability Testing Technique}{17}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.2}Elicitation of Requirements with Paper Prototyping}{17}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Paper Prototyping as a Usability Testing Technique}{18}{subsection.2.3.3}
 \contentsline {section}{\numberline {2.4}Focus Groups}{18}{section.2.4}
 \contentsline {section}{\numberline {2.5}Existing Approaches of energy-saving Applications}{19}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Persuasive Systems}{19}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.1}Persuasive Systems}{20}{subsection.2.5.1}
 \contentsline {subsection}{\numberline {2.5.2}Comparison of persuasive system design principles in existing approaches}{20}{subsection.2.5.2}
 \contentsline {subsubsection}{Design principles for primary tasks}{20}{section*.9}
-\contentsline {subsubsection}{Design principles for dialogue support}{21}{section*.10}
+\contentsline {subsubsection}{Design principles for dialogue support}{22}{section*.10}
 \contentsline {subsubsection}{Design principles for system social support}{23}{section*.11}
 \contentsline {subsection}{\numberline {2.5.3}Comparison of further design guidelines in existing approaches}{24}{subsection.2.5.3}
 \contentsline {chapter}{\chapternumberline {3}Methodology}{27}{chapter.3}
 \contentsline {section}{\numberline {3.1}Survey for User Segmentation}{27}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Evaluation of the Questionnaires}{28}{subsection.3.1.1}
 \contentsline {section}{\numberline {3.2}Elicitation of Requirements with Paper Prototyping}{28}{section.3.2}
-\contentsline {section}{\numberline {3.3}Creating a catalogue of design guidelines}{30}{section.3.3}
+\contentsline {section}{\numberline {3.3}Creating a Catalogue of Design Guidelines}{30}{section.3.3}
 \contentsline {chapter}{\chapternumberline {4}Suggested solution}{33}{chapter.4}
 \contentsline {section}{\numberline {4.1}Questionnaire for user segmentation}{33}{section.4.1}
-\contentsline {section}{\numberline {4.2}Paper Prototyping}{34}{section.4.2}
-\contentsline {chapter}{\chapternumberline {5}evaluation}{39}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}Critical reflection}{41}{chapter.6}
-\contentsline {chapter}{List of Figures}{43}{section*.13}
-\contentsline {chapter}{List of Tables}{45}{section*.14}
-\contentsline {chapter}{List of Algorithms}{47}{chapter*.15}
-\contentsline {chapter}{Index}{49}{section*.16}
-\contentsline {chapter}{Glossary}{51}{section*.17}
-\contentsline {chapter}{Acronyms}{53}{section*.19}
-\contentsline {chapter}{Bibliography}{55}{section*.22}
+\contentsline {section}{\numberline {4.2}Recommendations for improvement for the ASCR App}{34}{section.4.2}
+\contentsline {section}{\numberline {4.3}Paper Prototypes of the User Interfaces}{34}{section.4.3}
+\contentsline {section}{\numberline {4.4}Design Guidelines for tailoring interfaces to user segments}{36}{section.4.4}
+\contentsline {chapter}{\chapternumberline {5}Evaluation}{41}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}Critical reflection}{43}{chapter.6}
+\contentsline {chapter}{\chapternumberline {7}Summary}{45}{chapter.7}
+\contentsline {chapter}{List of Figures}{47}{section*.20}
+\contentsline {chapter}{List of Tables}{49}{section*.21}
+\contentsline {chapter}{Bibliography}{51}{section*.23}
+\contentsline {chapter}{Appendix A}{60}{chapter*.24}

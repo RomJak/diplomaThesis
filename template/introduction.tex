@@ -2,56 +2,56 @@
 
 In the age of social media, where information is tailored to users' interests, preferences and state of education, the question arises how to integrate this phenomenon into common mobile applications. Especially when the aim of the application is education or changing a user's behavior an adoption of the user interface to various requirements might be beneficial.
 
-This thesis investigates whether tailoring the interface of a mobile application to a user's state of knowledge has effects on the usefulness of the application. The state of knowledge and the needs of the users are gathered into user groups, in order to limit the amount of possibilities.
+This thesis investigates whether tailoring the interface of a mobile application to a user's characteristics, preferences and state of knowledge has effects on the usefulness of the application. The state of knowledge and the needs of the users are gathered into user groups, in order to limit the amount of possibilities.
 
 
 \section{Motivating Scenario}
 
-This thesis is written in cooperation with Siemens AG Austria, within a research project that deals with the Seestadt in Aspern. The Seestadt is one of the biggest city development projects in Europe \footnote{https://www.aspern-seestadt.at/ Accessed 10.01.2018}. The Aspern Smart City Research GmbH \& Co KG \footnote{http://www.ascr.at/ Accessed 10.01.2018} (ASCR) is an exclusive technology partner of Siemens AG. The Aspern project has the overall goal of finding smarter solutions for energy consumption with the help of smart grids, power supplies, building systems, intelligent power grids and communication technologies. Another side goal is an optimal interaction of all these components. The ASCR infrastructure manages the data coming from smart grids and smart buildings such as temperature, energy consumption, water consumption, power demand as well as external data sources such as weather, city events, energy market, traffic reports etc. \cite{parreira2015role} In total 1.5 million values are measured per day. To create something useful out of this amount of data is a big task. \footnote{http://www.report.at/index.php/energie/wirtschaft-a-politik/item/91884-lebendes-stadtlabor Accessed 10.01.2018}
+This thesis is written in cooperation with Siemens AG Austria, within a research project that deals with the Seestadt in Aspern in Viennna. The Seestadt is one of the biggest city development projects in Europe \footnote{https://www.aspern-seestadt.at/ Accessed 10.01.2018}. The Aspern Smart City Research GmbH \& Co KG \footnote{http://www.ascr.at/ Accessed 10.01.2018} (ASCR) is an exclusive technology partner of Siemens AG. The Aspern project has the overall goal of finding smarter solutions for energy consumption with the help of smart grids, power supplies, building systems, intelligent power grids and communication technologies. Another side goal is an optimal interaction of all these components. The ASCR infrastructure manages the data coming from smart grids and smart buildings such as temperature, energy consumption, water consumption, power demand as well as external data sources such as weather, city events, energy market, traffic reports etc. \cite{parreira2015role}. In total 1.5 million values are measured per day \footnote{http://www.report.at/index.php/energie/wirtschaft-a-politik/item/91884-lebendes-stadtlabor Accessed 10.01.2018}. To create something useful out of this amount of data is a big task. 
 
-Take, for example, an application that informs you about your electricity consumption. What can be assumed, is that the user wants an easy-to-use application and the application should be beneficial for the user. Users are different and so are the motives why someone uses an application, e.g. saving energy, monitoring consumption, pure interest etc. A company or an App developer of course wants to develop an application that serves as much people as possible. But what to do when the target group is defined but consist of people with distinct interests and different level of knowledge?
+Take, for example, an application that informs you about your electricity consumption. What can be assumed, is that the user wants an easy-to-use and beneficial application for the user. Users are different and so are the motives why someone uses an application, e.g. saving energy, monitoring consumption, pure interest etc. A company or a mobile application developer of course wants to develop an application that serves as much people as possible. But what to do when the target group is defined but consist of people with distinct interests and different level of knowledge?
 
  The problem that we observed is that the majority of users lack the feeling for the size of one kilowatt hour. The same can be witnessed when it comes to CO2 emission. The unit of kilograms of CO2 is an information that mostly only experts can grasp and can relate to.
 
 \section{Problem Statement}
 
-In the field of software development the interaction with the user is important, including the consideration of a user's knowledge. Numerous applications aim at motivating the user to save energy or CO2 but neglect the incomprehensibility of units of measurements one does not deal with on a daily basis. The sense of trying to motivate the user to save energy by displaying the electricity consumption in kilowatt hours, might have less impact than setting it at least in relation to an average consumption of electricity or even visualizing it with a gamification approach. On the other hand, for someone who is easy on these types of measurement a visualization with colors or graphs might be too much.
+In the field of software development the interaction with the user is important, including the consideration of a user's knowledge. Numerous applications aim at motivating the user to save energy or CO2 but neglect the incomprehensibility of units of measurements one does not deal with on a daily basis. The sense of trying to motivate the user to save energy by displaying the electricity consumption in kilowatt hours, might have less impact than setting it at least in relation to an average consumption of electricity or even visualizing it with a playful approach. On the other hand, for someone who is easy on these types of measurement a visualization with colours or graphs might be too much.
 
-So, the problem we are facing is to develop a mobile application that is beneficial for all types of users, starting from users who do not have a feeling for kilowatt hours or kilograms of CO2 up to users having a great affinity for electricity and carbon-dioxide emission.
+So, the problem we are facing is to develop a mobile application that is beneficial for all types of users, starting from users who do not have a feeling for kilowatt hours or kilograms of CO2 and may not even be interested in energy topics up to users having a great affinity for electricity and carbon-dioxide emission.
 
 To address this bandwidth of user knowledge and visualization possibilities, this thesis investigates the usefulness of tailoring a mobile application to a users knowledge. Furthermore design principles and criteria that shall help front-end developers, usability engineers as well as software architects to develop applications customized to a users level of knowledge shall be investigated.
 
-We evaluate different types of users and their preferred way of gathering information. Ranging from the ones who  only show interest in their overall behavior, meaning if they are better or worse than the average, over others, who want to know their power consumption more detailed but still can't grasp the measurement of one kilowatt hour, up to users, who are deep into the topic and are keen on extensive figures.
-
 \section{Aim of the work} 
-The overall goal of this thesis is to identify different type of users, to evaluate existing applications and to identify the benefits or even drawbacks of providing a user interface in a mobile application tailored to a user type. We want to investigate if a user makes use of different visualizations or the presented way is excepted and therefore an adaptation of the user to the application takes place.\\
+The overall goal of this thesis is to identify different type of users, to evaluate existing applications and to analyse the benefits or even drawbacks of providing user interfaces in a mobile application tailored to a user type.\\
 This thesis contributes 
 (1) a questionnaire for identifying the energy type of a user 
 (2) an evaluation of a mobile application in the field of consumption data and home automation
-(3) a catalog of criteria of design principles for tailoring visualizations of consumption data.
+(3) paper prototypes for a mobile application with interfaces tailored to user types
+(4) a catalogue of criteria of design principles for tailoring visualizations for eco-feedback
 
 The central research question is the following:
 
 \textbf{Are there benefits of providing visualizations tailored to user segments?}
 \\\\
 The central research question can be answered after having found a solution to the sub-questions:\\\\
-\textbf{(a) What are the characteristics of a user segment with the same energy consumption interests?}
-In order to answer this research question we first conduct a literature review in the area, followed by a user survey detecting the state of knowledge in the field of electricity units of measurements, i.e. the size of one kilowatt hour, one kilogram of CO2. These findings will help in identifying groups and their characteristics.\\\\
-\textbf{(b) Which criteria do questions have to meet, that shall identify the type of a user?}
-The findings of the sub-research question (a) will have an influence on the questionnaire needed for defining which group a user can be assigned to. This questionnaire will be the first contact point in the mobile application.
+\textbf{RQ 1: What are the characteristics of a user segment with the same energy consumption interests?}
+In order to answer this research question we conduct a literature review in this area, where we want to find out different user types, the characteristics, the state of knowledge and the preferred way of interaction with them.\\\\
+\textbf{RQ 2: Which criteria do questions have to meet, that shall identify the type of a user?}
+The findings of RQ 1 will have an influence on the questionnaire needed for defining which group a user can be assigned to. The questionnaire shall be short and shall precisely identify the type of a user.
 \\\\
-\textbf{(c) Do the characteristics of user groups correlate with the users' preferred type of visualization?}
-The results elicited for research question a) are the foundation for defining the correlation between groups of users and their preferred type of visualization. Assuming the favorite type of visualization is the most used one, allows to identify the preferred type of visualization by asking the user for his or her preferred type of visualization.
+\textbf{RQ 3: What are the design possibilities when it comes to tailoring interfaces to a user segment in the scope of electricity consumption data?}
+This question can be answered by evaluating existing approaches of eco-feedback applications and analysing their approach of trying to change a user's behaviour. One application will be investigated in particular and will be the basis for the paper prototypes.
 \\\\
-\textbf{(d) What are the design possibilities when it comes to tailoring interfaces to a user segment in the scope of electricity consumption data?}
-This question can be answered by conducting a literature review, considering the characteristics of a user group, creating paper prototypes and evaluating their usability in workshops with the user segments as target groups.
+\textbf{RQ 4: Do the characteristics of user groups correlate with the users' preferred type of visualization?}
+The results elicited for RQ 1 are the foundation for defining the user groups. The outcome of RQ 3, the paper prototypes, will be presented to the test users found with the questionnaire of RQ 2. The correlation between the groups 
+and their preferred type of visualization will be determined in workshops with the user types.
 
 
 %---------------------------------------------------------------------------
 \section{Methodological Approach}
 %---------------------------------------------------------------------------
 
-In order to fulfill the research questions the methodological approach comprises the following steps:
+In order to answer the research questions the methodological approach comprises the following steps:
 \begin{enumerate}
 	\item \textbf{Literature Review} \\
 	The first step is to dive into the topic of usability engineering, especially different forms of visualizations and graphical user interfaces in the scope of mobile applications. That implies a research about paper prototyping, usability testing in the mobile context as well as user classification and evaluation of user interfaces. The goal is to get an insight of all relevant aspects which will serve as foundation for the following steps and also to get a base that shall help at answering the research questions.
@@ -64,12 +64,11 @@ In order to fulfill the research questions the methodological approach comprises
 		\item How do these applications tailor their visualizations to different requirements?
 	\end{itemize}
 
-
 	\item \textbf{Creating a questionnaire for user classification} \\
-	In this step one contribution of this thesis is created, the questionnaire for the identification of the segment a user can be assigned. This will be a short questionnaire that shall identify the correspondence to the main characteristics of a user segment such as interest in energy topics, typical usage patterns of consumption, technical competence etc.. The questions shall help to answer RQ (b) Then the questionnaire will be sent out in order to find at least one person for each user segment.
+	In this step one contribution of this thesis is created, the questionnaire for the identification of the segment a user can be assigned to. This will be a short questionnaire that shall identify the correspondence to the main characteristics of a user segment such as interest in energy topics, typical usage patterns of consumption, technical competence etc.. The questions shall help to answer RQ 2 Then the questionnaire will be sent out in order to find at least one person for each user segment.
 	
 	\item \textbf{Design of Paper Prototypes} \\
-	The second step is to create a prototype on paper. This prototype shall follow usability guidelines found out in the previous steps. The whole paper prototyping process will be close to the Step-by-Step guide for creating Paper Prototypes proposed by Arnowitz et al. \cite{arnowitz2010effective}. This includes first, the definition of the goal followed by identifying the tasks that users shall be able to do with the App. Next, hand-sketched drafts will be drawn, showing the application with menus, dialog boxes, notifications and buttons.
+	The second step is to create paper prototypes. The prototypes shall follow usability guidelines found out in the previous steps. The whole paper prototyping process will be close to the Step-by-Step guide for creating Paper Prototypes proposed by Arnowitz et al. \cite{arnowitz2010effective}. This includes first, the definition of the goal followed by identifying the tasks that users shall be able to do with the App. Next, hand-sketched drafts will be drawn, showing the application with menus, dialog boxes, notifications and buttons.
 	
 	\item \textbf{Elicitation of requirements with Paper Prototyping} \\
 	The third step is to do the Paper Prototyping session in order to elicit the requirements for the graphical user interfaces and overall for the app. According to \cite{lancaster2004paper} the numerous benefits of early usability studies are vastly superior. It may seem low-tech, but conducting usability tests at this step show what users really expect on a quite detailed level which gives maximum feedback for minimum effort \cite{weiss2003handheld}.
@@ -88,27 +87,22 @@ In order to fulfill the research questions the methodological approach comprises
 %	The design of the user study will follow the seminal guidelines for conducting case study research in software engineering as proposed by Runeson et al. \cite{runeson2012case}. The target group will consist of at least one user for each type of energy user. The study protocol will follow the check-lists for reading and reviewing case studies from H\"ost and Runeson \cite{host2007checklists}.
 	
 	\item \textbf{Evaluation} \\
-	In this step the mobile application from ASCR will be empirically evaluated against the outcomes of the paper prototyping session and its benefits and drawbacks will be defined. The outcomes of the paper prototype sessions will help answering RQ (c), which deals with the correlation of user characteristics and the preferred type of visualization 
+	In this step the mobile application from ASCR will be empirically evaluated against the outcomes of the paper prototyping session and its benefits and drawbacks will be defined. The outcomes of the paper prototype sessions will help answering RQ 4, which deals with the correlation of user characteristics and the preferred type of visualization 
 	
-	\item \textbf{Refinement of design principles catalog} \\
-	Finally, based on the findings of the evaluation a design principle catalog will be created. The catalog will comprise motivations of the user types, requirements definitions and example implementations from the evaluated paper prototypes.
+	\item \textbf{Refinement of design principles catalogue} \\
+	Finally, based on the findings of the evaluation a design principle catalogue will be created. The catalogue will comprise motivations of the user types, requirements definitions and example implementations from the evaluated paper prototypes.
 	
 \end{enumerate}
 
 
 \section{Structure of the work} 
-The remainder of this thesis is structured as follows:  Chapter 2 provides an overview of related work where the main approaches of tailoring user interfaces are discussed. This chapter is concluded by a comparison of existing approaches.
+The remainder of this thesis is structured as follows:  Chapter 2 provides an overview of related work where existing approaches of tailoring user interfaces are discussed beginning with an overview of the foundation of interfaces, the usability. This chapter is concluded by a comparison of existing approaches.
 
-Subsequently in Chapter 3 the methodology is presented, where the guidelines for the survey for user segmentation and a step-by-step guide for Paper Prototyping is explained.
-%
-%This is followed by an example use case, motivating the implementation of this thesis. Then, the conceptional architecture is explained, which is described in more detail in the Data Models and Design Methods section.
-%
+Subsequently in Chapter 3 the methodology is presented, where the guidelines for the survey for user segmentation and a step-by-step guide for paper prototyping is explained and the approach for the definition of design guidelines is outlined.
 
 Afterwards, in Chapter 4 the main work of this thesis, the paper prototypes, the prototyping workshops and the evaluation of the ASCR mobile application, is presented. Within this chapter implementation-specific details are discussed.
 
-%Then, Chapter 5 evaluates the implementation in form of an example work flow and presents all the opportunities within the framework.
-
 Chapter 5 critically reflects and compares the implementation with related work and discusses open issues.
 
-This thesis is concluded in Chapter 6 with a summary and outlook on future work.
+This thesis is concluded in Chapter 6 with a summary and a discussion on future work.
 

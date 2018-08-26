@@ -122,9 +122,11 @@
 %\end{danksagung*}
 
 \begin{acknowledgements*}
-I want to thank everyone who has contributed in any way to my study and the making of this thesis. First, I want to thank Margit Pohl, my thesis advisor for her support and not giving up on me, despite longer breaks. \\
-I am grateful to Gerhard Engelbrecht not only for his feedback but also for the opportunity to write the thesis in cooperation with Siemens. Thanks to my boss at Siemens, Herwig Schreiner, for giving me the freedom to pursue this thesis.\\
-Thanks to everyone who spared time to test the mobile application which was developed within this thesis. Your feedback was very helpful and contributed a lot to its further development. Finally, thanks to my friends during my study time for the mutual support.
+I want to thank everyone who has contributed in any way to my study and the making of this thesis. First, I want to thank Margit Pohl, my thesis advisor for her support and not giving up on me, despite longer breaks.
+
+I am grateful to Gerhard Engelbrecht not only for his professional advise but also for the opportunity to write the thesis in cooperation with Siemens. Thanks to my boss at Siemens, Herwig Schreiner, for giving me the freedom to pursue this thesis. A special thanks also to Sigrun Klug who gave the impulse for the different energy types and was a great help at designing the questionnaire.
+
+I owe thanks to everyone who spared time for the Paper Prototyping session. Your feedback was very helpful and contributed a lot to its further evaluation. Finally, thanks to the one and everything in my life. Your love and support is beyond what I could have ever imagined. I am forever grateful.
 
 
 \end{acknowledgements*}
@@ -165,6 +167,9 @@ Thanks to everyone who spared time to test the mobile application which was deve
 % CHAPTER Evaluation
 \input{evaluation.tex}
 
+% CHAPTER Evaluation
+%\input{cataloge_guidelines.tex}
+
 % CHAPTER Critical reflection
 \input{critical_reflection.tex}
 
@@ -184,17 +189,23 @@ Thanks to everyone who spared time to test the mobile application which was deve
 \listoftables % Starred version, i.e., \listoftables*, removes the toc entry.
 
 % Use an optional list of alogrithms.
-\listofalgorithms
-\addcontentsline{toc}{chapter}{List of Algorithms}
+%\listofalgorithms
+%\addcontentsline{toc}{chapter}{List of Algorithms}
 
 % Add an index.
-\printindex
+%\printindex
 
 % Add a glossary.
-\printglossaries
+%\printglossaries
 
 % Add a bibliography.
 \bibliographystyle{alpha}
 \bibliography{intro}
 
+\begin{appendices}
+	\chapter{Appendix A}
+	\label{chap:appendixA}
+	\includegraphics[width=\linewidth]{survey.pdf}
+	\includegraphics[width=\linewidth]{survey2.pdf}
+\end{appendices}
 \end{document}
