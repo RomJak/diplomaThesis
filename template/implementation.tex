@@ -1,8 +1,6 @@
-\chapter{Suggested solution}
-This chapter 
+\chapter{Questionnaire for user segmentation}
+This chapter anwers the Research Question \textbf{RQ 2: Which criteria do questions have to meet, that shall identify the type of a user?}
 
-
-\section{Questionnaire for user segmentation}
 
 In the State of the Art chapter the User Segmentation \ref{chap:usersegmentation} from Smart Cities Demo Aspern on which this thesis builds up upon is explained. With regard to the Paper Prototyping session we need users that clearly can be allocated to a user segment. To find users for each user segment we created a questionnaire. The user survey leaned on to the first questionnaire of the quantitative study of Aspern Smart City Research. The original questionnaire of ASCR comprised of 48 questions. The factor analysis of the returned questionnaire identified the four dimensions: Comfort-centred, Technology-centred, Data Sensibility and Living in Seestadt. The following cluster analysis found out four segments. For the definition of the segments only two of the four factors were relevant for describing the characteristics of a user group. For our study we focused on these two factors which are the comfort and the technology orientation. So, we took all the questions of the original questionnaire which answers were identified by the cluster analysis to be significant for the user segmentation. Out of the 48 questions of the original questionnaire ten were relevant for allocating a user to a user segment.
 
@@ -30,92 +28,81 @@ The questions shall concern the main characteristics of every user type regardin
 
 Additionally, the questions shall be short, comprehensive and easy to answer, as mentioned in~\ref{sec:survey}. The whole questionnaire can be found in ~\nameref{chap:appendixA}.
 
-\section{Recommendations for improvement for the ASCR App}
 
-Insert screens in here and short description
+\section{Paper Prototype for proposed mobile application}
 
-\section{Paper Prototypes of the User Interfaces}
-In order to elicit the requirements for the graphical user interfaces and to find usability mistakes we make use of Paper Prototyping. As described before in \ref{section:paperprototyping} we follow the Step-by-Step guide of Arnowitz et al. \cite{arnowitz2010effective} to create a Paper Prototype.
+After having found test users for the paper prototyping workshop, the preparation for it began. As described before in \ref{section:paperprototyping} we follow the Step-by-Step guide of Arnowitz et al. \cite{arnowitz2010effective} to create a Paper Prototype.
 
-\begin{enumerate}
-	\item \textbf{Create scenario}.
-	
-	The main goal of the mobile application that shall be developed is to give feedback about how much electricity, water and heating a user consumed, how much carbon-dioxide was produced and how the values can be made better. The screens shall be adapted to the user type to make the information and tips more attractive to a user's interests.
-	
-	\subitem{\textbf{Professionals}}: The user study revealed that Professionals have high interest in energy issues. As they are deep into the topic and prefer more detailed information in individual offers they can have a look on the energy consumption on a very detailed level, such as a consumption rate on a granularity of minutes.
- 
-	\begin{itemize}
-		\item Task: Have a look on your consumption rate of the last week/month/year
-	\end{itemize}
-	
-	Professionals should have a possibility within the application to compare energy consumptions of different time intervals.
-	
-	\begin{itemize}
-		\item Task: Compare your consumption rate of the last week with the consumption rate of the same week one year earlier.
-	\end{itemize}
+The first task of the Step-by-Step guide is to define the tasks in a scenario narration.
 
-	Professionals also like to compare themselves to others. Comparing his or her average energy consumption to others should also be possible.
+	\subsection{Scenario narration}
 	
-	\begin{itemize}
-		\item Task: Compare your consumption rate of the last week with the average consumption rate of your neighbours
-	\end{itemize}
+	The main goal of the mobile application that shall be developed is to give eco-feedback. This feedback shall primarily focus on the consumption of electricity, water and heating and the emission of carbon-dioxide. So the history consumption rate of these data shall be available to look into. A comparison of the consumption during different time intervals shall also be possible. This comparison can be drawn to one's own consumption but also to a comparable household, to an average consumption rate of the neighbours, the city or the European Union. On a dashboard the current measured values, the consumption of the day and some current settings shall be shown. The management of the home automation system shall also be available via the app. Tips for saving money by saving energy shall also be given. Energy saving-tips shall be tailored to the characteristics of a user type. Especially for Hedonists the menu item "Project" will be interesting. Here projects are listed, which show possible further home automation items that can help at energy saving. A user can read frequently asked questions in the FAQ section.
 	
-	Professionals also like rationally justified explanations and instructions for use. Notifications on a daily basis give tips on saving energy or CO2, give concrete instructions for use and provides deeper information in Energy topics.
+	\subsection{Design and evaluation of Paper Prototypes}	
+	Having in mind the above mentioned tasks we designed multiple versions of the paper prototypes that resulted from several runs through the Step-by-Step guide for the creation of a paper prototype of Arnowitz et al. \cite{arnowitz2010effective}. The design was done with the third research question in mind, that shall be answered with the paper prototypes.
 	
-	\begin{itemize}
-		\item Task: Find tips on how to save more energy
-	\end{itemize}
+	\textbf{RQ 3: What are the design possibilities when it comes to tailoring interfaces to a user segment in the scope of electricity consumption data?}
 	
-	\subitem{\textbf{Optimizer}}: Optimizer primarily aim at optimizing energy costs, so the app should give easy to find tips on how to save energy and therefore costs. Optimizers prefer less time of interaction. As Optimizer rather like unclear instructions, the notifications on a daily basis also should give concrete instructions on how to save energy or CO2.
+	The existing approaches of eco-feedback applications have been evaluated in the section~\ref{sec:approaches}. Especially the design principles were the basis for the hand-sketched drafts.
 	
-	\begin{itemize}
-		\item Task: Find out what to do to save costs for electricity
-	\end{itemize}
+	 and analysing their approach of trying to change a user's behaviour. One application will be investigated in particular and will be the basis for the paper prototypes.
 	
-	 Professionals like to know the concrete benefits of a certain behaviour change. The explanations shall be as close to reality as possible and technical language shall be avoided. The energy feedback is reduced to essential information and the detailed graphs for energy consumption that the Professionals get are not visible at a first glance for an Optimizer. The saved costs after a behaviour change shall also be visible to provide some kind of reward for the new habits.
-	 
-	 \begin{itemize}
-	 	\item Task: Find out how much you have saved in the last week
-	 \end{itemize}
+	\subitem{\textbf{Professionals}}: The user study revealed that Professionals have high interest in energy issues. As they are deep into the topic and prefer more detailed information in individual offers they can have a look on the energy consumption on a very detailed level, such as a consumption rate on a granularity of minutes. Professionals also should have a possibility within the application to compare energy consumptions of different time intervals. According to the user study Professionals also like to compare themselves to others. Professionals also like rationally justified explanations and instructions for use. Notifications should give tips on saving energy or CO2, give concrete instructions for use and provides deeper information in Energy topics. This results in the following tasks for professionals:
 	
-	For Optimizer also trouble shooting shall be easily accessible, in order to reduce the time they are spending with the application and not to loose them on the way.
+
+		
+	\subitem{\textbf{Optimizer}}: Optimizer primarily aim at optimizing energy costs, so the app should give easy to find tips on how to save energy and therefore costs. Optimizers also prefer less time of interaction and rather like unclear instructions. Therefore the notifications also should give concrete instructions on how to save energy or CO2. Optimizer also like to know the concrete benefits of a certain behaviour change. The explanations shall be as close to reality as possible and technical language shall be avoided. The energy feedback is reduced to essential information and the detailed graphs for energy consumption that the Professionals get, should not be visible at a first glance for an Optimizer. The saved costs after a behaviour change shall also be visible to provide some kind of reward for the new habits. For Optimizer also trouble shooting shall be easily accessible, in order to reduce the time they are spending with the application and not to loose them on the way.
 	
-	\begin{itemize}
-		\item Task: Report a problem
-	\end{itemize}
+
 	
 	\subitem{\textbf{Indifferents}}:
-	The Indifferents have low interest in energy topics in general, so the main requirement of the application for this type of user is in the first run to sensitize them for the topic, to raise awareness and to make electricity and CO2 saving appealing to them. 
+	The Indifferents have low interest in energy topics in general, so the main requirement of the application for this type of user is in the first run to sensitize them for the topic, to raise awareness and to make electricity and CO2 saving appealing to them. To awaken their interest for energy and sustainability a gamification approach will be used. For opening the application once a day the user earns points. Points are also earned for clicking on notifications and reading the article. Tips for saving energy or CO2 should not concern longer usage of laptops or entertainment screens, as streaming and use of social media is an important leisure activity for Indifferents.
 	
-	To awaken their interest for energy and sustainability a gamification approach will be used. For opening the application once a day the user earns points. Points are also earned for clicking on notifications and reading the article. Tips for saving energy or CO2 should not concern longer usage of laptops or entertainment screens, as streaming and use of social media is an important leisure activity for Indifferents.
+
+	\subitem{Hedonists}:
+	The youngest segment, the Hedonists, are keen on developing technical solutions. The interest in technology can be used to give instructions for programming technical devices and using home automation. The primary motive for the Hedonists is not to save energy but the interest in technology. This will be considered in the notifications and tips of the day. The hedonistic lifestyle with its strong convenience and comfort orientation is in the foreground. For a hedonist the comfort gain is of great relevance. Programming and establishing home automation aspects is a great interface between the aim of saving energy and the affinity of technology.
 	
-	\begin{itemize}
-		\item Task: Earn points by interacting with the App
-	\end{itemize}
+
+		el be shown in a dashboard, in about how much electricity, water and heating a user consumed, how much carbon-dioxide was produced and how the values can be made better in the sense of reducing consumptions. The screens shall be adapted to the user type to make the information and tips more attractive to a user's interests. The interfaces shall be different for each user but every user should basically have the possibility to do all tasks.
 	
-	\textit{Hedonists}:
-	The youngest segment, the Hedonists, are keen on developing technical solutions. The interest in technology can be used to give instructions for programming technical devices and using home automation. The primary motive for the Hedonists is not to save energy but the interest in technology. This will be considered in the notifications and tips of the day. The hedonistic lifestyle with its strong convenience and comfort orientation is in the foreground.
+	\begin{enumerate}
+		\item As a user I want to have a look on your consumption rate of the last day/week/month/year
+		\item Compare your consumption rate of the last day/week/month/year with the consumption rate of the same week one year earlier.
+		\item Compare your consumption rate of the last week with the average consumption rate of your neighbours
+		\item Find tips on how to save more energy
+		\item Find out what to do to save costs for electricity
+		\item Find out how much you have saved in the last week
+		\item Earn trophies by interacting with the App
+		\item Start a project to install a home automation gadget that saves energy in the long run
+		\item Report a problem
+	\end{enumerate}
 	
-	For a hedonist the comfort gain is of great relevance. Programming and establishing home automation aspects is a great interface between the aim of saving energy and the affinity of technology.
 	
 	
-\end{enumerate}
+In order to elicit the requirements for the graphical user interfaces and to find usability mistakes we make use of Paper Prototyping. 
+
+
 
 \section{Design Guidelines for tailoring interfaces to user segments}
+
+
+\textit{Hedonists}:
+
 
 Guideline 1: Adapt navigation drawer to requirements of user type
 
 Description: Sort the items of the navigation drawer differently and adapt them for each user type
 
-Effect
+Effect:
 
-Upside
+Upside:
 
-Downside
+Downside:
 
-Issues
+Issues:
 
-Background
+Background:
 
 Guideline 2: Adapt navigation drawer to requirements of user type
 
@@ -319,3 +306,7 @@ Energy-saving
 	\caption{The proposed screens for statistics}
 	\label{fig:kalender-} % \label has to be placed AFTER \caption (or \subcaption) to produce correct cross-references.
 \end{figure}
+
+
+\section{Recommendations for improvement for the ASCR App}
+

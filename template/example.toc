@@ -1,16 +1,16 @@
-\select@language {naustrian}
-\select@language {naustrian}
-\select@language {english}
-\select@language {naustrian}
-\select@language {english}
-\select@language {naustrian}
-\select@language {naustrian}
+\babel@toc {naustrian}{}
+\babel@toc {naustrian}{}
+\babel@toc {english}{}
+\babel@toc {naustrian}{}
+\babel@toc {english}{}
+\babel@toc {naustrian}{}
+\babel@toc {naustrian}{}
 \contentsline {chapter}{Kurzfassung}{ix}{chapter*.3}
-\select@language {naustrian}
-\select@language {english}
+\babel@toc {naustrian}{}
+\babel@toc {english}{}
 \contentsline {chapter}{Abstract}{xi}{chapter*.5}
-\select@language {naustrian}
-\select@language {english}
+\babel@toc {naustrian}{}
+\babel@toc {english}{}
 \contentsline {chapter}{Contents}{xiii}{section*.7}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivating Scenario}{1}{section.1.1}
@@ -41,15 +41,17 @@
 \contentsline {subsection}{\numberline {3.1.1}Evaluation of the Questionnaires}{28}{subsection.3.1.1}
 \contentsline {section}{\numberline {3.2}Elicitation of Requirements with Paper Prototyping}{28}{section.3.2}
 \contentsline {section}{\numberline {3.3}Creating a Catalogue of Design Guidelines}{30}{section.3.3}
-\contentsline {chapter}{\chapternumberline {4}Suggested solution}{33}{chapter.4}
-\contentsline {section}{\numberline {4.1}Questionnaire for user segmentation}{33}{section.4.1}
-\contentsline {section}{\numberline {4.2}Recommendations for improvement for the ASCR App}{34}{section.4.2}
-\contentsline {section}{\numberline {4.3}Paper Prototypes of the User Interfaces}{34}{section.4.3}
-\contentsline {section}{\numberline {4.4}Design Guidelines for tailoring interfaces to user segments}{36}{section.4.4}
-\contentsline {chapter}{\chapternumberline {5}Evaluation}{43}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}Critical reflection}{45}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}Summary}{47}{chapter.7}
-\contentsline {chapter}{List of Figures}{49}{section*.20}
-\contentsline {chapter}{List of Tables}{51}{section*.21}
-\contentsline {chapter}{Bibliography}{53}{section*.23}
-\contentsline {chapter}{Appendix A}{62}{chapter*.24}
+\contentsline {chapter}{\chapternumberline {4}Questionnaire for user segmentation}{33}{chapter.4}
+\contentsline {chapter}{\chapternumberline {5}Design and evaluation of the Paper Prototype}{35}{chapter.5}
+\contentsline {section}{\numberline {5.1}Design of Paper Prototype}{36}{section.5.1}
+\contentsline {section}{\numberline {5.2}Menu navigation}{36}{section.5.2}
+\contentsline {section}{\numberline {5.3}Latest topics}{37}{section.5.3}
+\contentsline {section}{\numberline {5.4}Design Guidelines for tailoring interfaces to user segments}{41}{section.5.4}
+\contentsline {section}{\numberline {5.5}Recommendations for improvement for the ASCR App}{41}{section.5.5}
+\contentsline {chapter}{\chapternumberline {6}Evaluation}{43}{chapter.6}
+\contentsline {chapter}{\chapternumberline {7}Critical reflection}{45}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}Summary}{47}{chapter.8}
+\contentsline {chapter}{List of Figures}{49}{section*.21}
+\contentsline {chapter}{List of Tables}{51}{section*.22}
+\contentsline {chapter}{Bibliography}{53}{section*.24}
+\contentsline {chapter}{Appendix A}{62}{chapter*.25}
