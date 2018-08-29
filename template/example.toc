@@ -46,10 +46,10 @@
 \contentsline {section}{\numberline {4.2}Recommendations for improvement for the ASCR App}{34}{section.4.2}
 \contentsline {section}{\numberline {4.3}Paper Prototypes of the User Interfaces}{34}{section.4.3}
 \contentsline {section}{\numberline {4.4}Design Guidelines for tailoring interfaces to user segments}{36}{section.4.4}
-\contentsline {chapter}{\chapternumberline {5}Evaluation}{41}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}Critical reflection}{43}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}Summary}{45}{chapter.7}
-\contentsline {chapter}{List of Figures}{47}{section*.20}
-\contentsline {chapter}{List of Tables}{49}{section*.21}
-\contentsline {chapter}{Bibliography}{51}{section*.23}
-\contentsline {chapter}{Appendix A}{60}{chapter*.24}
+\contentsline {chapter}{\chapternumberline {5}Evaluation}{43}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}Critical reflection}{45}{chapter.6}
+\contentsline {chapter}{\chapternumberline {7}Summary}{47}{chapter.7}
+\contentsline {chapter}{List of Figures}{49}{section*.20}
+\contentsline {chapter}{List of Tables}{51}{section*.21}
+\contentsline {chapter}{Bibliography}{53}{section*.23}
+\contentsline {chapter}{Appendix A}{62}{chapter*.24}

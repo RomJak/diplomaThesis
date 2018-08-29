@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.17)  26 AUG 2018 21:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.17)  29 AUG 2018 07:48
 entering extended mode
 **./example.tex
 (example.tex
@@ -2247,7 +2247,7 @@ Package pdftex.def Info: graphics/design_action.jpg used on input line 78.
 File: graphics/screens/drawer_1.jpeg Graphic file (type jpg)
 
 <use graphics/screens/drawer_1.jpeg>
-Package pdftex.def Info: graphics/screens/drawer_1.jpeg used on input line 148.
+Package pdftex.def Info: graphics/screens/drawer_1.jpeg used on input line 165.
 
 (pdftex.def)             Requested size: 100.38318pt x 227.3009pt.
 
@@ -2255,7 +2255,7 @@ Package pdftex.def Info: graphics/screens/drawer_1.jpeg used on input line 148.
 File: graphics/screens/drawer_2.jpeg Graphic file (type jpg)
 
 <use graphics/screens/drawer_2.jpeg>
-Package pdftex.def Info: graphics/screens/drawer_2.jpeg used on input line 154.
+Package pdftex.def Info: graphics/screens/drawer_2.jpeg used on input line 171.
 
 (pdftex.def)             Requested size: 100.38318pt x 227.89442pt.
 
@@ -2263,7 +2263,7 @@ Package pdftex.def Info: graphics/screens/drawer_2.jpeg used on input line 154.
 File: graphics/screens/drawer_3.jpeg Graphic file (type jpg)
 
 <use graphics/screens/drawer_3.jpeg>
-Package pdftex.def Info: graphics/screens/drawer_3.jpeg used on input line 160.
+Package pdftex.def Info: graphics/screens/drawer_3.jpeg used on input line 177.
 
 (pdftex.def)             Requested size: 100.38318pt x 224.53543pt.
 
@@ -2271,16 +2271,19 @@ Package pdftex.def Info: graphics/screens/drawer_3.jpeg used on input line 160.
 File: graphics/screens/drawer_4.jpeg Graphic file (type jpg)
 
 <use graphics/screens/drawer_4.jpeg>
-Package pdftex.def Info: graphics/screens/drawer_4.jpeg used on input line 166.
+Package pdftex.def Info: graphics/screens/drawer_4.jpeg used on input line 183.
 
 (pdftex.def)             Requested size: 100.38318pt x 228.08417pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 <graphics/screens/dashboard_14.jpeg, id=660, 178.0251pt x 372.31094pt>
 File: graphics/screens/dashboard_14.jpeg Graphic file (type jpg)
 
 <use graphics/screens/dashboard_14.jpeg>
 Package pdftex.def Info: graphics/screens/dashboard_14.jpeg used on input line 
-178.
+195.
 (pdftex.def)             Requested size: 100.38318pt x 209.93567pt.
 
 <graphics/screens/dashboard_23.jpeg, id=661, 177.90465pt x 372.1905pt>
@@ -2288,7 +2291,7 @@ File: graphics/screens/dashboard_23.jpeg Graphic file (type jpg)
 
 <use graphics/screens/dashboard_23.jpeg>
 Package pdftex.def Info: graphics/screens/dashboard_23.jpeg used on input line 
-184.
+201.
 (pdftex.def)             Requested size: 100.38318pt x 210.01543pt.
 
 
@@ -2299,7 +2302,7 @@ File: graphics/screens/aktuelles_14.jpeg Graphic file (type jpg)
 
 <use graphics/screens/aktuelles_14.jpeg>
 Package pdftex.def Info: graphics/screens/aktuelles_14.jpeg used on input line 
-196.
+213.
 (pdftex.def)             Requested size: 100.38318pt x 205.07631pt.
 
 <graphics/screens/aktuelles_23.jpeg, id=663, 183.084pt x 366.6498pt>
@@ -2307,7 +2310,7 @@ File: graphics/screens/aktuelles_23.jpeg Graphic file (type jpg)
 
 <use graphics/screens/aktuelles_23.jpeg>
 Package pdftex.def Info: graphics/screens/aktuelles_23.jpeg used on input line 
-202.
+219.
 (pdftex.def)             Requested size: 100.38318pt x 201.0314pt.
 
 
@@ -2318,7 +2321,7 @@ File: graphics/screens/Statistik_1234.jpeg Graphic file (type jpg)
 
 <use graphics/screens/Statistik_1234.jpeg>
 Package pdftex.def Info: graphics/screens/Statistik_1234.jpeg used on input lin
-e 214.
+e 231.
 (pdftex.def)             Requested size: 100.38318pt x 163.98192pt.
 
 <graphics/screens/Statistik_Vergleich.jpeg, id=665, 183.20445pt x 299.6796pt>
@@ -2326,7 +2329,7 @@ File: graphics/screens/Statistik_Vergleich.jpeg Graphic file (type jpg)
 
 <use graphics/screens/Statistik_Vergleich.jpeg>
 Package pdftex.def Info: graphics/screens/Statistik_Vergleich.jpeg used on inpu
-t line 220.
+t line 237.
 (pdftex.def)             Requested size: 100.38318pt x 164.20238pt.
 
 
@@ -2336,28 +2339,28 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: graphics/screens/tipp_1.jpeg Graphic file (type jpg)
 
 <use graphics/screens/tipp_1.jpeg>
-Package pdftex.def Info: graphics/screens/tipp_1.jpeg used on input line 232.
+Package pdftex.def Info: graphics/screens/tipp_1.jpeg used on input line 249.
 (pdftex.def)             Requested size: 100.38318pt x 156.65457pt.
 
 <graphics/screens/tipp_2.jpeg, id=667, 182.1204pt x 282.3348pt>
 File: graphics/screens/tipp_2.jpeg Graphic file (type jpg)
 
 <use graphics/screens/tipp_2.jpeg>
-Package pdftex.def Info: graphics/screens/tipp_2.jpeg used on input line 238.
+Package pdftex.def Info: graphics/screens/tipp_2.jpeg used on input line 255.
 (pdftex.def)             Requested size: 100.38318pt x 155.62064pt.
 
 <graphics/screens/tipp_3.jpeg, id=668, 181.3977pt x 282.3348pt>
 File: graphics/screens/tipp_3.jpeg Graphic file (type jpg)
 
 <use graphics/screens/tipp_3.jpeg>
-Package pdftex.def Info: graphics/screens/tipp_3.jpeg used on input line 244.
+Package pdftex.def Info: graphics/screens/tipp_3.jpeg used on input line 261.
 (pdftex.def)             Requested size: 100.38318pt x 156.2453pt.
 
 <graphics/screens/tipp_4.jpeg, id=669, 178.38644pt x 282.3348pt>
 File: graphics/screens/tipp_4.jpeg Graphic file (type jpg)
 
 <use graphics/screens/tipp_4.jpeg>
-Package pdftex.def Info: graphics/screens/tipp_4.jpeg used on input line 250.
+Package pdftex.def Info: graphics/screens/tipp_4.jpeg used on input line 267.
 (pdftex.def)             Requested size: 100.38318pt x 158.87753pt.
 
 
@@ -2367,7 +2370,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: graphics/screens/Sparen_1.jpeg Graphic file (type jpg)
 
 <use graphics/screens/Sparen_1.jpeg>
-Package pdftex.def Info: graphics/screens/Sparen_1.jpeg used on input line 262.
+Package pdftex.def Info: graphics/screens/Sparen_1.jpeg used on input line 279.
 
 (pdftex.def)             Requested size: 100.38318pt x 195.97891pt.
 
@@ -2375,7 +2378,7 @@ Package pdftex.def Info: graphics/screens/Sparen_1.jpeg used on input line 262.
 File: graphics/screens/Sparen_2.jpeg Graphic file (type jpg)
 
 <use graphics/screens/Sparen_2.jpeg>
-Package pdftex.def Info: graphics/screens/Sparen_2.jpeg used on input line 268.
+Package pdftex.def Info: graphics/screens/Sparen_2.jpeg used on input line 285.
 
 (pdftex.def)             Requested size: 100.38318pt x 199.65372pt.
 
@@ -2383,7 +2386,7 @@ Package pdftex.def Info: graphics/screens/Sparen_2.jpeg used on input line 268.
 File: graphics/screens/Sparen_3.jpeg Graphic file (type jpg)
 
 <use graphics/screens/Sparen_3.jpeg>
-Package pdftex.def Info: graphics/screens/Sparen_3.jpeg used on input line 274.
+Package pdftex.def Info: graphics/screens/Sparen_3.jpeg used on input line 291.
 
 (pdftex.def)             Requested size: 100.38318pt x 201.2989pt.
 
@@ -2391,7 +2394,7 @@ Package pdftex.def Info: graphics/screens/Sparen_3.jpeg used on input line 274.
 File: graphics/screens/Sparen_4.jpeg Graphic file (type jpg)
 
 <use graphics/screens/Sparen_4.jpeg>
-Package pdftex.def Info: graphics/screens/Sparen_4.jpeg used on input line 280.
+Package pdftex.def Info: graphics/screens/Sparen_4.jpeg used on input line 297.
 
 (pdftex.def)             Requested size: 100.38318pt x 199.51057pt.
 
@@ -2403,7 +2406,7 @@ File: graphics/screens/Trophaensammlung.jpeg Graphic file (type jpg)
 
 <use graphics/screens/Trophaensammlung.jpeg>
 Package pdftex.def Info: graphics/screens/Trophaensammlung.jpeg used on input l
-ine 292.
+ine 309.
 (pdftex.def)             Requested size: 100.38318pt x 248.2124pt.
 
 <graphics/screens/Zonenkalender.jpeg, id=675, 176.70015pt x 372.9132pt>
@@ -2411,48 +2414,48 @@ File: graphics/screens/Zonenkalender.jpeg Graphic file (type jpg)
 
 <use graphics/screens/Zonenkalender.jpeg>
 Package pdftex.def Info: graphics/screens/Zonenkalender.jpeg used on input line
- 298.
+ 315.
 (pdftex.def)             Requested size: 100.38318pt x 211.85144pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (evaluation.tex [37 <./graphics/screens/drawer_1.jpeg> <./graphics/screens/dr
-awer_2.jpeg> <./graphics/screens/drawer_3.jpeg> <./graphics/screens/drawer_4.jp
-eg>] [38 <./graphics/screens/dashboard_14.jpeg> <./graphics/screens/dashboard_2
-3.jpeg> <./graphics/screens/aktuelles_14.jpeg> <./graphics/screens/aktuelles_23
-.jpeg>] [39 <./graphics/screens/Statistik_1234.jpeg> <./graphics/screens/Statis
-tik_Vergleich.jpeg> <./graphics/screens/tipp_1.jpeg> <./graphics/screens/tipp_2
-.jpeg> <./graphics/screens/tipp_3.jpeg> <./graphics/screens/tipp_4.jpeg>]
-[40 <./graphics/screens/Sparen_1.jpeg> <./graphics/screens/Sparen_2.jpeg> <./gr
-aphics/screens/Sparen_3.jpeg> <./graphics/screens/Sparen_4.jpeg> <./graphics/sc
-reens/Trophaensammlung.jpeg> <./graphics/screens/Zonenkalender.jpeg>])
-(critical_reflection.tex [41
+) (evaluation.tex [37] [38 <./graphics/screens/drawer_1.jpeg> <./graphics/scree
+ns/drawer_2.jpeg> <./graphics/screens/drawer_3.jpeg> <./graphics/screens/drawer
+_4.jpeg> <./graphics/screens/dashboard_14.jpeg> <./graphics/screens/dashboard_2
+3.jpeg>] [39 <./graphics/screens/aktuelles_14.jpeg> <./graphics/screens/aktuell
+es_23.jpeg> <./graphics/screens/Statistik_1234.jpeg> <./graphics/screens/Statis
+tik_Vergleich.jpeg>] [40 <./graphics/screens/tipp_1.jpeg> <./graphics/screens/t
+ipp_2.jpeg> <./graphics/screens/tipp_3.jpeg> <./graphics/screens/tipp_4.jpeg> <
+./graphics/screens/Sparen_1.jpeg> <./graphics/screens/Sparen_2.jpeg> <./graphic
+s/screens/Sparen_3.jpeg> <./graphics/screens/Sparen_4.jpeg>] [41 <./graphics/sc
+reens/Trophaensammlung.jpeg> <./graphics/screens/Zonenkalender.jpeg>] [42
 
-] [42
+])
+(critical_reflection.tex [43] [44
 
-]) (summary.tex [43] [44
+]) (summary.tex [45] [46
 
-]) [45] [46
+]) [47] [48
 
 ]
-(example.lof) [47] [48
+(example.lof) [49] [50
 
-] (example.lot) (example.bbl [49] [50
+] (example.lot) (example.bbl [51] [52
 
 ]
 bibitemlist
-[51] [52] [53] [54] [55] [56] [57]
+[53] [54] [55] [56] [57] [58] [59]
 Underfull \hbox (badness 2334) in paragraph at lines 501--505
 []\T1/lmr/m/n/10.95 (+20) Ralph R Young.  Rec-om-mended re-quire-ments gath-er-
 ing prac-tices.
  []
 
-) [58]
+) [60]
 
 pdfTeX warning: pdflatex.exe (file ./graphics/survey.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
-<graphics/survey.pdf, id=786, 597.55246pt x 845.07724pt>
+<graphics/survey.pdf, id=795, 597.55246pt x 845.07724pt>
 File: graphics/survey.pdf Graphic file (type pdf)
 
 <use graphics/survey.pdf>
@@ -2462,7 +2465,7 @@ Package pdftex.def Info: graphics/survey.pdf used on input line 208.
 
 pdfTeX warning: pdflatex.exe (file ./graphics/survey2.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<graphics/survey2.pdf, id=787, 597.55246pt x 845.07724pt>
+<graphics/survey2.pdf, id=796, 597.55246pt x 845.07724pt>
 File: graphics/survey2.pdf Graphic file (type pdf)
 
 <use graphics/survey2.pdf>
@@ -2482,16 +2485,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--211
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59
+ [61
 
 ]
 Overfull \vbox (68.28238pt too high) has occurred while \output is active []
 
 
-[60 <./graphics/survey.pdf>]
+[62 <./graphics/survey.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61 <./graphics/survey2.pdf>] [62]
+ [63 <./graphics/survey2.pdf>] [64]
 No complaints by nag.
 \tf@toc=\write10
 \openout10 = `example.toc'.
@@ -2511,9 +2514,9 @@ Package rerunfilecheck Info: File `example.out' has not changed.
 (rerunfilecheck)             Checksum: 97AFA31F6EC7D6F2B211EBA22A59AF30;2030.
  ) 
 Here is how much of TeX's memory you used:
- 34394 strings out of 493323
- 616429 string characters out of 3139065
- 816327 words of memory out of 3000000
+ 34396 strings out of 493323
+ 616443 string characters out of 3139065
+ 818006 words of memory out of 3000000
  36784 multiletter control sequences out of 15000+200000
  129925 words of font info for 181 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2532,9 +2535,9 @@ ic/lm/lmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C
 iKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helve
 tic/uhvr8a.pfb>
-Output written on example.pdf (76 pages, 10348434 bytes).
+Output written on example.pdf (78 pages, 10350183 bytes).
 PDF statistics:
- 910 PDF objects out of 1000 (max. 8388607)
- 243 named destinations out of 1000 (max. 500000)
+ 918 PDF objects out of 1000 (max. 8388607)
+ 245 named destinations out of 1000 (max. 500000)
  33666 words of extra memory for PDF output out of 35830 (max. 10000000)
 
