@@ -1,16 +1,16 @@
-\babel@toc {naustrian}{}
-\babel@toc {naustrian}{}
-\babel@toc {english}{}
-\babel@toc {naustrian}{}
-\babel@toc {english}{}
-\babel@toc {naustrian}{}
-\babel@toc {naustrian}{}
+\select@language {naustrian}
+\select@language {naustrian}
+\select@language {english}
+\select@language {naustrian}
+\select@language {english}
+\select@language {naustrian}
+\select@language {naustrian}
 \contentsline {chapter}{Kurzfassung}{ix}{chapter*.3}
-\babel@toc {naustrian}{}
-\babel@toc {english}{}
+\select@language {naustrian}
+\select@language {english}
 \contentsline {chapter}{Abstract}{xi}{chapter*.5}
-\babel@toc {naustrian}{}
-\babel@toc {english}{}
+\select@language {naustrian}
+\select@language {english}
 \contentsline {chapter}{Contents}{xiii}{section*.7}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivating Scenario}{1}{section.1.1}
@@ -45,13 +45,21 @@
 \contentsline {chapter}{\chapternumberline {5}Design and evaluation of the Paper Prototype}{35}{chapter.5}
 \contentsline {section}{\numberline {5.1}Design of Paper Prototype}{36}{section.5.1}
 \contentsline {section}{\numberline {5.2}Menu navigation}{36}{section.5.2}
-\contentsline {section}{\numberline {5.3}Latest topics}{37}{section.5.3}
-\contentsline {section}{\numberline {5.4}Design Guidelines for tailoring interfaces to user segments}{41}{section.5.4}
-\contentsline {section}{\numberline {5.5}Recommendations for improvement for the ASCR App}{41}{section.5.5}
-\contentsline {chapter}{\chapternumberline {6}Evaluation}{43}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}Critical reflection}{45}{chapter.7}
-\contentsline {chapter}{\chapternumberline {8}Summary}{47}{chapter.8}
-\contentsline {chapter}{List of Figures}{49}{section*.21}
-\contentsline {chapter}{List of Tables}{51}{section*.22}
-\contentsline {chapter}{Bibliography}{53}{section*.24}
-\contentsline {chapter}{Appendix A}{62}{chapter*.25}
+\contentsline {section}{\numberline {5.3}Measurements}{37}{section.5.3}
+\contentsline {section}{\numberline {5.4}Latest topics}{39}{section.5.4}
+\contentsline {section}{\numberline {5.5}Statistics}{39}{section.5.5}
+\contentsline {section}{\numberline {5.6}Equipment control}{39}{section.5.6}
+\contentsline {section}{\numberline {5.7}Comparison of Savings}{39}{section.5.7}
+\contentsline {section}{\numberline {5.8}Energy-Saving Tips}{39}{section.5.8}
+\contentsline {section}{\numberline {5.9}Gamification approach}{39}{section.5.9}
+\contentsline {section}{\numberline {5.10}Trouble Shooting}{40}{section.5.10}
+\contentsline {section}{\numberline {5.11}Communication}{41}{section.5.11}
+\contentsline {section}{\numberline {5.12}Design Guidelines for tailoring interfaces to user segments}{44}{section.5.12}
+\contentsline {section}{\numberline {5.13}Recommendations for improvement for the ASCR App}{44}{section.5.13}
+\contentsline {chapter}{\chapternumberline {6}Evaluation}{45}{chapter.6}
+\contentsline {chapter}{\chapternumberline {7}Critical reflection}{47}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}Summary}{49}{chapter.8}
+\contentsline {chapter}{List of Figures}{51}{section*.25}
+\contentsline {chapter}{List of Tables}{53}{section*.26}
+\contentsline {chapter}{Bibliography}{55}{section*.28}
+\contentsline {chapter}{Appendix A}{64}{chapter*.29}

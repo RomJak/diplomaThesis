@@ -9,14 +9,16 @@ The mobile application of ASCR will be investigated in particular and will be th
 
 As described before in \ref{section:paperprototyping} we follow the Step-by-Step guide of Arnowitz et al. \cite{arnowitz2010effective} to create a Paper Prototype. The first task of the Step-by-Step guide is to define the tasks in a scenario narration.
 
-\textbf{Scenario narration} The main goal of the mobile application for which the paper prototype is sketched is to give eco-feedback. This feedback shall primarily focus on the consumption of electricity, water and heating and the emission of carbon-dioxide. So the history consumption rate of these data shall be available to look into. A comparison of the consumption during different time intervals shall also be possible. This comparison can be drawn to one's own consumption but also to a comparable household, to an average consumption rate of the neighbours, the city or the European Union. On a dashboard the current measured values, the consumption of the day and some current settings shall be shown. The management of the home automation system shall also be available via the app. Tips for saving money by saving energy shall also be given. Energy saving-tips shall be tailored to the characteristics of a user type. Especially for Hedonists the menu item "Project" will be interesting. Here projects are listed, which show possible further home automation items that can help at energy saving. A user can read frequently asked questions in the FAQ section.
+\textbf{Scenario narration} \quad The main goal of the mobile application for which the paper prototype is sketched is to give eco-feedback. This feedback shall primarily focus on the consumption of electricity, water and heating and the emission of carbon-dioxide. So the history consumption rate of these data shall be available to look into. A comparison of the consumption during different time intervals shall also be possible. This comparison can be drawn to one's own consumption but also to a comparable household, to an average consumption rate of the neighbours, the city or the European Union. On a dashboard the current measured values, the consumption of the day and some current settings shall be shown. The management of the home automation system shall also be available via the app. Tips for saving money by saving energy shall also be given. Energy saving-tips shall be tailored to the characteristics of a user type. Especially for Hedonists the menu item "Project" will be interesting. Here projects are listed, which show possible further home automation items that can help at energy saving. A user can read frequently asked questions in the FAQ section.
 
 \section{Design of Paper Prototype}
-Having in mind the above mentioned tasks we designed multiple versions of the paper prototypes that resulted from several runs through the Step-by-Step guide for the creation of a paper prototype of Arnowitz et al. \cite{arnowitz2010effective}.
+Having in mind the above mentioned tasks we designed multiple versions of the paper prototypes that resulted from several runs through the Step-by-Step guide for the creation of a paper prototype of Arnowitz et al. \cite{arnowitz2010effective}. The outcomes of these process are described below. For better readability we describe the user interfaces followed by the results of the paper prototyping sessions.
 
 \section{Menu navigation}
 
 We developed a navigation drawer and adapted it to the requirements of each user type, as shown in Figure ~\ref{fig:drawer}. The sorting of the menu items was adapted to the main motivation why a user uses the app.
+
+\textbf{Improvements} \quad The test user from the Optimizer and Indifferent user section stated that a drag and drop function to resort the items would be a nice-to-have feature. One Optimizer suggested to use a different colour for each menu item to make it visually more appealing. Also the use of icons was highly recommended.
 
 \begin{figure}[h]
 	\centering
@@ -44,7 +46,7 @@ We developed a navigation drawer and adapted it to the requirements of each user
 		\subcaption{Hedonist}
 		\label{fig:drawer:hedonist}
 	\end{subfigure}
-	\caption{The proposed screen for the navigation drawer}
+	\caption{Proposed screens for the navigation drawer}
 	\label{fig:drawer} % \label has to be placed AFTER \caption (or \subcaption) to produce correct cross-references.
 \end{figure}
 
@@ -53,10 +55,7 @@ We developed a navigation drawer and adapted it to the requirements of each user
 
  Sort the items of the navigation drawer according to the motivation of a user type. An effect would be that a user can quickly interact with the app as the preferred items are on top. The sorting reduces the time a user has to search for his/her primary task. However, the different sorting can be irritating when a user compares the app to a user who is a different type of energy user and therefore has another look of the app.
  
-\textbf{Evidence} \quad The paper prototype session with the professionals has shown that Professionals primarily use the app for monitoring their consumption rate, therefore the Dashboard is the first menu item. The main motivation of Optimizer is to save money with the app. Indifferents primarily use the app because it makes fun which means that they would use it if the gamification approach is in front. Indifferents are interested in energy saving tips more if they can success in the game
-Hedonists' primary use case for the app is home automation. For the Indifferents and the Hedonists their main motivation is presented under the first menu item.
-
-\textbf{Requirements}
+\textbf{Evidence} \quad The paper prototype session with the professionals has shown that Professionals primarily use the app for monitoring their consumption rate, therefore the Dashboard is the first menu item. The main motivation for Optimizer is to save money with the app. Indifferents primarily use the app because it makes fun which means that their main motivation is supported by the gamification approach. Hedonists' are especially motivated to use the app, when their drive for programming projects is picked up. The gamification approach and the projects are shown in the first menu item, for that reason the Dashboard is on second place for Hedonists and Indifferents. The following user stories were tested in the paper prototype session with the according user types and were proven to appropriate:
 \begin{itemize}
 	\item As a Professional I primarily use the app to monitor my consumption rate.
 	\item As an Optimizer I primarily use the app to save money
@@ -65,9 +64,46 @@ Hedonists' primary use case for the app is home automation. For the Indifferents
 \end{itemize}
 
 
+\section{Measurements}
+
+The dashboard was based on the one from the ASCR application. As visible in~\ref{fig:dashboard}, the main difference is the use of kWh for Professionals and Hedonists and the use of Euro for Optimizer and Indifferents. Especially the scale of the air humidity was stated as appealing from the test users.
+
+\textbf{Evidence} \quad One critic from a Professional was, that the screen misses, how the quality of the air can be improved. Grouping the measured values to one side and the values that can be controlled to the other side was also suggested by a Professional. The Optimizer again wished for more colours and symbols. A similar scale for CO2 as for the air humidity was mentioned by the Indifferent segment of test users. An extra pop up window for the adjustable values was desired from the Hedonist test user.
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[b]{0.24\columnwidth}
+		\centering
+		\includegraphics[width=\textwidth]{screens/dashboard_14}
+		\subcaption{Professional and Hedonist}
+		\label{fig:dasboard:professional}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.24\columnwidth}
+		\centering
+		\includegraphics[width=\textwidth]{screens/dashboard_23}
+		\subcaption{Optimizer and Indifferent}
+		\label{fig:dashboard:optimizer}
+	\end{subfigure}
+	\caption{Sketches of the dashboard}
+	\label{fig:dashboard} % \label has to be placed AFTER \caption (or \subcaption) to produce correct cross-references.
+\end{figure}
+
+\subsection*{Guideline 2: Use monetary units for Optimizers and Indifferents and units of energy or consumption for Professionals and Hedonists}
+
+Depending on the user type the measurement unit is changed and the value converted accordingly. The electricity and heating consumption is shown in kWh for Professionals and Hedonists and in Euro for Optimizers and Indifferents. The same counts for consumption of water. Optimizers and Indifferents prefer the measurement unit Euro to cubic meter.
+
+\textbf{Evidence} \quad Tailoring, as mentioned before in ~\nameref{subsec:primaryTask}, is beneficial for persuasion. The tailoring of the measurement unit to the preferences was defined as very beneficial by all user types. It was very clear in all testing sessions that the proposed unit for the particular user group was preferred. The following user stories were shown to be true: 
+
+\begin{itemize}
+	\item As a Professional I prefer units of energy or consumption to monetary units
+	\item As an Optimizer I prefer monetary units to units of energy or consumption
+	\item As an Indifferent I prefer monetary units to units of energy or consumption
+	\item As a Hedonist I prefer units of energy or consumption to monetary units
+\end{itemize}
+
 \section{Latest topics}
 
-In the latest topics section a user can see informations that are daily new. Professionals and Hedonists 
+In the latest topics section a user can see informations that are daily new. Professionals and Hedonists are given the project item and Optimizer and Indifferents have the 
 
 \begin{figure}[h]
 	\centering
@@ -83,9 +119,22 @@ In the latest topics section a user can see informations that are daily new. Pro
 		\subcaption{Optimizer and Indifferent}
 		\label{fig:aktuelles:optimizer}
 	\end{subfigure}
-	\caption{The proposed screen for the navigation drawer}
+	\caption{The proposed screen for the latest topics}
 	\label{fig:aktuelles} % \label has to be placed AFTER \caption (or \subcaption) to produce correct cross-references.
 \end{figure}
+
+\subsection*{Guideline 3: Use the thrive of Hedonists to program and provide projects for it}
+
+Depending on the user type the measurement unit is changed and the value converted accordingly. The electricity and heating consumption is shown in kWh for Professionals and Hedonists and in Euro for Optimizers and Indifferents. The same counts for consumption of water. Optimizers and Indifferents prefer the measurement unit Euro to cubic meter.
+
+\textbf{Evidence} \quad Tailoring, as mentioned before in ~\nameref{subsec:primaryTask}, is beneficial for persuasion. The tailoring of the measurement unit to the preferences was defined as very beneficial by all user types. It was very clear in all testing sessions that the proposed unit for the particular user group was preferred. The following user stories were shown to be true: 
+
+\begin{itemize}
+	\item As a Hedonist I love projects where I can 
+\end{itemize}
+
+
+\section{Statistics}
 
 \begin{figure}[h]
 	\centering
@@ -105,35 +154,27 @@ In the latest topics section a user can see informations that are daily new. Pro
 	\label{fig:statistik} % \label has to be placed AFTER \caption (or \subcaption) to produce correct cross-references.
 \end{figure}
 
+\section{Equipment control}
+
 \begin{figure}[h]
 	\centering
 	\begin{subfigure}[b]{0.24\columnwidth}
 		\centering
-		\includegraphics[width=\textwidth]{screens/tipp_1}
-		\subcaption{Professional}
-		\label{fig:tipps:professional}
+		\includegraphics[width=\textwidth]{screens/Steuerung_1234}
+		\subcaption{Professional and Hedonist}
+		\label{fig:statistik:professional}
 	\end{subfigure}
 	\begin{subfigure}[b]{0.24\columnwidth}
 		\centering
-		\includegraphics[width=\textwidth]{screens/tipp_2}
-		\subcaption{Optimizer}
-		\label{fig:tipps:optimizer}
+		\includegraphics[width=\textwidth]{screens/Steuerung_Heizung}
+		\subcaption{Optimizer and Indifferent}
+		\label{fig:statistik:optimizer}
 	\end{subfigure}
-	\begin{subfigure}[b]{0.24\columnwidth}
-		\centering
-		\includegraphics[width=\textwidth]{screens/tipp_3}
-		\subcaption{Indifferent}
-		\label{fig:tipps:indifferent}
-	\end{subfigure}
-	\begin{subfigure}[b]{0.24\columnwidth}
-		\centering
-		\includegraphics[width=\textwidth]{screens/tipp_4}
-		\subcaption{Hedonist}
-		\label{fig:tipps:hedonist}
-	\end{subfigure}
-	\caption{The paper prototype screen for energy saving tips}
-	\label{fig:tipps} % \label has to be placed AFTER \caption (or \subcaption) to produce correct cross-references.
+	\caption{The proposed screens for equipment control}
+	\label{fig:statistik} % \label has to be placed AFTER \caption (or \subcaption) to produce correct cross-references.
 \end{figure}
+
+\section{Comparison of Savings}
 
 \begin{figure}[h]
 	\centering
@@ -165,24 +206,72 @@ In the latest topics section a user can see informations that are daily new. Pro
 	\label{fig:sparen} % \label has to be placed AFTER \caption (or \subcaption) to produce correct cross-references.
 \end{figure}
 
+\section{Energy-Saving Tips}
+
+Hedonists prefer to do projects that save energy for them in the long run
+Hedonists are comfort-oriented Do not present energy saving tips to Hedonists when they limit comfort
+Professionals are interested in deeper information for saving tips
+Professionals do not see gamification approaches as a motivation for saving energy tips
+Optimizer want to know how much they can save by following an Energy-saving tip
+Indifferents woul
+
 \begin{figure}[h]
 	\centering
 	\begin{subfigure}[b]{0.24\columnwidth}
 		\centering
-		\includegraphics[width=\textwidth]{screens/Trophaensammlung}
-		\subcaption{Professional and Hedonist}
-		\label{fig:trophaen}
+		\includegraphics[width=\textwidth]{screens/tipp_1}
+		\subcaption{Professional}
+		\label{fig:tipps:professional}
 	\end{subfigure}
 	\begin{subfigure}[b]{0.24\columnwidth}
 		\centering
-		\includegraphics[width=\textwidth]{screens/Zonenkalender}
-		\subcaption{Optimizer and Indifferent}
-		\label{fig:zonen:optimizer}
+		\includegraphics[width=\textwidth]{screens/tipp_2}
+		\subcaption{Optimizer}
+		\label{fig:tipps:optimizer}
 	\end{subfigure}
-	\caption{The proposed screens for statistics}
-	\label{fig:kalender-} % \label has to be placed AFTER \caption (or \subcaption) to produce correct cross-references.
+	\begin{subfigure}[b]{0.24\columnwidth}
+		\centering
+		\includegraphics[width=\textwidth]{screens/tipp_3}
+		\subcaption{Indifferent}
+		\label{fig:tipps:indifferent}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.24\columnwidth}
+		\centering
+		\includegraphics[width=\textwidth]{screens/tipp_4}
+		\subcaption{Hedonist}
+		\label{fig:tipps:hedonist}
+	\end{subfigure}
+	\caption{The paper prototype screen for energy saving tips}
+	\label{fig:tipps} % \label has to be placed AFTER \caption (or \subcaption) to produce correct cross-references.
 \end{figure}
 
+\section{Gamification approach}
+ Indifferents are interested in energy saving tips more if they can success in the game
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.24\columnwidth]{screens/Trophaensammlung}
+	\caption{The proposed screens for trophy}
+	\label{fig:trophaen} % \label has to be placed AFTER \caption (or \subcaption) to produce correct cross-references.
+\end{figure}
+
+\section{Trouble Shooting}
+Present a hotline for trouble shooting for optimizer/Optimizer prefer calling when an error occurs
+Present FAQs before telephone number for Hedonists and Indifferents and Professionals
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.24\columnwidth]{screens/FAQs}
+	\caption{The proposed screens for Trouble shooting}
+	\label{fig:trouble} % \label has to be placed AFTER \caption (or \subcaption) to produce correct cross-references.
+\end{figure}
+
+
+
+
+
+\section{Communication}
+Hedonists prefer praise 
+Use concrete instruction for Optimizer and avoid detailed information/Optimizer prefer concrete instructions to detailed information
 
 
 
@@ -221,64 +310,14 @@ el be shown in a dashboard, in about how much electricity, water and heating a u
 In order to elicit the requirements for the graphical user interfaces and to find usability mistakes we make use of Paper Prototyping. 
 
 
-
 \section{Design Guidelines for tailoring interfaces to user segments}
 
-Measurements
-Use Euro rather than kWh as measurement unit for Optimizer and Indifferents
-Use kWh rather than Euro as measurement unit for Professionals and Hedonists
+\section{Recommendations for improvement for the ASCR App}
+
 \begin{figure}[h]
 	\centering
-	\begin{subfigure}[b]{0.24\columnwidth}
-		\centering
-		\includegraphics[width=\textwidth]{screens/dashboard_14}
-		\subcaption{Professional and Hedonist}
-		\label{fig:dasboard:professional}
-	\end{subfigure}
-	\begin{subfigure}[b]{0.24\columnwidth}
-		\centering
-		\includegraphics[width=\textwidth]{screens/dashboard_23}
-		\subcaption{Optimizer and Indifferent}
-		\label{fig:dashboard:optimizer}
-	\end{subfigure}
-	\caption{The proposed screen for the dashboard}
-	\label{fig:dashboard} % \label has to be placed AFTER \caption (or \subcaption) to produce correct cross-references.
+	\includegraphics[width=0.24\columnwidth]{screens/Zonenkalender}
+	\caption{A recommendation for the tariff description }
+	\label{fig:kalender} % \label has to be placed AFTER \caption (or \subcaption) to produce correct cross-references.
 \end{figure}
-
-
-
-Communication
-Hedonists prefer praise 
-Use concrete instruction for Optimizer and avoid detailed information/Optimizer prefer concrete instructions to detailed information
-
-Trouble Shooting
-Present a hotline for trouble shooting for optimizer/Optimizer prefer calling when an error occurs
-Present FAQs before telephone number for Hedonists and Indifferents and Professionals
-
-Energy-saving
-Hedonists prefer to do projects that save energy for them in the long run
-Hedonists are comfort-oriented Do not present energy saving tips to Hedonists when they limit comfort
-Professionals are interested in deeper information for saving tips
-Professionals do not see gamification approaches as a motivation for saving energy tips
-Optimizer want to know how much they can save by following an Energy-saving tip
-Indifferents woul
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\section{Recommendations for improvement for the ASCR App}
 
