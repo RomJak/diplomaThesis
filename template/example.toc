@@ -47,19 +47,19 @@
 \contentsline {section}{\numberline {5.2}Menu navigation}{36}{section.5.2}
 \contentsline {section}{\numberline {5.3}Measurements}{37}{section.5.3}
 \contentsline {section}{\numberline {5.4}Latest topics}{39}{section.5.4}
-\contentsline {section}{\numberline {5.5}Statistics}{39}{section.5.5}
-\contentsline {section}{\numberline {5.6}Equipment control}{39}{section.5.6}
-\contentsline {section}{\numberline {5.7}Comparison of Savings}{39}{section.5.7}
-\contentsline {section}{\numberline {5.8}Energy-Saving Tips}{39}{section.5.8}
-\contentsline {section}{\numberline {5.9}Gamification approach}{39}{section.5.9}
-\contentsline {section}{\numberline {5.10}Trouble Shooting}{40}{section.5.10}
-\contentsline {section}{\numberline {5.11}Communication}{41}{section.5.11}
-\contentsline {section}{\numberline {5.12}Design Guidelines for tailoring interfaces to user segments}{44}{section.5.12}
-\contentsline {section}{\numberline {5.13}Recommendations for improvement for the ASCR App}{44}{section.5.13}
-\contentsline {chapter}{\chapternumberline {6}Evaluation}{45}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}Critical reflection}{47}{chapter.7}
-\contentsline {chapter}{\chapternumberline {8}Summary}{49}{chapter.8}
-\contentsline {chapter}{List of Figures}{51}{section*.25}
-\contentsline {chapter}{List of Tables}{53}{section*.26}
-\contentsline {chapter}{Bibliography}{55}{section*.28}
-\contentsline {chapter}{Appendix A}{64}{chapter*.29}
+\contentsline {section}{\numberline {5.5}Statistics}{40}{section.5.5}
+\contentsline {section}{\numberline {5.6}Equipment control}{41}{section.5.6}
+\contentsline {section}{\numberline {5.7}Comparison of Savings}{41}{section.5.7}
+\contentsline {section}{\numberline {5.8}Energy-Saving Tips}{43}{section.5.8}
+\contentsline {section}{\numberline {5.9}Gamification approach}{45}{section.5.9}
+\contentsline {section}{\numberline {5.10}Trouble Shooting}{45}{section.5.10}
+\contentsline {section}{\numberline {5.11}Communication}{47}{section.5.11}
+\contentsline {section}{\numberline {5.12}Recommendations for improving the ASCR App}{48}{section.5.12}
+\contentsline {chapter}{\chapternumberline {6}Critical reflection}{51}{chapter.6}
+\contentsline {section}{\numberline {6.1}Comparison with related work}{51}{section.6.1}
+\contentsline {chapter}{\chapternumberline {7}Summary}{53}{chapter.7}
+\contentsline {section}{\numberline {7.1}Future work}{53}{section.7.1}
+\contentsline {chapter}{List of Figures}{55}{section*.39}
+\contentsline {chapter}{List of Tables}{57}{section*.40}
+\contentsline {chapter}{Bibliography}{59}{section*.42}
+\contentsline {chapter}{Appendix A}{68}{chapter*.43}
